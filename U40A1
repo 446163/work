@@ -1,0 +1,88 @@
+Principles of game design
+	Visual style of the game
+		terrain architecture object characters
+		interface
+		FMV
+	gameplay keywords
+		interaction model
+			avatar SP MP omnipresence
+		narrative
+			game setting
+		rules
+			mechanics of the game
+			score
+
+game controls
+	mouse
+	keyboard
+	joystick
+	illustrations
+	
+visual style
+	very interactive
+		user friendly
+			easy to choose things
+	clear description of the interface
+
+characters of the gameplay
+	e.g. midtown madness
+		shows different characters
+			NPC's
+			you can only control one of the cars
+			at the start all of the NPC's are arranged in a particular way
+			tell you your position and a map
+
+rules of the gameplay 
+	don't run people over
+	
+Terrain of the game
+	structures in the background  
+	
+element of gameplay
+	player
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Unit 40 Assignment 1	
+
+Introduction
+in this assignment I will be going through the initial stages of games development and design. These stages mainly cover the stage of analysis and idea generation from other games as well as research into different game concepts that take effect in all games.
+ 
+P1 - Describe visual style and elements of gameplay used in game design with some appropriate use of subject terminology
+
+In this section I will be going through 3 different games and analysing different aspects of these games in order to gather information about how I could create my own game and the fundamental aspects that I would need to include in order to make it a successful game. For this section I will e going though a whole range of different aspects from gameplay to goals and scoring and the environment. I will also be analysing 3 games and these are Ikaruga, Mini Metro and Fallout 4 as these three games are all from different genres and they all have completely different styles and game mechanics. The sections will hen be split into two section one of gameplay and one on visual style.  
+
+Ikaruga 
+
+Interaction model
+
+Within all games there is a requirement for a certain level of user interaction in order for the game to be a game and not a film. In Ikaruga, the method interaction for the game is the players ability to control a ship throughout the game and this ship is called the Ikaruga and this is where the name for the game comes from. However, there is also an option in the menu of the game to control another ship called the ginkei however this is seen as the second player ship and as such it is not the default ship and has not as much use. 
+
+Although you get the ability to control the ship through out the game there are still a only a few different ways in which you can interact with the ship in order to actually control it. The interactions that you are limited to are the ability to: move up, down, left and right as well as the ability to shoot, release power and change polarity (the last few points will be explained in a later section)
+
+One final and interesting thing to note is that although the game uses 3D models and environments the player can only control the Ikaruga/ginkei in only 2 dimensions and the 3rd dimension is only used for moving during cutscenes.  
+
+Single player / multiplayer
+
+Ikaruga is primarily a multiplayer co-operative game in its first iteration, however as it developed it merged into a more single player experience due to how computers existed from the 90's to now. 
+
+When Ikaruga was initially created it was designed as an arcade cabinet for arcades in Japan and at that time co-operative arcade shooters were the norm and as such Ikaruga was designed around that to fit into peoples expectations. This arcade box was designed for two players by having two sets of controls, one for each player and each player would be able to control their respective ship of either the Ikaruga or the ginkei and both players would be playing on the same play field and would both be in the same game. After the game was created for the Japanese arcades the game was then released for the Dreamcast home console and this is where the majority of its popularity came from and where most people will remember it form. This was an almost exact port of the original game however due to the fact that it was on home consoles the game was therefore player in a more single player format. The singleplayer experience is not that much different from the multiplayer one apart from the fact that you will only have one ship to fight the enemies but there is no adjustment to the difficulty level. From this lack of adjustment in difficulty the game became renowned for its difficulty among its fans. 
+
+
+
+
