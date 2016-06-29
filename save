@@ -1,0 +1,4 @@
+cd /home/fourfour/work
+git add -A
+git commit -m "auto save"
+git push
