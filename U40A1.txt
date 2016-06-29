@@ -112,4 +112,4 @@ The third game mechanic that I will go through is the scoring system for the gam
         You gain points whenever you kill an enemy
         You gain points when you destroy items in the level
         at the end of every level you get a rating for your score in letters and +'s e.g. B+
-        
+        You gain additional score for defeating a boss in a quick time with a time bonus. 
