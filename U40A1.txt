@@ -1,63 +1,3 @@
-Principles of game design
-	Visual style of the game
-		terrain architecture object characters
-		interface
-		FMV
-	gameplay keywords
-		interaction model
-			avatar SP MP omnipresence
-		narrative
-			game setting
-		rules
-			mechanics of the game
-			score
-
-Game controls
-	mouse
-	keyboard
-	joystick
-	illustrations
-	
-Visual style
-	very interactive
-		user friendly
-			easy to choose things
-	clear description of the interface
-
-Characters of the gameplay
-	e.g. midtown madness
-		shows different characters
-			NPC's
-			you can only control one of the cars
-			at the start all of the NPC's are arranged in a particular way
-			tell you your position and a map
-
-Rules of the gameplay 
-	don't run people over
-	
-Terrain of the game
-	structures in the background  
-	
-Element of gameplay
-	player
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Unit 40 Assignment 1	
 
 Introduction
@@ -141,4 +81,35 @@ The main setting for the difficulty tat you can access directly before starting 
 
 The other settings for the game effect how the player can carry on playing the game and their progression whilst keeping the actually enemy behaviour and movements the same. The two settings that are available to the player here are the number of lives and continues they get as well as the boundaries for the ships upgraded weaponry. The lives and continues option dictates how many times the player can get hit and die but still be able to carry on the game before getting a game over screen, these settings allow for an option from 1 to 9 with the default being 3.
 The ship upgrade boundary settings is one that is not normally changed or taken note of. This setting will change the score boundaries for when the ship will upgrade its weapons based on the score. There are a few different settings for this and they consist of the initial upgrade (at a lower value) and then the additional required points after that for the next upgrade.
-Another point about the balance of the game is that 
+Anther point about the balance of the game is that although the game can be seen as difficult the game does have a certain balance to it in a way that the game is completable up to a certain level for even new players. This happens due to the fact that higher level players will try to do the more risky moves in order to gain a higher score count at the end of a level and as such they create their own difficulty for the game that they want. This process creates the balance within the game and actually allows the completion of it for all types of players.  
+
+Game mechanics
+
+In Ikaruga there are many different game mechanics that the player will have to use effectively in order to gain access to the higher score boundaries. In this section I will go through only the main game mechanics that are available to the player:
+
+        Swapping polarities
+        bullet eating
+        Scoring
+        Win condition for the game
+
+The main game mechanic of the game is the ability to swap the polarity of your ship and this affects your ships properties ad the bullets that your ship fires. 
+In the game there are two different types of ships that you will be  up against light and dark. The only difference between these ships is their colour and the colour of the bullets that they fire. Throughout all the levels ta the player will progress through, there will be about a 50:50 split of these ships and the game will spawn in dark and light copies of the ships at the same time to create difficulty for the player. This actually has an effect on the player as the ships colours affects how you can attack them and how they can attack you. The main rules of effect are as follows:
+
+        If you shoot an enemy ship with the same colour of projectile as they are then you deal a base amount of damage
+        if you shoot an enemy ship with the opposite colour of projectile than what they are then you deal twice the base damage to them
+        depending on the game difficulty then the enemies can release a burst of projectiles towards the player upon their death depending on what colour of projectile you kill them with. This is further explained in the difficulty section above
+        if you are hi with the same colour projectile as your ship ten you will absorb the projectile and it will fill up your power bar that can release a powerful blast of energy  when filled 
+        if you are shot with the opposite colour of projectile than your colour ten you will lose a life but then a temporary invincibility as you respawn in the game for a few seconds.
+        Penultimately, enemies can only shoot projectiles that are the same colour that they are,however bosses can have the ability to shoot both at the same tie but they will be the colour of the most common projectile that they are shooting or they will have distinct and separate sections of different colours at later stages in the game.  
+        Finally, the player can switch their polarity at any time and it happens almost instantly but there is a fraction of a second of delay that adds a skill requirement to the game. This also is what allows the player to best attack and defend their self against different enemies b choosing wheat polarity they wish to be in. 
+        
+
+This use of the different polarities then goes along with a high risk plan is a high reward plan. (this has been explained more in the risk and rewards section). For example when there are a lot of light enemies you can go for killing them quickly with the opposite colour but you will have to dodge their attacks as you cannot absorb them. This game mechanic is the main mechanic that the whole game is based off of and as such it is its unique feature. 
+Another feature of the game is what is called 'bullet eating' this is technique that comes as a result of the previously mentioned polarity mechanic. Bullet eating is the technique that occurs when you change to the same colour as the projectiles that are coming towards you. Due to eh previously pointed out facts of the game you can see that this would result in the bullets that hit you being absorbed into you and that this should build up your power meter. This is another important game mechanic as it is how you avoid being hit by most of the bullets. Within the 'bullet hell shooter' types of games there are two main types, those where there are slow moving bullets and you have to avoid them the best you can and then there are those where there are fast moving bullets and you have to memorise the game and levels in order to know what is coming up so you can avoid what's coming up before it actually appears. As you can see from the previous statement Ikaruga is one of those games where there are fast moving projectiles and where you have to remember the levels in order to play through the level effectively. 
+due to the fact that Ikaruga is a fast moving memory bullet hell game the bullet eating aspect is necessary to actually managing to manoeuvrer and play through the levels effectively. This is also more relevant with some boss attacks as they use techniques where they cover a majority of the screen with projectiles and then the player will have to more around inside these bullets in order to attack the boss as they also move. 
+The third game mechanic that I will go through is the scoring system for the game and in this game it is quite unique in one aspect and very predictable in others. To start off with the scoring is very standard in how it works for quite a few reasons. To start off with the scoring is standard for quite a few ways that I will list below:
+
+        You gain points whenever you kill an enemy
+        You gain points when you destroy items in the level
+        at the end of every level you get a rating for your score in letters and +'s e.g. B+
+        
