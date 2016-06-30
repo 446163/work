@@ -3,7 +3,7 @@ Unit 40 Assignment 1
 Introduction
 in this assignment I will be going through the initial stages of games development and design. These stages mainly cover the stage of analysis and idea generation from other games as well as research into different game concepts that take effect in all games.
 
-Pa - Describe visual style and elements of gameplay used in game design with some appropriate use of subject terminology
+P1 - Describe visual style and elements of gameplay used in game design with some appropriate use of subject terminology
 
 In this section I will be going through 3 different games and analysing different aspects of these games in order to gather information about how I could create my own game and the fundamental aspects that I would need to include in order to make it a successful game. For this section I will e going though a whole range of different aspects from gameplay to goals and scoring and the environment. I will also be analysing 3 games and these are Ikaruga, Mini Metro and Fallout 4 as these three games are all from different genres and they all have completely different styles and game mechanics. The sections will hen be split into two section one of gameplay and one on visual style.
 
