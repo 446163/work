@@ -87,7 +87,7 @@ The ship upgrade boundary settings is one that is not normally changed or taken 
 Anther point about the balance of the game is that although the game can be seen as difficult the game does have a certain balance to it in a way that the game is completable up to a certain level for even new players. This happens due to the fact that higher level players will try to do the more risky moves in order to gain a higher score count at the end of a level and as such they create their own difficulty for the game that they want. This process creates the balance within the game and actually allows the completion of it for all types of players.  
 
 Game mechanics
-
+(M1)
 In Ikaruga there are many different game mechanics that the player will have to use effectively in order to gain access to the higher score boundaries. In this section I will go through only the main game mechanics that are available to the player:
 
         Swapping polarities
