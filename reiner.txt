@@ -1,0 +1,62 @@
+1 -> 11   - all quick and easy - less than 30s
+12 - 15s  - quite interesting, tried a few different ways
+13 - 5s   - quick and easy
+14 - 2m   - couldn't solve it initially, found it difficult
+15 - 10s  - simple and logical
+16 - 10s  - quick and easy
+17 - 30s  - took a few tries
+18 - 1.5m - little bit confusing
+1A - 2m   - took a while, trial and error
+20 - 2s   - V.easy
+21 - 10s  - easy, only 1
+22 - 2m   - found a bit confusing, trial and error
+23 - 1m   - quite easy
+24 - 20s  - V.easy, no problems
+25 - 3m   - had some trouble but solved in the end
+26 - 10s  - easy, 1 solution
+27 - 3m   - took a bit of trial and error
+28 - 3m   - took a bit of trial and error
+29 - 5m   - quite difficult
+2A - 7m   - difficult, defiantly took a while
+30 - 2m   - little tricky
+31 - 8m   - quite difficult
+32 - 2m   - quite easy
+33 - 2m   - quite easy
+34 - 3m   - logical
+35 - 4m   - trial and error
+36 - 4m   - a bit of trial and error but some loggia near the end
+37 - 5m   - long
+38 - 1m   - easy
+39 - 3m   - logical
+3A - 5m   - tedious
+3B - 4m   - logical but requited a bit of trial and error
+40 - 30s  - easy, logical
+41 - 5m   - lots of trial and error
+42 - 30s  - easy
+43 - 1m   - logical
+44 - 2m   - trial and error
+45 - 3m   - interesting
+46 - 3m   - trial and error
+47 - 5m   - quite hard
+48 - 5m   - quite hard
+49 - 2m   - logical
+4A - 30s  - easy, logical
+4B - 1m   - logical
+50 - 1m   - logical
+51 - can't have P4 and H1 as all H pieces have only 1P and there is no 3P card
+52 - 2m   - easy, logical
+53 - 2m   - logical
+54 - 4m   - difficult
+55 - 3m   - logical
+56 - 3m   - logical
+57 - 3m   - logical
+58 - 4m  - trial and error
+59 - 2m   - a few solutions?
+5A - 4m   - took a few tries
+5B - 1m   - V.logical and simple
+
+
+
+
+
+
