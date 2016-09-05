@@ -3,7 +3,10 @@ Unit 40 Assignment 1
 Introduction
 in this assignment I will be going through the initial stages of games development and design. These stages mainly cover the stage of analysis and idea generation from other games as well as research into different game concepts that take effect in all games.
 
-P1 - Describe visual style and elements of gameplay used in game design with some appropriate use of subject terminology
+Task 1 - Describe visual style and elements of gameplay used in game design with some appropriate use of subject terminology
+P1 - Deconstruct 3 games, explain visual style, gameplay and use screengrabs
+M1 - Explain game elements by using illustrative examples and all key terms in the 2 tables above.
+D1 - Critically evaluate elements using examples and correct subject terminology. Write on the strengths and weaknesses of the games. 
 
 In this section I will be going through 3 different games and analysing different aspects of these games in order to gather information about how I could create my own game and the fundamental aspects that I would need to include in order to make it a successful game. For this section I will e going though a whole range of different aspects from gameplay to goals and scoring and the environment. I will also be analysing 3 games and these are Ikaruga, Mini Metro and Fallout 4 as these three games are all from different genres and they all have completely different styles and game mechanics. The sections will hen be split into two section one of gameplay and one on visual style.
 
@@ -145,6 +148,7 @@ Ikaruga is well known for its addiction and repeatability among its fans and tha
 Visual style
 
 World
-
+(D1)
 This section is really just an extension to the game setting section previously in this assignment but here I will go though the terrain architecture and objects that are found throughout the course of the game in the background and in the from of enemies. 
-to start out with, the main visual style that the game has is one of a futuristic Japan with a high concentration of  
+to start out with, the main visual style that the game has is one of a futuristic Japan with a high concentration of trees to start out with but these gradually fade in to more urban and buildings later on. The tree and nature that is first seen in the game is not very special and is just general greenery but the futuristic urban look is week defined. The way that the urban look is well defined is due to the fact that it is very unique looking and is very reminiscent of Ikaruga and not much else. This is partially due to the colour palette that is used in the game and the 3d aspects that they contain when flying past them. 
+The colour palette that is present in Ikaruga is a very muted one with liberal use of grey and brown but with a tech twist to it so that the player knows this is in the future. This same visual style goes through to the enemies and objects, not just the terrain. In the game the objects that you will see are also the enemies on screen so they can be be counted here. As mentioned the enemies contain the same visual style as the terrain but they don't contain the greenery or dirt look. The enemies have the same tech look on them due to the fact that they have lines and dots on them similar to circuit boards which is what they are trying to represent. This also allows for the different colours or polarity that the enemies will have as they black polarity version is the same as the white just the main colours are changed so that they are easily distinguishable.  
