@@ -190,4 +190,5 @@ As with any game there is a need for there to be an interface through which the 
 	Lives 
 	Achievements
 
-In Ikaruga the score is the main feature that you will have to keep in mind as it it's heart Ikaruga is a game about getting the highest score that you can, for this reason the score is divided into 3 sections that are all of use to the player  
+In Ikaruga the score is the main feature that you will have to keep in mind as it it's heart Ikaruga is a game about getting the highest score that you can, for this reason the score is divided into 3 sections that are all of use to the player, the current score, high score for section and high score for the entire game. 
+the first option here (current score) is fairly self explanatory as this will just show the players current score in the run that they are in. This therefore means they then player can therefor where they are up to on their current run taking into account all the combos and additional points that they have.  
