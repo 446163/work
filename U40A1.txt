@@ -99,8 +99,7 @@ The main game mechanic of the game is the ability to swap the polarity of your s
 In the game there are two different types of ships that you will be  up against light and dark. The only difference between these ships is their colour and the colour of the bullets that they fire. Throughout all the levels ta the player will progress through, there will be about a 50:50 split of these ships and the game will spawn in dark and light copies of the ships at the same time to create difficulty for the player. This actually has an effect on the player as the ships colours affects how you can attack them and how they can attack you. The main rules of effect are as follows:
 
         If you shoot an enemy ship with the same colour of projectile as they are then you deal a base amount of damage
-        if you shoot an enemy ship with the opposite colour of projectile than what they are then you deal twice the base damage to them
-        depending on the game difficulty then the enemies can release a burst of projectiles towards the player upon their death depending on what colour of projectile you kill them with. This is further explained in the difficulty section above
+        if you shoot an enemy ship with the opposite colour of projectile than what they are then you deal twice the base damage to them depending on the game difficulty then the enemies can release a burst of projectiles towards the player upon their death depending on what colour of projectile you kill them with. This is further explained in the difficulty section above
         if you are hi with the same colour projectile as your ship ten you will absorb the projectile and it will fill up your power bar that can release a powerful blast of energy  when filled 
         if you are shot with the opposite colour of projectile than your colour ten you will lose a life but then a temporary invincibility as you respawn in the game for a few seconds.
         Penultimately, enemies can only shoot projectiles that are the same colour that they are,however bosses can have the ability to shoot both at the same tie but they will be the colour of the most common projectile that they are shooting or they will have distinct and separate sections of different colours at later stages in the game.  
@@ -210,4 +209,52 @@ throughout the whole game the perspective is constantly the same apart from at t
 
 Full Motion Video
 
-The very final section for this game is the use of full motion video within Ikaruga. Unfortunately there is no use of full motion video in Ikaruga so there is nothing more that i can put in this section.  
+The very final section for this game is the use of full motion video within Ikaruga. Unfortunately there is no use of full motion video in Ikaruga so there is nothing more that I can put in this section.  
+
+Mini Metro
+
+Interaction model
+
+As in any game there is requirement that the player has the ability to interact with the game world and as such there is required to be an in interaction model for the player to interact with the game world through. In mini metro the interaction model that the player gets is one that is omnipotent. This is due to the fact that the player does not control a character of person but instead in mini metro the player has the ability to do actions spontaneously that immediately affect the game. This therefore points to the fact that the player could be playing some sort of god in the game's universe and that they have abilities a normal person or character would not. However, this is to be expected as Mini Metro is a puzzle game and as such the requirement for a person / entity to play as is less of a requirement.  
+
+Single Player / Multiplayer
+
+Unfortunately, in it's default state Mini Metro is not a multiplayer game as it only contains single player elements. This means that while the game can only be played by one person, it does have a scoring system so that multiple people can compare their scores with each to create competition. This is because the game can only really be played by one person at any time as it requires heavy use of the mouse and that would be difficult on one machine, in addition to this playing with more than one person over the internet would also be a pain as Mini metro is a puzzle game and other people would interfere and make the game not enjoyable.  
+
+Game Setting
+
+Even though Mini metro is a minimalist puzzle game, there are clearly defined settings that the game happens in and this also extends to the general settings that this game takes overall place in. The available levels that the game tales place in that are discrete locations are: 
+
+	London
+	Paris
+	New York City
+	Berlin
+	Melbourne
+	Honk Hong
+	Osaka
+	Saint Petersburg
+	Montreal
+	Sao Paulo
+	Cairo
+	Auckland
+
+While these are technically different game settings as they are all different places the overall game the game takes place over the same type of place its just that the different settings contain different land and water layouts as well as different features that make each level different. 
+The main location that the game tales place in is a very minimal birds-eye view of a certain city with the only distinction being the land and the water placements. This simplistic level design is then carried out over the different cities listed above the differences being the land and water is shaped to look like that location. For example, in London there is the river Thames in the middle of the map and in New york there is the two different section in a blocky shape separated by water. While this is a very simplistic way to approach the settings of the game it is quite effective due to the fact that the game is designed to be very minimalistic with its design and this works very well with the rest of the aesthetics of the game. 
+
+Goals
+
+In Mini metro the main goal of the game is to create a train network that can sustain the travel of passengers around the town to their destination for the longest time. To start off with I will first explain the way the game works and what mechanics it has so that the goals make sense.  
+Mini metro is a puzzle game about creating tracks between different stations that pop up in such a way that and person wanting to go to any station can go through the train network you have created and get to their destination. When you start a new game on any level you will be greeted by, at first 2 different stations. Stations are distinguished by the shape that they are and this is also how you know where people want to go. As these station appear passengers will also appear  by the stations and they will be a small shape to the side of the main station shape. For example if you have a square station, you might have a circle and a triangle passenger that you can see as small shapes to the  side of the main station shape. From this position the player will have to join the different stations together so that when to train drives past the stations they can pick up its passenger and take them to the station that they want or another line that has the station that they want. As the game progresses more and more stations will appear and these will then contain more passengers that will need to get to their respective stations. However, a degree of difficulty comes from the fact that each train line when you create it only has one train that has to move and slow down to pick up passengers. In addition to this, the train also has a limited capacity of 6 people per coach and be default you only get 1. So therefore you have t make sure that your train line is not too long so that the stations get crowded (as that how you lose) while making sure that you have enough stations to satisfy the demand of the passengers stations and connecting lines. One final obstacle is that you also have a limited number of tunnels that you can build and these are required of your train line is going through any body of watch and this is what mainly shapes the layout and deign of your gameplay. So finally you must also layout your tracks in a smart manner so that you can actually connect all the stations as you can have no tunnels left but a station could appear on an island that you need a tunnel for. 
+With that explained and out of the way you ca see that the goal of Mini metro is to create the best network of train lines that you can so that all the stations do not get bust and all the passengers can get to where they want to. The end of the game is when 1 station becomes too crowded for a while and at that point the game will end. In a similar fashion to Ikaruga this is also a game about a high score that can be compared to other people for a certain amount of competition, but this game also allows for the use of different scoring methods by fans as you can do longest run, quickest to reach a certain score and so on... 
+
+Challenges
+
+As listed in the description above there is defiantly a certain level of challenge with the game as this is a puzzle game and that is the main feature of them. Below I will list the individual challenge aspects of the game and explain how they work/effect the game:
+
+	A limit on the number of train lines
+	trains have a travel time on their track
+	trains have a limited capacity
+	there are rare stops
+	you get a limited amount of tunnels
+
+
