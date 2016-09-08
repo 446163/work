@@ -257,4 +257,39 @@ As listed in the description above there is defiantly a certain level of challen
 	there are rare stops
 	you get a limited amount of tunnels
 
+The main and most predominant challenge that Mini metro uses is the fact that as a player you can only place down a certain number of distinct train lines. Although as you progress through a level you do unlock more train lines that is always the main limiting factor. The way that the train lines work in this game is that you draw a line between certain stations and as you do so a coloured line will appear between them and a train carriage and engine will spawn on that track, this train will then go along the line picking up passengers that it needs and dropping them off at their station. When the train the gets to the end of its track it will then turn around and head back the other way. As mentioned above its best to have the individual train tracks not too long as this can make stations at the other side of where the train is get crowded and lose the game, but it is also important that all of the train stations can be reached easily so that passengers can travel to where they need to go. However, this can become more complicated as the game progresses due to the fact that throughout the game you get the option of getting more carriages or train engines to place on a track and ease the traffic.  
+A small one here, but still an important factor none the less, this is that trains actually have to travel on their tracks and they also slow down before they approach a station that they need to pick up passengers from. This is just a small important factor so that you know how the game runs and the trains can  be quite slow.  
+A third point that only really comes into focus during the later stages of a level is the fact that all of the trains and carriages have a limited number of spaces on which they can carry passengers. This comes into the later stage of a level as at this time the number and flow of passengers at stations is quite high and so you will need to make sure that each train line has a high number of all the different types of stop that passengers require or make sure that each line has great connections to other lines that can get passengers to where they want to go to. On the other hand as the level progresses the player has the ability to place more train engines or carriages on a train track and as such they can ease the traffic. The train engines add the ability to have more than one train on a track whilst the carriages allow for a train engine to carry more passengers, due to this trade off the carriages can carry more people than an engine can while the engines add a whole separate train.  
+As mentioned previously, there are different  types of stations that are grouped by the distinct shapes that they are. When the level starts out you will only have a few different types of stations like square, circle and triangle and these are somewhat easy to manage. However, later in the game the player will get more and different stations that will only appear once `throughout that entire level like a star or a sector of a circle. These will then need to be accessed by multiple people all over the other different stations and this can be the main cause for congestion at the trains and stations. This is because the station that they spawn at might have to go and pass them onto two different other train lines and this will takes up the limited spaces in the trains themselves while also making the station more busy which is what ends the game.  
+The final main challenge in the game is the fact that you are quite limited with the number of different tunnels that you can place. Tunnels are required for when any train line passes through a section of water either to get to the other side or to get a shorter route to a required station. This presents its own problems with the layout of the train network as this then makes the player have to have multiple connection line between different sections of land and these need to be quite short otherwise they will become overcrowded but this will also use up the limited number of train lines that you can build and so the management aspect of this game comes up.  
+
+Rewards
+
+As mentioned in the previous sections as you progress through the game you have the ability to select different upgrades like a new train or carriage for a track, however, thee rewards are only awarded at the end of a day and you must choose between two different options what rewards you would like to claim for your train network. A small list of the available upgrades are as follows: 
+
+	Train engine
+	carriage
+	new train line
+	more tunnels
+	interchange 
+	 
+While the first 4 in this list have been explained in the previous section the last one of an interchange has not been explained. An interchange in the game is an upgrade t the station itself and it effects the boarding speed of all of the passengers into their trains that they need to get on. With this added to a normal station, people will get on and off the train faster and that is great for busy stations.
+Another note is that the game is based off of a time system where minutes and hours pass in game and this affects the amount of traffic that occurs at each stop as it gets busier during rush hour. 
+One final note on rewards in game, you can complete levels by keeping them operation for a certain time / number of passengers and once you have completed a level a new level is unlocked that has a different layout as well as in some cases a different unique feature.  
+
+Player Actions
+
+In a similar situation to Ikaruga there are not any player actions that can effect how the game is played out due to the fact that there is not story line and Mini metro is a puzzle game so there is no real need for one. However you could say that the actions that player has is to place down train lines for a city but that is not really this topic. 
+
+Rules
+
+In mini metro There are not too many different rules that you have to follow as the game is very simplistic and minimal puzzle game. However, if I was to list the rules then I would list them as follows: 
+	
+	You must place the train tracks between stations 
+	you must place trains on the tracks
+	you must keep the network running as long as you can. 
+
+For this game there  are not too many different rules as the game is quite open with how you want to play it and anything you can't do...... You can't do so its not really a rule.
+The first rule on this that when placing a train line you must place it between the stations as you can't place it anywhere else. This therefore means that all of the train lines will begin and terminate at a station. In addition to this the player can only only start placing a track by dragging it from station to station. 
+Another rule that you might say is that when you receive additional train you are only allowed to place them on an existing train line. Again, this is very similar to the previous rule due to the fact that you can only place trains on the train lines so it isn't really a rule as such.  
 
