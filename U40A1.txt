@@ -326,7 +326,7 @@ Visual style
 World
 
 Us mentioned previously, the visual style of the game is quite unique due to the fact that the main world consists of only 2 main colours with the rest coming from the tracks that you place and the stations that appear. In each level the distinct features are the land wand water with the land being a beige / yellow colour and the water being a light blue colour. This is really all that there is to the main features of the world when talking about its visual style but I will also quickly explain the visual style of the tracks that you place as well as the stations. 
-When you place a track down the colour of the that track will be a main and distinct colour like, blue, red, green, purple.... and so on.... as this builds up as the game progresses the network of rails will start to look like an actual train map withe the colors and station. Talking about stations, whenever a station pops up the its will appear as a certain simple shape and will be white with a think black border and this fits in well with the general; theme of the game especially with all of the other colours as it doesn't clash. 
+When you place a track down the colour of the that track will be a main and distinct colour like, blue, red, green, purple.... and so on.... As this builds up as the game progresses the network of rails will start to look like an actual train map with the colours and station. Talking about stations, whenever a station pops up the its will appear as a certain simple shape and will be white with a think black border and this fits in well with the general; theme of the game especially with all of the other colours as it doesn't clash. 
 
 Characters
 
@@ -334,9 +334,21 @@ Due to the type of game that Mini metro is, there is no character available at a
 
 NPC's
 
+Again, similar to the character sections there are no NPC's in Mini Metro so again this section doesn't count and so I can't write anything here. 
+
 Feedback interface
+
+In this section I will be writing about the way that game information and feedback is displayed to the player in game. In game there are 2 main feedback elements that display information to thy player and these are:
+
+	time elapsed
+	total successful trips
+
+During gameplay in the top right corner of the game there is a is a clock with the day next to it and this is a piece of the interface to keep the player informed about how time has elapsed during the course of the level. This interface element has an image of a analogue clock to the right and a day name to the left of the clock. This shows the progression of the time during the day as this effects the amount of traffic as it gets busier during rush hour and easier at night. The day of the week will also slightly affect the traffic and number of passengers that go to and from the stations but it is less of am impact. Penultimately the date also helps the player know how far through the week they are and can help them keep track of the days. Finally, there is also the feature to speed up the time in game so that you are not bored just watching passengers board and travel on trains, this is access by cliquing on the clock and from there a menu pops down that allows you top pause time play time and speed up time. 
+the second piece of feedback interface that you get in game is the number of passengers that you have managed to get to the destination that they needed to get to. This is shown as a number in the bottom right of the screen next to an icon of a person. this is very helpful to know as this shows the player how well they are doing this level as the nu,ner of passengers that you get to their stations is the score that you will be judged on when the level ends. 
 
 Perspective
 
 Full Motion Video
+
+For the final section of this game this game analysis there is the use of full motion video, however, unfortunately there's no use of full motion video within Mini metro and as such this section is non-applicable. 
 
