@@ -100,7 +100,7 @@ In the game there are two different types of ships that you will be  up against 
 
         If you shoot an enemy ship with the same colour of projectile as they are then you deal a base amount of damage
         if you shoot an enemy ship with the opposite colour of projectile than what they are then you deal twice the base damage to them depending on the game difficulty then the enemies can release a burst of projectiles towards the player upon their death depending on what colour of projectile you kill them with. This is further explained in the difficulty section above
-        if you are hi with the same colour projectile as your ship ten you will absorb the projectile and it will fill up your power bar that can release a powerful blast of energy  when filled 
+        if you are hit with the same colour projectile as your ship ten you will absorb the projectile and it will fill up your power bar that can release a powerful blast of energy  when filled 
         if you are shot with the opposite colour of projectile than your colour ten you will lose a life but then a temporary invincibility as you respawn in the game for a few seconds.
         Penultimately, enemies can only shoot projectiles that are the same colour that they are,however bosses can have the ability to shoot both at the same tie but they will be the colour of the most common projectile that they are shooting or they will have distinct and separate sections of different colours at later stages in the game.  
         Finally, the player can switch their polarity at any time and it happens almost instantly but there is a fraction of a second of delay that adds a skill requirement to the game. This also is what allows the player to best attack and defend their self against different enemies b choosing wheat polarity they wish to be in. 
@@ -309,3 +309,34 @@ As for the win condition, there isn't one in this type of game. While each level
 Feedback
 
 Mini metro is a game that is well known for its minimalistic design and is liked by most people who play it. The main appeal of the game is the style that it has and this is the minimalist approach where it has only a few colours and animations are very simple. The fact that this game is very appealing to people is quite obvious due to the fact that its reviews are very high on most sites. For example, on Steam (where the game is mainly downloaded from) the game has a 10/10 rating which is really good and few games manage to have this, also on jayisgames.com the game has a 9.5 out of 10 review. From this you can see that the game is greatly praised and feedback is amazing for this game. 
+
+Game Structure
+
+As mentioned above, the game consists of 12 different levels that the player can play through and these are unlocked as you complete earlier levels and complete the requirements that they set. This is a progressive level design as the player unlocks more and more of the game as they progress through it but the game allows the player to play levels 2 above the number that they have unlocked so that if they are stuck on a level they can progress through the game and are not stuck. Due to these features the game structure is very very simple and can be summed up with is simple flowchart. 
+
+?>?>?>?>?>?>?> insert flowchart here?>?>?>?>?>?>
+
+Addiction
+
+For any game to be successful, in most cases there is a level of addition to the game brings people back to playing the game. This function of brining people to play the game over and over gain is very good for the game designers / company that made it as it allows their game to be shown to many different people and this will then mean that more and more people will buy the game and they will make more money. 
+Within Mini metro there defiantly is a certain level of addition however it is not a lot as some other games especially when it comes to repalyability. The main addiction factor from this games comes from the relaxation that the game has on people and the fact that it is quite a unique game. The relaxation from the game comes from the fact that the general minimalistic style and music are calming and this kind of puts  you in a trance. However, once you have completed the game the replability value and addiction that you might have from the game decrease to a small amount. This happen because the game is a puzzle game and once you have complete all of the puzzles thee isn't anymore that the game can do for you. But Mini metro does this a whole lot better than other puzzle games do due to the fact that the levels are technically infinite and as such you can keep going to get a better and better score in each level.
+
+Visual style
+
+World
+
+Us mentioned previously, the visual style of the game is quite unique due to the fact that the main world consists of only 2 main colours with the rest coming from the tracks that you place and the stations that appear. In each level the distinct features are the land wand water with the land being a beige / yellow colour and the water being a light blue colour. This is really all that there is to the main features of the world when talking about its visual style but I will also quickly explain the visual style of the tracks that you place as well as the stations. 
+When you place a track down the colour of the that track will be a main and distinct colour like, blue, red, green, purple.... and so on.... as this builds up as the game progresses the network of rails will start to look like an actual train map withe the colors and station. Talking about stations, whenever a station pops up the its will appear as a certain simple shape and will be white with a think black border and this fits in well with the general; theme of the game especially with all of the other colours as it doesn't clash. 
+
+Characters
+
+Due to the type of game that Mini metro is, there is no character available at all so this section is empty.
+
+NPC's
+
+Feedback interface
+
+Perspective
+
+Full Motion Video
+
