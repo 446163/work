@@ -10,3 +10,22 @@ syncing issues with files
 ID cards required to get into college
 free software
 secure access to Wi-Fi
+
+
+int main(int argc, char **argv)
+{
+	puts("aga");
+}
+
+
+Prompt for change 
+problem with existing system
+additional functionality required
+new hardware required
+upgrade software 
+software bug foxes
+company policies
+
+Understand why software needs installing or upgrading 
+
+there are many reasons that software will need to be installed or upgraded. For example, within a system you might need software installed on a users computer to allow them to complete a job they could otherwise not do or to complete a job, in a better and more efficient way that they otherwise could have. 
