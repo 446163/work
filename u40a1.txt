@@ -411,4 +411,9 @@ In addition to the levelling up system the player will also receive additional i
  
 Player Actions
 
+<<<<<<< HEAD
 Throughout the game there are many, many different actions that the player can make to influence the outcome of the game's ending and general story and there are hundred of variations of these. The main factor that effects how the game plays out and the players actions is the way that the player chooses to interact with the different factions in the game and who they choose to stay with and help and in return, who they choose to deceive and become an enemy of. The main factions of the game are: the institute, the Brotherhood Of Steel, the railroad and the Minutemen. All of these four factions are fighting for a different causes and very often these interfere and they get into a fight and depending who you side with for these interferences will depend on who will like you and who will 
+=======
+Throughout the game there are many, many different actions that the player can make to influence the outcome of the game's ending and general story and there are hundred of variations of these. The main factor that effects how the game plays out and the players actions is the way that the player chooses to interact with the different factions in the game and who they choose to stay with and help and in return, who they choose to deceive and become an enemy of. The main factions of the game are: the institute, the Brotherhood Of Steel, the railroad and the Minutemen. All of these four factions are fighting for different causes and very often these interfere and they get into a fight with eachother so sue to this, once you help a side, the rest might not like you. 
+the first faction listed above is the 
+>>>>>>> 8d447a7d67bb9ba3ca1750fb2c19b0252ea04256
