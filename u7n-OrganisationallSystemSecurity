@@ -1,3 +1,5 @@
+Emmanuel Kayode Oladipo
+
 Nimda virus
 
 nimda virus was a worm that infected files and allowed the access of a computer from external sources. it was released in 2001 on the 18th of September and it spread to be the biggest known computer infection of all time in just 22 minutes. The creator / s of the virus are unknown, however, in the source code for the virus it clearly states "Concept Virus(CV) V.5, Copyright(C)2001 R.P.China" so from this it is clear that it is from china. 
@@ -15,3 +17,26 @@ The purpose of nimda is not known well but it is predicted that it was supposed 
 
 Internal / external threats 
 
+internal threat can lead to data loss
+e.g. evil staff....accident
+
+external threat
+hackers 
+destruction
+cyber criminals
+
+physical threat
+students stealing the physical items like PC's/hard drives
+
+social networking threat
+
+
+ phishing, SQL injection
+
+
+1. Limit access privilege to the system so that not everyone has full control
+2. Use firewalls
+3. Use sniffing tools
+4. Data encryption
+5. Scan periodically 
+6. Cryptography

@@ -1,4 +1,5 @@
-Problems with the current system.
+Unit 29 - installing software
+	Problems with the current system.
 Slow
 slow ticket system
 Admins have to install things (e)manually 
@@ -8,14 +9,10 @@ there can be a lot of network traffic
 Can't access files outside of college
 syncing issues with files
 ID cards required to get into college
+
+	Good features 
 free software
 secure access to Wi-Fi
-
-
-int main(int argc, char **argv)
-{
-	puts("aga");
-}
 
 
 Prompt for change 
@@ -26,6 +23,17 @@ upgrade software
 software bug foxes
 company policies
 
+
 Understand why software needs installing or upgrading 
 
 there are many reasons that software will need to be installed or upgraded. For example, within a system you might need software installed on a users computer to allow them to complete a job they could otherwise not do or to complete a job, in a better and more efficient way that they otherwise could have. 
+
+why does UTC reading need to upgrade and instal software on the machines
+think about internal and external prompts
+problems, functionality, new installations
+external user, bug fix, company policy
+
+Within UTC reading there are quite a few different reasons that software will need to be installed or updated on the machines and below i will lost some of these in reference to internal and external prompts on the system. 
+the main reason that software might be needed to get installed is a problem with the main system that doesn't allow things to happen that should be able to happen. For example, if the computer requires a driver to be installed in order to use the touchpad on the laptops then this software will need to be installed as otherwise people will have trouble using the machines and can't get work done. 
+
+Another reason that software might be installed is the ability complete tasks or other processes that could not be completed otherwise. For example, if the user in engineering requires the ability to create and renew models in 3D to3D print, then they will require custom software to be downloaded 
