@@ -31,3 +31,29 @@ Thighs holds the users running programs and allows for more to do done at the sa
 
 3. Hard drive
 With a larger hard drive the user will be able to store large images and more of them in addition to this, the user will also be able the 
+
+Output medium
+	how you can see your graphics product
+	printer
+		inkjet
+		colour laser
+	computer monitor
+	other....mobile phone..
+
+Graphics software
+vector
+	graphs equations so that the quality is preserved at extreme zooms. 
+	example: co-ordinates
+	Auto CAD
+bitmap
+	maps the colours for each pixel so you have a map of bits. 
+	raster graphics
+	ms paint
+
+
+vector and bitmap software, what ones are available, key differences?
+what graphics editing software exists
+
+Inkscape software uses vector graphics and Ms paint uses bitmap options. 
+The main difference between these is that inkscape store the equation of the line and the items that are being drawn. This is a positive as it means that the image that is created at the end has the ability to be zoomed in and moved around a lot yet it will still keep its original quality throughout the process. On the other hand the file size when using this type of image can get quite large and the software that it uses is far more complicated in most cases. 
+On the other hand the alternate type of image format is bitmap. This works by storing an array or a grid of all the colour information for each pixel. This is great as it means that the actual image file is quite small and it can very easily be compressed
