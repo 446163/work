@@ -40,3 +40,68 @@ social networking threat
 4. Data encryption
 5. Scan periodically 
 6. Cryptography
+
+
+
+
+Part 2
+Encryption is a big part of the IT industry
+enable the firewall
+enable the bit locker for encryption
+configure your audit log 
+
+
+Enable firewall
+	go to control panel 
+	then system and security
+	windows firewall
+	for public and local networks
+
+	go back to he control panel to enable bit locker
+	click on bit locker
+	you will see your disk drives
+	it will show you if he bit locker is off 
+	click the turn bit locker on button to turn on bit locker
+
+	go t network and internet from control panel
+	internet options
+	security tab
+	enable protected mooode
+
+	use SSL - secure socket layer
+	2 or 3
+
+	go to the advances tab for SSL settings
+	go down to you get to security 
+	*allow software to run or install*
+		this is BAD YOU DONT WANT THIS 
+		YOU DON'T WANT ANY SOFTWARE TO RUN ON YOUR COMPUTER
+		
+	audits log
+	keep an audit log
+	will show when people try to access things in your computer 
+	go back to ethe control panel
+	system and security
+	administrative tools
+	there are a lot of things that you can do here
+	local security policy
+	this is where you would configure your network, security policies
+	you can set up all of the policies
+	you just tock the options
+
+	object access
+	you just tick the box
+
+	Wi-Fi 
+	only select WPA2*
+	simple go to my computer 
+	PC - this PC
+	here you have network, right click on it and then properties
+	change adapter setting
+	double click that 
+	wireless properties
+	also remember to enforce network access protection
+	then click OK
+
+
+
