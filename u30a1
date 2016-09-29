@@ -49,13 +49,16 @@ main components user with graphics design
 		time to upload?
 
 P1
-In this section i will be describing the different type of hardware that are used in graphics as well as how these are used when doing graphics. In addition to this i will also be describing the software that it available and how they compare for different tasks. 
-The main components in a computer that are used and required for graphic processing are:
+In this section I will be describing the different type of hardware that are used in graphics as well as how these are used when doing graphics. In addition to this I will also be describing the software that it available and how they compare for different tasks. 
+The main components in a computer that are used heavily and required for graphic processing are:
 	Monitor
+	RAM
 	Graphics card
 	Processor
 	Hard drive
-The main piece of hardware that is used for graphics editing and creation is a monitor, this is used to view the images and that you are using and as such it necessary  
+The main piece of hardware that is used for graphics editing and creation is a monitor, this is used to view the images and that you are using and as such it necessary to complete any graphical work. The ability to view the images well might seem trivial but the only other real alternatives that exist would be to constantly print out the images in order to see what you are doing or use a terminal that can only user ASCII characters and as such this would not be high resolution. 	
+Another main component that is used in the processing and creation of graphics is computer memory, or RAM. This is used generally for the ability to have many things running at the same time or many things running at the same time and that these programs can have enough space to run all of these things (this is not the processing ability here). Within the context of graphics, the use of more RAM will allow the user to edit larger images quicker (as they can all be stored in RAM and not on the hard drive). In addition to this, having more RAM will also allow the user to apply more effect to an image as these can be stored temporally in RAM and this will make it go smoother. 
+Another quite important component in computers that is used for graphics creations and editing is a discrete GPU or a graphics card. This is used to unload processing that would normally go to the CPU and it is sent over to the Graphics card where it can be processed off the main system processing and can be processed faster than normal. This can be processed faster on a GPU than a CPU as the GPU is specifically designed to be faster as processing graphics as it has many more processing cores than a CPU but these are lower clocked ad image processing is normally the same calculation applied to the different pixels of the same image. 
 	
 P2
 P6
