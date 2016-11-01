@@ -124,3 +124,52 @@ use antivirus software
 Physical threat requires a physical protection 
 
 
+
+Information protection
+	bit encryption
+	anti virus
+	it goes beyond
+
+	<><><><>
+	Obfusication
+	Steganography 
+	<><><><>
+
+
+Obfusication - comes from obscure
+	confusing
+	not very clear
+	data or information is made obscured. 
+	give different kinds of encryption on 
+
+
+Steganography - concealing messages
+	a way to hide your data 
+	a way to hide information so that only people you want to can read the information 
+
+Research how to hide data in word and excel. 
+
+Cryptographic principles. 
+
+In this section I will be going through how you can hide information inside of a work or an excel document so that the information cannot be read by people that who should not be able to read. 
+To hide a whole sheet within excel you can do this within a few simple steps:
+Select the sheet that you want to hide by clicking on its name at the bottom of the screen. 
+Then on the home tab at the very top of the program you go to the cells mini table. 
+From here you then choose format to format the sheet. 
+Under visibility chick hide&unhide and then click hide to hide the sheet. 
+
+This can also be done to a similar extent with word as well by a very similar method 
+
+Write about them and give examples. 
+
+
+Physical protection. 
+
+
+Protected mode
+sniffing tools
+such as wireshark
+Authentication
+
+D1
+
