@@ -1,4 +1,0 @@
-xmodmap -e "keycode 102 = Muhenkan"
-xmodmap -e "keycode 9 = Escape"
-xmodmap -e "keycode 100 = Henkan_Mode"
-xmodmap -e "keycode 22 = BackSpace"
