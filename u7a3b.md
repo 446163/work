@@ -4,7 +4,7 @@ Create an illustrated report detailing the policies and guidelines that are used
 	Explanation of policies to manage IT security threats. 
 	Explanation of guidelines to manage IT security threats. 
 
-	In college we have these polices, e.g. no to certain websites, this is why we have the software black access and so on 
+	In college we have these polices, e.g. no to certain websites, this is why we have the software block access and so on 
 	organisational policies
 	the copyright law(s) 
 	software acquisition
