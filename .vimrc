@@ -5,11 +5,12 @@ Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-surround'
-"Plug 'valloric/youcompleteme'
+Plug 'valloric/youcompleteme'
 Plug 'bling/vim-bufferline'
 Plug 'severin-lemaignan/vim-minimap' 
 Plug 'altercation/vim-colors-solarized'
 Plug 'https://github.com/suan/vim-instant-markdown.git'
+Plug 'https://github.com/scrooloose/nerdtree.git'
 
 call plug#end()
 
@@ -23,7 +24,6 @@ map <space> a
 
 let @s = "[sz=1``"
 
-"set background=dark
 set nu
 set showmatch
 set ruler
@@ -34,6 +34,8 @@ set wrap lbr
 autocmd BufRead,BufNewFile *.md setlocal spell
 
 autocmd VimEnter * syntax on
+
+set cm=blowfish
 
 let g:instant_markdown_open_to_the_world = 1
 let g:instant_markdown_autostart = 1
