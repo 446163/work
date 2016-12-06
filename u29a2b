@@ -35,7 +35,24 @@ M3 - Design and implement procedure to preserve data integrity during an upgrade
 
 	Report
 	Written procedure ensuring data integrity 
+	Include at least 2 of the following:
+		Backup / Restore point / image / Registry
+	Documented proof that the procedure bes been followed in relation to P5
 
 M4 - Design a procedure to back out of software upgrades
 
+	Create a backout procedure
+	Ensure setting of the system restore point
+	hard drive cloning
+	uninstall features
+	registry backups
+	consider data integrity
+	Provide your own backout strategy
+
 D1 - Justify a particular installation up upgrade
+
+	Report on justification
+	Cost
+	Hardware requirements
+	Security threats
+	Corruption - data / system integrity
