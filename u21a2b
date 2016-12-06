@@ -1,0 +1,41 @@
+P3 - Plan an installation and an upgrade
+
+	Planning 
+	testing 
+	Delivery 
+	shipping
+	storage
+	software specs 
+	communication
+	logs
+	security
+	confidentially
+	contractual requirements
+
+P4 - Record and complete a software installation
+
+	Report with screenshots
+	Explanation of chosen setup
+		Configuration
+		setup
+		saved files 
+
+P5 - Record and complete a software upgrade
+
+	Report with screenshots 
+	Discussion on upgrade of operating systems
+
+P6 - Explain the importance of the user acceptance process
+
+	Report
+	Configuration to meet customer / user needs
+	Handover to user. 
+
+M3 - Design and implement procedure to preserve data integrity during an upgrade
+
+	Report
+	Written procedure ensuring data integrity 
+
+M4 - Design a procedure to back out of software upgrades
+
+D1 - Justify a particular installation up upgrade
