@@ -24,6 +24,7 @@ map <space> a
 
 let @s = "[sz=1``"
 
+set exrc
 set nu
 set showmatch
 set ruler
@@ -43,8 +44,8 @@ let g:instant_markdown_autostart = 1
 let g:lightline = {
 \ 'colorscheme': 'landscape',
 \ 'component': {
-\ 'readonly': '%{&readonly?"":""}',
+\ 'readonly': '%{&readonly?"Ξ":""}',
 \ },
-\ 'separator': { 'left': '', 'right': '' },
-\ 'subseparator': { 'left': '', 'right': '' }
+\ 'separator': { 'left': '▶', 'right': '◀' },
+\ 'subseparator': { 'left': '»', 'right': '«' }
 \ }
