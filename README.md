@@ -4,7 +4,7 @@ You now have special access to an otherwise hidden repo that it based on an Exte
 
 ## The format of the repo
 
-The files are formatted in a standard way with a few exceptions because there are some other files apart from BTEC work her. 
+The files are formatted in a standard way with a few exceptions because there are some other files apart from BTEC work here. 
 
 All BTEC work will follow the naming scheme as follows:
 
