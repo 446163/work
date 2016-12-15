@@ -41,7 +41,7 @@ The last type of standard file in this repo is the notes file and this is laid o
 As before this layout indicates that:
 
 * The ***x*** and ***y*** indicate the number of the unit and assignment. 
-* The \"u\" and \"a\" stand for unit and assignment.
+* The "u" and "a" stand for unit and assignment.
 * The **n** stands for the notes file (rather than **b** for the brief) so yo know you have the correct file.
 * The name will be the name for the actual assignment title for that unit (Not for the assignment!!!).
 * These may or may not have the .md file type as it depends how I create it.
@@ -59,7 +59,7 @@ I also store all of the images that I use in the assignments in this repo and th
 
 This is a folder that the images are contained in as this works very similarly as the previous items: 
 
-* The \"u\" stands for unit. 
+* The "u" stands for unit. 
 * The ***n*** stands for the unit number (e.g. 30, 29...etc).
 * It is a folder containing the images, not a file.
 * The folder may be split more into specific categories for each assignment or for the original and used images etc..
