@@ -16,7 +16,7 @@ With this meaning...
 
 * The ***x*** represent the unit number (Unit 7, 30...etc)
 * The ***y*** represents the assignment for that particular unit (Assignment 1, 2...etc)
-* The ***u*** and ***a*** are for ***u***nit and ***a***assignment. 
+* The ***u*** and ***a*** are for ***u***nit and ***a***ssignment. 
 * The .md indicates that you are accessing the correct file and that it is written in markdown (so it formats nicely)
 
 ### Briefs
