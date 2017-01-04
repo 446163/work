@@ -11,6 +11,7 @@ Plug 'severin-lemaignan/vim-minimap'
 Plug 'altercation/vim-colors-solarized'
 Plug 'https://github.com/suan/vim-instant-markdown.git'
 Plug 'https://github.com/scrooloose/nerdtree.git'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
@@ -24,6 +25,7 @@ map <space> a
 
 let @s = "[sz=1``"
 
+set updatetime=100
 set exrc
 set nu
 set showmatch
@@ -40,6 +42,9 @@ set cm=blowfish
 
 let g:instant_markdown_open_to_the_world = 1
 let g:instant_markdown_autostart = 1
+
+let g:gitgutter_realtime = 1
+let g:gitgutter_eager = 1
 
 let g:lightline = {
 \ 'colorscheme': 'landscape',
