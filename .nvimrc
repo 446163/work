@@ -14,10 +14,28 @@ call plug#end()
 let @s = "[sz=1``"
 
 map <space> a
-map <C-K> <C-W>k
-map <C-J> <C-W>j
-map <C-L> <C-W>l
-map <C-H> <C-W>h
+map <m-K> 5<C-W>-
+map <m-J> 5<C-W>+
+map <m-L> 5<C-W>>
+map <m-H> 5<C-W><
+nnoremap <F1> :b1<CR> 
+nnoremap <F2> :b2<CR>
+nnoremap <F3> :b3<CR>
+nnoremap <F4> :b4<CR>
+nnoremap <F5> :b5<CR>
+nnoremap <F6> :b6<CR>
+nnoremap <F7> :b7<CR>
+nnoremap <F8> :b8<CR>
+nnoremap <F9> :b8<CR>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+tnoremap <Esc> <C-\><C-n>
+tnoremap <C-h> <C-\><C-n><C-w>h
+tnoremap <C-j> <C-\><C-n><C-w>j
+tnoremap <C-k> <C-\><C-n><C-w>k
+tnoremap <C-l> <C-\><C-n><C-w>l
 
 set nu
 set exrc
@@ -25,7 +43,6 @@ set wrap lbr
 set t_Co=256
 set showmatch
 set noshowmode
-set cm=blowfish
 set updatetime=100
 set complete+=kspell
 set spell spelllang=en_gb
