@@ -1,5 +1,8 @@
 " WORK VIMRC FILE
 
+let g:python_host_skip_check=1
+let g:loaded_python3_provider=1
+
 call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'scrooloose/syntastic'
@@ -36,12 +39,17 @@ tnoremap <C-h> <C-\><C-n><C-w>h
 tnoremap <C-j> <C-\><C-n><C-w>j
 tnoremap <C-k> <C-\><C-n><C-w>k
 tnoremap <C-l> <C-\><C-n><C-w>l
+nnoremap <CR> :vsp term://$SHELL<CR>i
+nnoremap <A-CR> :sp term://$SHELL<CR>i
 
 set nu
 set exrc
+set mouse=n
 set wrap lbr
 set t_Co=256
 set showmatch
+set splitbelow
+set splitright
 set noshowmode
 set updatetime=100
 set complete+=kspell
