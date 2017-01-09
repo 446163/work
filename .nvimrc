@@ -12,6 +12,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'valloric/youcompleteme'
 Plug 'airblade/vim-gitgutter'
 Plug 'https://github.com/suan/vim-instant-markdown.git'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 let @s = "[sz=1``"
