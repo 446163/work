@@ -70,4 +70,10 @@ let g:lightline = {
 \ 'subseparator': { 'left': '»', 'right': '«' }
 \ }
 
+augroup scrollLed
+	au!
+	autocmd InsertEnter * silent exe "!xset led"
+	autocmd Insertleave * silent exe "!xset -led"
+augroup END
+
 colorscheme torte
