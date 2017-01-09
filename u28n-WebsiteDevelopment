@@ -33,3 +33,8 @@ Components
 	Software: browser, email
 	Protocol: TCP/IP, application layers e.g. HTTP,SMTP
 
+Internet service provider.
+The internet service provider is the person that actually connects your house and therefore all the devices in your house to the internet and other computers / servers. This will normally be a large company like Virgin media, BT, Sky...etc. They will provide you the service to connect to the internet by leasing you a line that will connect to the router in your house and allow you to connect to the internet. They normally do this by laying down cables in the ground or on pylons, these cables used to be coaxial cables that use copper wires but in more recent times more ISP's are using fibre optic cables to connect up houses due to the faster connection that they allow. These companies are also responsive for handing out and handling the IP addresses that actually allow your computer to be found on the internet and servers to connect to you. 
+Web hosting service
+The web hosting service is the company that actually hosts the website that you have created and own the hardware that it will be running on as well as the network that will allow access to it.  
+
