@@ -39,3 +39,5 @@ The internet service provider is the person that actually connects your house an
 Web hosting service
 The web hosting service is the company that actually hosts the website that you have created and own the hardware that it will be running on as well as the network that will allow access to it. You pay this company money and they will host a website that you provide to them. Some examples of these are 1&1, 123.reg and GoDaddy. 
 
+Domain Structure 
+The Domain structure is the way that websites actually organise the access that users have to the site as well as how access is handled to the sub sites of the main sites. The format of this is done by the addition of "." dots to denote the sub websites. For example Google, has the main website at Google.com while they have a sub website at translate.google.com for their translation service.   
