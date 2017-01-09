@@ -31,6 +31,9 @@ nnoremap <F6> :b6<CR>
 nnoremap <F7> :b7<CR>
 nnoremap <F8> :b8<CR>
 nnoremap <F9> :b8<CR>
+nnoremap <F10> :Gw<CR>
+nnoremap <F11> :Gcommit<CR>
+nnoremap <F12> :Gpush<CR>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
