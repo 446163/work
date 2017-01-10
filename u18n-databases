@@ -17,3 +17,96 @@ Understand
 	Primary key
 	Data types
 	
+Email attachment from Emmanuel 
+
+	TOPIC: INTRODUCTION TO DATABASES
+	
+	OBJECTIVES:
+	
+		To understand the concept of databases
+		
+		To familiarise the students with the keywords used in databases
+		
+		To introduce CRUD acronym and its application
+	
+	KEY WORDS USED IN DATABASES
+	
+	Record, Field, Field name, File, Sorting, Searching, Database structure,
+	
+	LESSON PART 1 (Study the following table carefully to understand database keywords)
+	
+		A database is information organized in such a way that a computer program can quickly select pieces of data. You can think of it as an electronic filing system
+	
+		(Figure 1)
+	
+	TASK 1 (EXERCISES ON LOOK AND SAY SOMETHING) DURATION: 7 MINUTES
+	
+	By looking at figure 1 above answer the following questions:
+	
+		1. What is a database?
+		
+		2. What is a record?
+		
+		3. What is a field?
+		
+		4. What is a file?
+		
+		5. What is a field name?
+		
+		6. How many fields are in the table?
+		
+		7. How many records are in the table?
+	
+	LESSON PART 2 (PLANNING A DATABASE)
+	
+		Study the following table carefully to identify field names and records
+		
+		This will help you in creating your database
+	
+	Figure 2
+	
+	TASK 2 (THINKING SKILL ACTIVITIES ON PLANNING FLAT FILE DATABASE) DURATION: 5 MINS.
+	
+		Look carefully at figure 2 and identify suitable field names, database name and records needed to create a database, hence complete the table below:
+	
+		2a)
+	
+	Figure 3
+	
+		2b) Open Microsoft access database software and create the above flat file database.
+	
+	LESSON PART 2 (DATA TYPES AND DATABASE STRUCTURE)
+	
+		Every data item has a type. When planning your database, you have to specify the data type for each field.
+		
+		An example is shown below:
+		
+	Figure 4
+	
+		STAFF OR PERSONEL DATABASE STRUCTURE
+		
+		FIELD NAME DATA TYPE DESCRIPTION
+		
+		Staff Id AutoNumber Automatic assignment of numbers to staff
+		
+		First Name Text Record to contain letters or alphabets
+		
+		Last Name Text Record to contain letters or alphabets
+		
+		Gender Text Record to contain letters or alphabets
+		
+		Date Of Birth Date/Time Date or time data type
+		
+		No of Children Number Record to contain numbers only
+		
+		Salary Currency Record to contain money or currency
+		
+		Telephone No Text Record to contain letters or alphabets
+		
+		Email Address Text Record to contain letters or alphabets
+		
+		Medical History Memo Record to contain many letters or alphabets
+		
+		TASK 3(EXERCISES ON DATABASE STRUCTURE)
+		
+		Create a database structure for figure 2&3 flat file database. Specify the field names, Data types and descriptions. Your database structure must look like figure 4. 
