@@ -31,9 +31,6 @@ nnoremap <F6> :b6<CR>
 nnoremap <F7> :b7<CR>
 nnoremap <F8> :b8<CR>
 nnoremap <F9> :b8<CR>
-nnoremap <F10> :Gw<CR>
-nnoremap <F11> :Gcommit<CR>
-nnoremap <F12> :Gpush<CR>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
@@ -45,6 +42,13 @@ tnoremap <C-k> <C-\><C-n><C-w>k
 tnoremap <C-l> <C-\><C-n><C-w>l
 nnoremap <CR> :vsp term://$SHELL<CR>i
 nnoremap <A-CR> :sp term://$SHELL<CR>i
+nnoremap <leader>g1 :Gw<CR>
+nnoremap <leader>g2 :Gcommit<CR>
+nnoremap <leader>g3 :Gpush<CR>
+nnoremap <leader>gw :Gw<CR>
+nnoremap <leader>gc :Gcommit<CR>
+nnoremap <leader>gp :Gpush<CR>
+
 
 set nu
 set exrc
