@@ -1,0 +1,33 @@
+P1 - Outline the web architecture and components which enable internet and web functionality 
+	Internet service provider
+	Web hosing services
+	domain structure
+	domain name registrar
+	World wide web
+	web server
+	mail server
+	proxy server
+	browser
+	email
+	TCP/IP
+	Application layer e.g HTTP, MTP
+	Flow Diagram
+P2 - Explain the user side and server side factors that influence the performance of a website
+	User side factors
+	download speed
+	PC Performance factors like browser, cache memory, processor speed
+P3 - Explain the security risks and protection mechanisms involved in website performance
+	Server side factors
+	Web server capacities
+	available bandwidth
+	number of hits
+	file types
+M1 - Explain the role of web architecture in website communications
+	Web 2.0
+	blogs
+	cloud computing
+	on-line applications
+D1 - Explain the role of the TCP/IP protocol and how it links to application layer protocols
+	poster / report
+	Role of TCP/IP
+	How it links to application layer
