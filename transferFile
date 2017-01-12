@@ -1,1 +1,8 @@
 Use this tom
+setw -g window-status-format "#[bg=default]#[fg=colour8] □ #W  "
+setw -g window-status-current-format "#[bg=default]#[fg=colour5] ■ #W  "
+setw -g window-status-current-attr dim
+set -g status-position bottom
+set -g status-justify centre
+set -g status-left ' '
+set -g status-right ' '
