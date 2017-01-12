@@ -12,22 +12,33 @@ P1 - Outline the web architecture and components which enable internet and web f
 	TCP/IP
 	Application layer e.g HTTP, MTP
 	Flow Diagram
+
+	In a report explain web architecture, components and web functionality
+	In the same report explain the various stages and processes that information must ass through to get from server to screen
 P2 - Explain the user side and server side factors that influence the performance of a website
 	User side factors
 	download speed
 	PC Performance factors like browser, cache memory, processor speed
+
+	Describe both the user side and the factors and server side factors that influence the performance of a website. See check-list
 P3 - Explain the security risks and protection mechanisms involved in website performance
 	Server side factors
 	Web server capacities
 	available bandwidth
 	number of hits
 	file types
+
+	Explain in a short report the security risks and protection mechanisms involved in website performance website. Also ensure that any specific **laws** which may factor intro this. Ensure you provide screenshots. 
 M1 - Explain the role of web architecture in website communications
 	Web 2.0
 	blogs
 	cloud computing
 	on-line applications
+
+	In another report, detail the regrading the way website move information for communication. Discuss current methods of information sharing and movements such as web 2.0  
 D1 - Explain the role of the TCP/IP protocol and how it links to application layer protocols
 	poster / report
 	Role of TCP/IP
 	How it links to application layer
+
+	Create a poster or report with diagrams and explanatory text explaining the role of the TCP/IP protocol and how it links to application layer protocols
