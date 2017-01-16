@@ -1,21 +1,25 @@
 " WORK VIMRC FILE
 
+
+
 let g:python_host_skip_check=1
 let g:loaded_python3_provider=1
 
 call plug#begin()
-Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/syntastic'
 Plug 'bling/vim-bufferline'
 Plug 'wesQ3/vim-windowswap'
 Plug 'itchyny/lightline.vim'
-Plug 'valloric/youcompleteme'
 Plug 'airblade/vim-gitgutter'
+Plug 'valloric/youcompleteme'
+
+Plug 'christoomey/vim-tmux-navigator' 
 Plug 'https://github.com/suan/vim-instant-markdown.git'
-Plug 'tpope/vim-fugitive'
 call plug#end()
 
 let @s = "[sz=1``"
+let mapleader="\<Backspace>"
 
 map <space> a
 map <m-K> 5<C-W>-
@@ -36,19 +40,29 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 tnoremap <Esc> <C-\><C-n>
+noremap <buffer> <silent> k gk
+noremap buffer> <silent> j gj
+nnoremap <leader><leader> <Esc>
 tnoremap <C-h> <C-\><C-n><C-w>h
 tnoremap <C-j> <C-\><C-n><C-w>j
 tnoremap <C-k> <C-\><C-n><C-w>k
 tnoremap <C-l> <C-\><C-n><C-w>l
-nnoremap <CR> :vsp term://$SHELL<CR>i
-nnoremap <A-CR> :sp term://$SHELL<CR>i
+
+vmap <leader>y "+y
+vmap <leader>d "+d
+vmap <leader>p "+p
+vmap <leader>p "+p
+nmap <leader>p "+p
+nmap <leader>p "+p  
+nnoremap <leader>w :w<cr>
+nnoremap <leader>q :wq<cr>
+nnoremap <leader>Q :q!<cr>
 nnoremap <leader>g1 :Gw<CR>
 nnoremap <leader>g2 :Gcommit<CR>
 nnoremap <leader>g3 :Gpush<CR>
 nnoremap <leader>gw :Gw<CR>
 nnoremap <leader>gc :Gcommit<CR>
 nnoremap <leader>gp :Gpush<CR>
-
 
 set nu
 set exrc
@@ -59,7 +73,7 @@ set showmatch
 set splitbelow
 set splitright
 set noshowmode
-set updatetime=100
+set updatetime=10
 set complete+=kspell
 set spell spelllang=en_gb
 
@@ -67,6 +81,8 @@ let g:gitgutter_eager = 1
 let g:gitgutter_realtime = 1
 let g:instant_markdown_autostart = 1
 let g:instant_markdown_open_to_the_world = 1
+
+autocmd VimEnter * colorscheme torte
 
 autocmd BufRead,BufNewFile *.md setlocal spell
 
@@ -78,10 +94,10 @@ let g:lightline = {
 \ 'subseparator': { 'left': '»', 'right': '«' }
 \ }
 
-"augroup scrollLed
-"	au!
-"	autocmd InsertEnter * silent exe "!xset led"
-"	autocmd Insertleave * silent exe "!xset -led"
-"augroup END
+" Vertical Split Buffer Function
+function VerticalSplitBuffer(buffer)
+    execute "vert belowright sb" a:buffer 
+endfunction
 
-colorscheme torte
+" Vertical Split Buffer Mapping
+command -nargs=1 Vbuffer call VerticalSplitBuffer(<f-args>)
