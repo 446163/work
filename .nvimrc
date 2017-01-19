@@ -100,4 +100,4 @@ function VerticalSplitBuffer(buffer)
 endfunction
 
 " Vertical Split Buffer Mapping
-command -nargs=1 Vbuffer call VerticalSplitBuffer(<f-args>)
+command -nargs=1 vbuffer call VerticalSplitBuffer(<f-args>)
