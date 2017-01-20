@@ -18,7 +18,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'https://github.com/suan/vim-instant-markdown.git'
 call plug#end()
 
-let @s = "[sz=1``"
+let @s="[sz=!1``"
 let mapleader="\<Backspace>"
 
 map <space> a
@@ -100,4 +100,4 @@ function VerticalSplitBuffer(buffer)
 endfunction
 
 " Vertical Split Buffer Mapping
-command -nargs=1 vbuffer call VerticalSplitBuffer(<f-args>)
+command -nargs=1 Vbuffer call VerticalSplitBuffer(<f-args>)
