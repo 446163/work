@@ -1,0 +1,50 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{equation*}
+ 1+2=3
+\end{equation*}
+
+\begin{equation*}
+ 1=3-2
+\end{equation*}
+
+\begin{align*}
+	1 + 2 &= 3\\
+	1 &= 3 - 2
+\end{align*}
+
+\begin{align*}
+	f(x) &= x^2\\
+	g(x) &= \frac{1}{x}\\
+	F(x) &= \int^a_b \frac{1}{3}x^3\\
+	G(x) &= \frac{1}{\sqrt{x}}
+\end{align*}
+\begin{align*}
+	\left[
+	\begin{matrix}
+		1 & 0\\
+		0 & 1
+	\end{matrix}
+	\right]\\
+	\left(\frac{1}{\sqrt{x}}\right)
+\end{align*}
+\begin{align*}
+	\left[
+	\begin{matrix}
+		1 & 4 & -2\\
+		3 & 5 & -4
+	\end{matrix}
+	\right]
+	x
+	\left[
+	\begin{matrix}
+		1 & 4 & -2\\
+		3 & 5 & -4
+	\end{matrix}
+	\right]\\
+\end{align*}
+\end{document}

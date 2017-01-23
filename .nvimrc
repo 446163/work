@@ -6,6 +6,7 @@ let g:python_host_skip_check=1
 let g:loaded_python3_provider=1
 
 call plug#begin()
+
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/syntastic'
 Plug 'bling/vim-bufferline'
@@ -16,10 +17,13 @@ Plug 'valloric/youcompleteme'
 
 Plug 'christoomey/vim-tmux-navigator' 
 Plug 'https://github.com/suan/vim-instant-markdown.git'
+Plug 'lervag/vimtex' 
+
 call plug#end()
 
 let @s="[sz=!1``"
 let mapleader="\<Backspace>"
+let maplocalleader="\<Backspace>"
 
 map <space> a
 map <m-K> 5<C-W>-
