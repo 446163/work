@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  23 JAN 2017 21:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  23 JAN 2017 22:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -93,13 +93,29 @@ LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 
-Overfull \hbox (1.11047pt too wide) detected at line 125
+Overfull \hbox (1.11047pt too wide) detected at line 97
 [] [] \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 ) []
  []
 
+./u26a1.tex:107: Extra \right.
+l.107 	\right]
+              ^t
+I'm ignoring a \right that had no matching \left.
+
+./u26a1.tex:113: Extra \right.
+l.113 	\right]
+              ^T
+I'm ignoring a \right that had no matching \left.
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./u26a1.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./u26a1.tex:121: Extra \right.
+l.121 	\right]
+              ^T
+I'm ignoring a \right that had no matching \left.
+
+[2] (./u26a1.aux) ) 
 Here is how much of TeX's memory you used:
  822 strings out of 493013
  9007 string characters out of 6139317
@@ -109,7 +125,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  27i,7n,20p,393b,119s stack positions out of 5000i,500n,10000p,200000b,80000s
  </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbxti10.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk>
-Output written on u26a1.pdf (2 pages, 35211 bytes).
+Output written on u26a1.pdf (2 pages, 35218 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream

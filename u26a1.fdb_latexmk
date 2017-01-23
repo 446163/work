@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1485207667 "u26a1.tex" "u26a1.pdf" "u26a1" 1485207671
+["pdflatex"] 1485210914 "u26a1.tex" "u26a1.pdf" "u26a1" 1485210921
   "/home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk" 1485195760 17912 d53f05f1a47aeff9b4d4fa019ba7cc5a ""
   "/home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbxti10.600pk" 1485204982 15764 055e73db174cb5f96a285d66c77fcbf8 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1479649810 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -23,9 +23,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1479649825 31669 df537245012f3e5f05bdc55644b7a3df ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1485192934 21233 86a8356fda6de65361ca80c11aac99e1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1485192922 7252863 4983bf5b47dd3657f838dd92642b6764 ""
-  "u26a1.aux" 1485207667 298 a40da8a4b283e2cbfa5864c5537bc56e ""
-  "u26a1.tex" 1485207667 3641 8f5a0e4729a361a67168ef5003191593 ""
+  "u26a1.aux" 1485210914 298 a40da8a4b283e2cbfa5864c5537bc56e ""
+  "u26a1.tex" 1485210914 3321 be6b954fd24181177c5b87a455d863f2 ""
   (generated)
   "u26a1.log"
-  "u26a1.pdf"
   "u26a1.aux"
+  "u26a1.pdf"
