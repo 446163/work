@@ -1,0 +1,163 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+
+\begin{document}
+\section{Addition}
+To add 2 matrices together you simply add each element in the first matrix to the corresponding number in the second matrix.
+\begin{equation*}
+	\left[
+		\begin{matrix}
+			1 & 2 & 3\\
+			4 & 5 & 6\\
+			7 & 8 & 9
+		\end{matrix}
+	\right]
+	+
+	\left[
+		\begin{matrix}
+			1 & 4 & 7\\
+			2 & 5 & 8\\
+			3 & 6 & 9
+		\end{matrix}
+	\right]
+	=
+	\left[
+		\begin{matrix}
+			1+1 & 4+2 & 7+3\\
+			2+4 & 5+5 & 8+6\\
+			3+7 & 6+8 & 9+9
+		\end{matrix}
+	\right]
+	\Rightarrow
+	\left[
+		\begin{matrix}
+			2 & 6 & 10\\
+			6 & 10 & 14\\
+			10 & 14 & 18
+		\end{matrix}
+	\right]
+\end{equation*}
+\section{Subtraction}
+In a similar way to addition, to subtract 2 matrices together you simply subtract each element in the first matrix to the corresponding number in the second matrix.
+\begin{equation*}
+	\left[
+		\begin{matrix}
+			1 & 4 & 7\\
+			2 & 5 & 8\\
+			3 & 6 & 9
+			\end{matrix}
+	\right]
+	-
+	\left[
+		\begin{matrix}
+			1 & 2 & 3\\
+			4 & 5 & 6\\
+			7 & 8 & 9
+		\end{matrix}
+	\right]
+	=
+	\left[
+		\begin{matrix}
+			1-1 & 4-2 & 7-3\\
+			2-4 & 5-5 & 8-6\\
+			3-7 & 6-8 & 9-9
+		\end{matrix}
+	\right]
+	\Rightarrow
+	\left[
+		\begin{matrix}
+			0 & 2 & 4\\
+			-2 & 0 & 2\\
+			-4 & -2 & 0
+		\end{matrix}
+	\right]
+\end{equation*}
+\section{Multiplication}
+In order to multiply two matrices you must first ensure that the width of the first matrix is the same as the height of the second, if this is not the case then the multiplication cannot happen between them.
+\begin{equation*}
+	\left[
+		\begin{matrix}
+			1 & 4 & 7\\
+			2 & 5 & 8
+			\end{matrix}
+	\right]
+	\left[
+		\begin{matrix}
+			1 & 2\\
+			4 & 5
+		\end{matrix}
+	\right]
+	=
+	Undefined
+\end{equation*}
+If the multiplication can occur then you will have to add the values of each number in the first matrix row multiplied by its corresponding number in the second matrix column, this result would then go into the overlapping section for example if you just multiplied the first row by the first column then the result will go into the first row and first column of the answer matrix.
+
+\textit{\textbf{Please note that the answer matrix will be smaller than the initial matrices.}}
+\begin{equation*}
+	\left[
+		\begin{matrix}
+			3 & 5 & 1\\
+			2 & 3 & 4
+			\end{matrix}
+	\right]
+	\left[
+		\begin{matrix}
+			9 & 2\\
+			6 & 1\\
+			10 & 3
+		\end{matrix}
+	\right]
+	=
+	\left[
+		\begin{matrix}
+			3*9+5*6+1*10 & 3*2+5*1+1*3\\
+			2*9+3*6+4*10 & 2*2+3*1+4*3
+		\end{matrix}
+	\right]
+	\Rightarrow
+	\left[
+		\begin{matrix}
+			67 & 14\\
+			76 & 19\\
+		\end{matrix}
+	\right]
+\end{equation*}
+\section{Transpose}
+Another technique that can be used for the modification of matrices is the process of transposing. This is quite simple as all it does is transpose a matrix to its swapped dimension counterpart. For example a 3x2 matrix would become a 2x3 matrix.
+
+The notation for this is the matrix with a 't' or a 'T' to the top right like a power.
+\begin{equation*}
+	\left[
+	\begin{matrix}
+		a & b\\
+		c & d\\
+	\end{matrix}
+	\right]^t
+	Or
+	\left[
+	\begin{matrix}
+		a & b\\
+		c & d\\
+	\end{matrix}
+	\right]^T
+\end{equation*}
+However it is still slightly complicated as you cannot just rotate the whole matrix as you have to rotate each line in an opposite way to its neighbours as shown in this following example:..
+\begin{equation*}
+	\left[
+		\begin{matrix}
+			3 & 5 & 1\\
+			2 & 3 & 4
+			\end{matrix}
+	\right]^T
+	\Rightarrow
+	\left[
+		\begin{matrix}
+			3 & 2\\
+			5 & 3\\
+			1 & 4
+			\end{matrix}
+	\right]
+\end{equation*}
+It may help if you think that the top left and bottom right corners are locked in place during this procedure.
+\end{document}
