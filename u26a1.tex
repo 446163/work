@@ -1,225 +1,341 @@
 \documentclass{article}
 
+\usepackage{amssymb}
 \usepackage{amsmath}
 
 \begin{document}
+\title{Unit 26 | Mathematics for IT Practitioners \\ \vspace{1.5cm} Assignment 1 | Matrix operations}
+\author{Daniel Easteal}
+\date{January 2017}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
 \section{Definition of matrices}
 In this initial section I have just recorded what matrices I will be using throughout the whole assignment for reference later on and so that I do not need to write them out for each question.
 \begin{equation*}
-	M =
-	\begin{bmatrix}
+	\begin{split}
+	&M =
+	\begin{pmatrix}
 		3 & -1\\
-		4 & 2\\
-	\end{bmatrix}
-\\	N =
-	\begin{bmatrix}
+		4 & 2
+	\end{pmatrix}
+	\\
+	&N =
+	\begin{pmatrix}
 		4 & 3\\
 		-3 & -1
-	\end{bmatrix}
+	\end{pmatrix}
+	\\
+	&P =
+	\begin{pmatrix}
+		1 & 3 & 5\\
+		-1 & 2 & 4\\
+		-3 & 4 & 3
+	\end{pmatrix}
+\end{split}
+\qquad
+\qquad
+\qquad
+\begin{split}
+	&Q =
+	\begin{pmatrix}
+		2 & 3 & 3\\
+		4 & 4 & -2\\
+		3 & -4 & 8
+	\end{pmatrix}
+	\\
+	&R = 
+	\begin{pmatrix}
+		9 & 2 & 6\\
+		12 & -4 & 7
+	\end{pmatrix}
+	\\
+	&S =
+	\begin{pmatrix}
+		-6 & 3\\
+		-3 & -2\\
+		-6 & -6
+	\end{pmatrix}
+\end{split}
 \end{equation*}
 \section{P2 - perform addition, subtraction and scalar multiplication}
 \subsection{Addition}
 To add 2 matrices together you simply add each element in the first matrix to the corresponding number in the second matrix. The general case is shown below:
 \begin{equation*}
-	\begin{bmatrix}
+	\begin{pmatrix}
 		a & b & c\\
 		d & e & f\\
 		g & h & i
-	\end{bmatrix}
+	\end{pmatrix}
 	+
-	\begin{bmatrix}
+	\begin{pmatrix}
 		A & D & G\\
 		B & E & H\\
 		C & F & I
-	\end{bmatrix}
+	\end{pmatrix}
 	=
-	\begin{bmatrix}
+	\begin{pmatrix}
 		a+A & b+D & c+G\\
 		d+B & e+E & f+H\\
 		g+C & h+F & i+I\\
-	\end{bmatrix}
+	\end{pmatrix}
 \end{equation*}
 From this general case, we just substitute in some numbers in to correct matrices that we need to add, and this is the flowing  result:
 \begin{equation*}
-	\begin{bmatrix}
+	\begin{pmatrix}
 		1 & 2 & 3\\
 		4 & 5 & 6\\
 		7 & 8 & 9
-	\end{bmatrix}
+	\end{pmatrix}
 	+
-	\begin{bmatrix}
+	\begin{pmatrix}
 		1 & 4 & 7\\
 		2 & 5 & 8\\
 		3 & 6 & 9
-	\end{bmatrix}
+	\end{pmatrix}
 	=
-	\begin{bmatrix}
+	\begin{pmatrix}
 		1+1 & 4+2 & 7+3\\
 		2+4 & 5+5 & 8+6\\
 		3+7 & 6+8 & 9+9
-	\end{bmatrix}
+	\end{pmatrix}
 	\Rightarrow
-	\begin{bmatrix}
+	\begin{pmatrix}
 		2 & 6 & 10\\
 		6 & 10 & 14\\
 		10 & 14 & 18
-	\end{bmatrix}
+	\end{pmatrix}
 \end{equation*}
 \subsection{Subtraction}
 In a similar way to addition, to subtract 2 matrices together you simply subtract each element in the first matrix to the corresponding number in the second matrix.
 \begin{equation*}
-	\begin{bmatrix}
+	\begin{pmatrix}
 		a & b & c\\
 		d & e & f\\
 		g & h & i
-	\end{bmatrix}
+	\end{pmatrix}
 	-
-	\begin{bmatrix}
+	\begin{pmatrix}
 		A & D & G\\
 		B & E & H\\
 		C & F & I
-	\end{bmatrix}
+	\end{pmatrix}
 	=
-	\begin{bmatrix}
+	\begin{pmatrix}
 		a-A & b-D & c-G\\
 		d-B & e-E & f-H\\
 		g-C & h-F & i-I
-	\end{bmatrix}
+	\end{pmatrix}
 \end{equation*}
 With some random numbers inserted, an example of how this works would look like this: (again, you just substitute the numbers)
 \begin{equation*}
-	\begin{bmatrix}
+	\begin{pmatrix}
 		1 & 4 & 7\\
 		2 & 5 & 8\\
 		3 & 6 & 9
-	\end{bmatrix}
+	\end{pmatrix}
 	-
-	\begin{bmatrix}
+	\begin{pmatrix}
 		1 & 2 & 3\\
 		4 & 5 & 6\\
 		7 & 8 & 9
-	\end{bmatrix}
+	\end{pmatrix}
 	=
-	\begin{bmatrix}
+	\begin{pmatrix}
 		1-1 & 4-2 & 7-3\\
 		2-4 & 5-5 & 8-6\\
 		3-7 & 6-8 & 9-9
-	\end{bmatrix}
+	\end{pmatrix}
 	\Rightarrow
-	\begin{bmatrix}
+	\begin{pmatrix}
 		0 & 2 & 4\\
 		-2 & 0 & 2\\
 		-4 & -2 & 0
-	\end{bmatrix}
+	\end{pmatrix}
 \end{equation*}
 \subsection{Scalar Multiplication}
 Scalar multiplication is the simple to brother multiplication as it just consists of standard multiplication with no worrying about formatting. This is used for when you have a whole matrix multiplied by a single number. All you have to do is multiply each element in the matrix by the number, and that is it. Here is the general case for this:
 \begin{equation*}
 	n
-	\begin{bmatrix}
+	\begin{pmatrix}
 		A & B & C\\
 		D & E & F\\
 		H & I & J
-	\end{bmatrix}
+	\end{pmatrix}
 	=
-	\begin{bmatrix}
+	\begin{pmatrix}
 		An & Bn & Cn\\
 		Dn & En & Fn\\
 		Gn & Hn & In
-	\end{bmatrix}
+	\end{pmatrix}
 \end{equation*}
 From here we can just add in some numbers so that you can see how it all woks out:
 \begin{equation*}
 	2.5
-	\begin{bmatrix}
+	\begin{pmatrix}
 		3 & 1 & 4\\
 		1.5 & 9 & 2.6\\
 		5 & 3.5 & 8
-	\end{bmatrix}
+	\end{pmatrix}
 	=
-	\begin{bmatrix}
+	\begin{pmatrix}
 		3*2.5 & 1*2.5 & 4*2.5\\
 		1.5*2.5 & 9*2.5 & 2.6*2.5\\
 		5*2.5 & 3.5*2.5 & 8*2.5
-	\end{bmatrix}
+	\end{pmatrix}
 	\Rightarrow
-	\begin{bmatrix}
+	\begin{pmatrix}
 		7.5 & 2.5 & 10\\
 		3.75 & 22.5 & 6.5\\
 		12.5 & 8.75 & 20
-	\end{bmatrix}
-Now that we know how to do, addition subtraction and multiplication of matricies i can now carry on and do the questions that are at hand, and they are as follows:
+	\end{pmatrix}
+\end{equation*}
+Now that we know how to do, addition subtraction and multiplication of matrices I can now carry on and do the questions that are at hand, and they are as follows:
 \subsection{Questions}
-we are told that 
+For the assignment we are told to do a total of 5 addition, subtraction and scalar questions, and I will now go through them showing my calculations as they would be in the examples above. 
+\subsubsection{M + N}
+\[
+M + N \Rightarrow
+	\begin{pmatrix}
+		3 & -1\\
+		4 & 2
+	\end{pmatrix}
+	+
+	\begin{pmatrix}
+		4 & 3\\
+		-3 & -1
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		3+4 & -1+3\\
+		4+-3 & 2+-1
+	\end{pmatrix}
+	\Rightarrow
+	\begin{pmatrix}
+		7 & 2\\
+		1 & 1\\
+	\end{pmatrix}
+\]
+\begin{center}\vspace{0.5cm}$\therefore M+N=\begin{pmatrix} 7 & 2\\ 1 & 1\end{pmatrix}$\end{center}
+
+\subsubsection{P + Q}
+\[
+P + Q \Rightarrow
+	\begin{pmatrix}
+		1 & 3 & 5\\
+		-1 & 2 & 4\\
+		-3 & 4 & 3
+	\end{pmatrix}
+	+
+	\begin{pmatrix}
+		2 & 3 & 3\\
+		4 & 4 & -2\\
+		3 & -4 & 8
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		1+2 & 3+3 & 5+3\\
+		-1+4 & 2+4 & 4+-2\\
+		-3+3 & 4+-4 & 3+8
+	\end{pmatrix}
+	\Rightarrow
+	\begin{pmatrix}
+		3 & 6 & 8\\
+		3 & 6 & 2\\
+		0 & 0 & 11 
+	\end{pmatrix}
+\]
+\begin{center}\vspace{0.5cm}$\therefore P+Q=\begin{pmatrix} 3 & 6 & 8\\3 & 6 & 2\\0 & 0 & 11\end{pmatrix}$\end{center}
+
+\subsubsection{M + N}
+\[
+M + N \Rightarrow
+	\begin{pmatrix}
+		3 & -1\\
+		4 & 2
+	\end{pmatrix}
+	+
+	\begin{pmatrix}
+		4 & 3\\
+		-3 & -1
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		3+4 & -1+3\\
+		4+-3 & 2+-1
+	\end{pmatrix}
+	\Rightarrow
+	\begin{pmatrix}
+		7 & 2\\
+		1 & 1\\
+	\end{pmatrix}
+\]
+\begin{center}\vspace{0.5cm}$\therefore M+N=\begin{pmatrix} 7 & 2\\ 1 & 1\end{pmatrix}$\end{center}
+
 
 \section{Multiplication}
 In order to multiply two matrices you must first ensure that the width of the first matrix is the same as the height of the second, if this is not the case then the multiplication cannot happen between them.
-\begin{equation*}
-	\begin{bmatrix}
-		1 & 4 & 7\\
-		2 & 5 & 8
-	\end{bmatrix}
-	\begin{bmatrix}
-		1 & 2\\
-		4 & 5
-	\end{bmatrix}
-	=
-	Undefined
-\end{equation*}
+\[
+\bordermatrix{~ & ~ & ~ & ~ \cr \rightarrow & 1 & 4 & 7 \cr ~ & 2 & 5 & 8 \cr}
+\bordermatrix{~ & \downarrow & ~ \cr ~ & 4 & 7 \cr ~ & 5 & 8}
+= undefined
+		   \]
+		   \center{ \small{ \textbf{The number of items indicated by the arrows do not match.\\}}}
 If the multiplication can occur then you will have to add the values of each number in the first matrix row multiplied by its corresponding number in the second matrix column, this result would then go into the overlapping section for example if you just multiplied the first row by the first column then the result will go into the first row and first column of the answer matrix.
 
 \textit{\textbf{Please note that the answer matrix will be smaller than the initial matrices.}}
 \begin{equation*}
-	\begin{bmatrix}
+	\begin{pmatrix}
 		3 & 5 & 1\\
 		2 & 3 & 4
-	\end{bmatrix}
-	\begin{bmatrix}
+	\end{pmatrix}
+	\begin{pmatrix}
 		9 & 2\\
 		6 & 1\\
 		10 & 3
-	\end{bmatrix}
+	\end{pmatrix}
 	=
-	\begin{bmatrix}
+	\begin{pmatrix}
 		3*9+5*6+1*10 & 3*2+5*1+1*3\\
 		2*9+3*6+4*10 & 2*2+3*1+4*3
-	\end{bmatrix}
+	\end{pmatrix}
 	\Rightarrow
-	\begin{bmatrix}
+	\begin{pmatrix}
 		67 & 14\\
-		76 & 19\\
-	\end{bmatrix}
+		76 & 19
+	\end{pmatrix}
 \end{equation*}
 \section{Transpose}
 Another technique that can be used for the modification of matrices is the process of transposing. This is quite simple as all it does is transpose a matrix to its swapped dimension counterpart. For example a 3x2 matrix would become a 2x3 matrix.
 
-The notation for this is the matrix with a 'T' or a 'T' to the top right like a power.
+The notation for this is the matrix with a 't' or a 'T' to the top right like a power.
 \begin{equation*}
-	\begin{bmatrix}
+	\begin{pmatrix}
 		a & b\\
-		c & d\\
-	\end{bmatrix}
+		c & d
+	\end{pmatrix}
 	\right]^t
 	Or
-	\begin{bmatrix}
+	\begin{pmatrix}
 		a & b\\
-		c & d\\
-	\end{bmatrix}
+		c & d
+	\end{pmatrix}
 	\right]^T
 \end{equation*}
 However it is still slightly complicated as you cannot just rotate the whole matrix as you have to rotate each line in an opposite way to its neighbours as shown in this following example:..
 \begin{equation*}
-	\begin{bmatrix}
+	\begin{pmatrix}
 		3 & 5 & 1\\
 		2 & 3 & 4
-	\end{bmatrix}
+	\end{pmatrix}
 	\right]^T
 	\Rightarrow
-	\begin{bmatrix}
+	\begin{pmatrix}
 		3 & 2\\
 		5 & 3\\
 		1 & 4
-	\end{bmatrix}
+	\end{pmatrix}
 \end{equation*}
 It may help if you think that the top left and bottom right corners are locked in place during this procedure.
 \end{document}
