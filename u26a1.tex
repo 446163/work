@@ -3,8 +3,43 @@
 \usepackage{amsmath}
 
 \begin{document}
-\section{Addition}
-To add 2 matrices together you simply add each element in the first matrix to the corresponding number in the second matrix.
+\section{Definition of matrices}
+In this initial section I have just recorded what matrices I will be using throughout the whole assignment for reference later on and so that I do not need to write them out for each question.
+\begin{equation*}
+	M =
+	\begin{bmatrix}
+		3 & -1\\
+		4 & 2\\
+	\end{bmatrix}
+\\	N =
+	\begin{bmatrix}
+		4 & 3\\
+		-3 & -1
+	\end{bmatrix}
+\end{equation*}
+\section{P2 - perform addition, subtraction and scalar multiplication}
+\subsection{Addition}
+To add 2 matrices together you simply add each element in the first matrix to the corresponding number in the second matrix. The general case is shown below:
+\begin{equation*}
+	\begin{bmatrix}
+		a & b & c\\
+		d & e & f\\
+		g & h & i
+	\end{bmatrix}
+	+
+	\begin{bmatrix}
+		A & D & G\\
+		B & E & H\\
+		C & F & I
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+		a+A & b+D & c+G\\
+		d+B & e+E & f+H\\
+		g+C & h+F & i+I\\
+	\end{bmatrix}
+\end{equation*}
+From this general case, we just substitute in some numbers in to correct matrices that we need to add, and this is the flowing  result:
 \begin{equation*}
 	\begin{bmatrix}
 		1 & 2 & 3\\
@@ -30,8 +65,28 @@ To add 2 matrices together you simply add each element in the first matrix to th
 		10 & 14 & 18
 	\end{bmatrix}
 \end{equation*}
-\section{Subtraction}
+\subsection{Subtraction}
 In a similar way to addition, to subtract 2 matrices together you simply subtract each element in the first matrix to the corresponding number in the second matrix.
+\begin{equation*}
+	\begin{bmatrix}
+		a & b & c\\
+		d & e & f\\
+		g & h & i
+	\end{bmatrix}
+	-
+	\begin{bmatrix}
+		A & D & G\\
+		B & E & H\\
+		C & F & I
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+		a-A & b-D & c-G\\
+		d-B & e-E & f-H\\
+		g-C & h-F & i-I
+	\end{bmatrix}
+\end{equation*}
+With some random numbers inserted, an example of how this works would look like this: (again, you just substitute the numbers)
 \begin{equation*}
 	\begin{bmatrix}
 		1 & 4 & 7\\
@@ -57,6 +112,46 @@ In a similar way to addition, to subtract 2 matrices together you simply subtrac
 		-4 & -2 & 0
 	\end{bmatrix}
 \end{equation*}
+\subsection{Scalar Multiplication}
+Scalar multiplication is the simple to brother multiplication as it just consists of standard multiplication with no worrying about formatting. This is used for when you have a whole matrix multiplied by a single number. All you have to do is multiply each element in the matrix by the number, and that is it. Here is the general case for this:
+\begin{equation*}
+	n
+	\begin{bmatrix}
+		A & B & C\\
+		D & E & F\\
+		H & I & J
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+		An & Bn & Cn\\
+		Dn & En & Fn\\
+		Gn & Hn & In
+	\end{bmatrix}
+\end{equation*}
+From here we can just add in some numbers so that you can see how it all woks out:
+\begin{equation*}
+	2.5
+	\begin{bmatrix}
+		3 & 1 & 4\\
+		1.5 & 9 & 2.6\\
+		5 & 3.5 & 8
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+		3*2.5 & 1*2.5 & 4*2.5\\
+		1.5*2.5 & 9*2.5 & 2.6*2.5\\
+		5*2.5 & 3.5*2.5 & 8*2.5
+	\end{bmatrix}
+	\Rightarrow
+	\begin{bmatrix}
+		7.5 & 2.5 & 10\\
+		3.75 & 22.5 & 6.5\\
+		12.5 & 8.75 & 20
+	\end{bmatrix}
+Now that we know how to do, addition subtraction and multiplication of matricies i can now carry on and do the questions that are at hand, and they are as follows:
+\subsection{Questions}
+we are told that 
+
 \section{Multiplication}
 In order to multiply two matrices you must first ensure that the width of the first matrix is the same as the height of the second, if this is not the case then the multiplication cannot happen between them.
 \begin{equation*}
@@ -98,7 +193,7 @@ If the multiplication can occur then you will have to add the values of each num
 \section{Transpose}
 Another technique that can be used for the modification of matrices is the process of transposing. This is quite simple as all it does is transpose a matrix to its swapped dimension counterpart. For example a 3x2 matrix would become a 2x3 matrix.
 
-The notation for this is the bmatrix with a 't' or a 'T' to the top right like a power.
+The notation for this is the matrix with a 'T' or a 'T' to the top right like a power.
 \begin{equation*}
 	\begin{bmatrix}
 		a & b\\
