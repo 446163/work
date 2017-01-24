@@ -2,6 +2,8 @@
 
 \usepackage{amssymb}
 \usepackage{amsmath}
+\usepackage{float} 
+\usepackage[a4paper]{geometry} 
 
 \begin{document}
 \title{Unit 26 | Mathematics for IT Practitioners \\ \vspace{1.5cm} Assignment 1 | Matrix operations}
@@ -354,6 +356,7 @@ For this question we will first need to calculate what 2Q is, after this I can t
 \begin{center}\vspace{0.5cm}$\therefore 3P-2Q=\begin{pmatrix} 1 & 3 & 9\\ 11 & -2 & 16\\ ~15 & 20 & 7\end{pmatrix}$\end{center}
 
 \section{P3 - Multiply two matricies}
+\subsection{Multiplication}
 
 In order to multiply two matrices you must first ensure that the width of the first matrix is the same as the height of the second, if this is not the case then the multiplication cannot happen between them.
 \[
@@ -386,7 +389,274 @@ If the multiplication can occur then you will have to add the values of each num
 		76 & 19
 	\end{pmatrix}
 \end{equation*}
-\section{Transpose}
+\subsection{Questions}
+\subsubsection{MN}
+\subsubsection{PQ}
+\subsubsection{RS}
+\subsubsection{SR}
+
+\section{P4 - Inverse and transpose}
+\subsection{Inverse}
+The process of generating an inverse matrix can be quite a difficult one to follow, however with the correct streps it can be done easily. To start off with, an inverse square is one where when the original and inverse square are multiplied together they will generate the identity matrix as an answer. The identity matrix is a matrix that contains all zeros apart from a single diagonal lines of ones from the top left down to the bottom right corner. 
+\vspace{0.5cm}
+	\[
+	\begin{bmatrix}
+		1 & 0 & 0 & \cdots & 0\\
+		0 & 1 & 0 & \cdots & 0\\
+		0 & 0 & 1 & \cdots & 0\\
+		\cdots & \cdots & \cdots & \ddots & 0\\
+		0 & 0 & 0 & 0 & 1
+	\end{bmatrix}
+	\]
+	\begin{center}
+		\small{ \textbf{Fig 1 \\ The identity matrix}}
+	\end{center}
+
+There are different ways to actually calculate the inverse of a matrix and these methods can differ based on the size of the matrices as well. I will now go through the general case that can be used for finding the inverse of a 2x2 matrix and then after that I will go through the general case to a higher order matrix.
+\subsubsection{2x2 Matrix Inverse}
+To find the inverse of a 2x2 Matrix you must first find the determinant of the matrix and then after that you can apply the general case rule that has to do with swapping and inverting numbers to get the inverse you need. 
+\paragraph{Determinant}
+The determinant of a matrix is a special value that is used for calculations with the matrix like finding the inverse. To find the determinant you multiply the top left and bottom right values and then subtract the bottom left and top right values. The determinant is written as the letter of the matrix with pipes either side like it was an absolute value.
+\[
+	A = 
+	\begin{pmatrix}
+		a & b\\
+		c & d
+	\end{pmatrix}
+	\Rightarrow
+	|A| = ad-cb	
+\]
+To see what is going on, here is an example with random numbers filled in:
+\[
+	A = 
+	\begin{pmatrix}
+		5 & 6\\
+		3 & 2
+	\end{pmatrix}
+	\Rightarrow
+	|A| = 5(2) - 3(6) = 10-18
+	\Rightarrow
+	-8
+\]
+\begin{center}\vspace{0.5cm}$\therefore |A| = -8$\end{center}
+
+\paragraph{Inverse formula}
+Now that you have the determinant to find the inverse of the matrix you just need to swap the top left and bottom right values in the matrix, then inverse the other two values to their negatives, finally you multiply this new matrix by one over the determinant. Here is the general case formula:
+\[
+	A = 
+	\begin{pmatrix}
+		a & b\\
+		c & d
+	\end{pmatrix}
+	\Rightarrow
+	A^{-1} = \frac{1}{|A|}
+	\begin{pmatrix}
+		d & -b\\
+		-c & a
+	\end{pmatrix}
+	=
+	\frac{1}{ad-bc}
+	\begin{pmatrix}
+		d & -b\\
+		-c & a
+	\end{pmatrix}
+\]
+\[
+	\vspace{0.5cm}
+	\Rightarrow
+	\begin{pmatrix}
+		\frac{1}{ad-bc}d & -\frac{1}{ad-bc}b\\
+		-\frac{1}{ad-bc}c & \frac{1}{ad-bc}a
+	\end{pmatrix}
+\]
+
+
+Doing all the steps at once may seem quite confusing, so here is it again but done step by step so you can see what happens along the way:
+\begin{align}
+	A  &=
+	\begin{pmatrix}
+		a & b\\
+		c & d
+	\end{pmatrix}
+	&\mbox{starting equation}
+	\\
+	&= \frac{1}{|A|}
+	\begin{pmatrix}
+		a & b\\
+		c & d
+	\end{pmatrix}
+	&\mbox{multiply by 1 over the determinant}
+	\\
+	&= \frac{1}{ad-bc}
+	\begin{pmatrix}
+		a & b\\
+		c & d
+	\end{pmatrix}
+	&\mbox{calculate the determinant}
+	\\
+	&= \frac{1}{ad-bc}
+	\begin{pmatrix}
+		d & b\\
+		c & a
+	\end{pmatrix}
+	&\mbox{swap \textit{a} and \textit{b}}
+	\\
+	&= \frac{1}{ad-bc}
+	\begin{pmatrix}
+		d & -b\\
+		-c & a
+	\end{pmatrix}
+	&\mbox{invert \textit{c} and \textit{b}}
+	\\
+	A^{-1}&=
+	\begin{pmatrix}
+		\frac{1}{ad-bc}d & -\frac{1}{ad-bc}b\\
+		-\frac{1}{ad-bc}c & \frac{1}{ad-bc}a
+	\end{pmatrix}
+	&\mbox{Multiply out}
+\end{align}
+Below you will see an example of how this would work when there are actually numbers in place to see how it all works:
+\begin{align*}
+	A  &=
+	\begin{pmatrix}
+		5 & 6\\
+		3 & 2
+	\end{pmatrix}
+	\\
+	&= \frac{1}{|A|}
+	\begin{pmatrix}
+		5 & 6\\
+		3 & 2
+	\end{pmatrix}
+	\\
+	&= \frac{1}{5(2) - 6(3)}
+	\begin{pmatrix}
+		5 & 6\\
+		3 & 2
+	\end{pmatrix}
+	\\
+	&= \frac{1}{-8}
+	\begin{pmatrix}
+		2 & 6\\
+		3 & 5
+	\end{pmatrix}
+	\\
+	&= \frac{1}{-8}
+	\begin{pmatrix}
+		2 & -6\\
+		-3 & 5
+	\end{pmatrix}
+	\\
+	&=
+	\begin{pmatrix}
+		\frac{1}{-8}2 & -\frac{1}{-8}6\\
+		-\frac{1}{-8}3 & \frac{1}{-8}5
+	\end{pmatrix}
+	\\
+	A^{-1}&=
+	\begin{pmatrix}
+		-\frac{1}{4} & \frac{3}{4}\\
+		\frac{3}{8} & -\frac{5}{8}
+	\end{pmatrix}
+\end{align*}
+\subsubsection{Inverse larger matrices}
+In order to get the inverse of a matrix that is larger than 2x2 we need to work out both the determinant and the cofactor matrix of the main matrix we are working with. We need to work out these as we can follow the following equation to work out the inverse:
+\[
+	A^{-1} = \frac{1}{|A|}(cofactor Matrix of A)
+\]
+As you can see, we need to work out the determinant and he cofactor matrix in order to solve the equation.
+\paragraph{Large matrix determinant}
+The process to get the determinant of a large matrix is not actually too difficult as there is just a simple pattern to follow that you need to apply. The way this pattern works is you add together all the different diagonals of the matrix going in one direction (assuming that the diagonals go through the 'walls' of the matrix and still count) and subtract the sum of the diagonals in the other direction. 
+
+When I say the diagonal pattern through the 'walls' of the matrix look to Fig 2 as all the same letters will be in the same FIRST pattern:
+\[
+	\begin{pmatrix}
+		a & b & c\\
+		c & a & b\\
+		b & c & a
+	\end{pmatrix}
+\]
+\begin{center}
+	\small{ \textbf{Fig 2 \\ The determinant pattern}}
+\end{center}
+
+Now I will go through the whole process in the general case so that you can see how it all comes together:
+\[
+	A = 
+	\begin{pmatrix}
+		a & b & c\\
+		d & e & f\\
+		g & h & i
+	\end{pmatrix}
+	\Rightarrow
+	|A| = (aei + bfg + cdh) - (ceg + bdi + afh)
+\]
+with numbers in place of the letters as an example it will play out like so:
+\begin{align*}
+	A &= 
+	\begin{pmatrix}
+		1 & 2 & 3\\
+		4 & 5 & 6\\
+		7 & 8 & 9
+	\end{pmatrix}
+	\\
+	|A| &= (1\cdot5\cdot9+2\cdot6\cdot7+3\cdot4\cdot8) - (3\cdot5\cdot7+2\cdot4\cdot9+1\cdot6\cdot8)
+	\\
+	&= (45+84+96) - (105+72+48)
+	\\
+	&= (225) - (225)
+	\\
+	|A| &= 0
+\end{align*}
+\paragraph{CoFactor Matrix}
+The final part that I need for this assignment is the cofactor matrix. The process required to get the cofactor matrix is quite complicated and requires a lot of repetition and collating results as well as finding the determinant as well. To get the cofactor matrix for each item in the main matrix you need to temporally remove the row and column that that item is in, from here you then calculate the determinant for the remaining matrix. You will then put this determinant value in a new matrix the same size as the original in the place of the initial removed item. After you do this for all items in the main matrix you then make some of them negative based on the size of the matrix you are using, now you will have a filled new matrix that contains determinant values, this new matrix is the cofactor matrix. 
+
+On the next page I will go through the process in a general case so that you can see what I mean by this and how it works. 
+\newpage
+\newgeometry{left=2.15cm} 
+\[
+	A = 
+	\begin{pmatrix}
+		a & b & c\\
+		d & e & f\\
+		g & h & i
+	\end{pmatrix}
+\]
+\begin{gather*}
+\[
+	\begin{matrix}
+				A_{11} = 
+				\begin{pmatrix}
+					- & - & -\\
+					- & e & f\\
+					- & h & i
+				\end{pmatrix}
+				|A_{11}| = ei-fh
+			&
+				A_{12} = 
+				\begin{pmatrix}
+					- & - & -\\
+					d & - & f\\
+					g & - & i
+				\end{pmatrix}
+				|A_{12}| = di-fg
+			&
+				A_{13} = 
+				\begin{pmatrix}
+					- & - & -\\
+					d & e & -\\
+					g & h & -
+				\end{pmatrix}
+				|A_{13}| = dh-eg
+		\\
+				A_{21} = 
+				HEY, YOU LEFT OFF HERE!!!!!!!!
+	\end{matrix}
+\]
+\end{gather*}
+\newpage
+\restoregeometry
+\subsection{Transpose}
 Another technique that can be used for the modification of matrices is the process of transposing. This is quite simple as all it does is transpose a matrix to its swapped dimension counterpart. For example a 3x2 matrix would become a 2x3 matrix.
 
 The notation for this is the matrix with a 't' or a 'T' to the top right like a power.
