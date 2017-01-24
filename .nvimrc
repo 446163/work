@@ -24,6 +24,7 @@ call plug#end()
 let @s="[sz=!1``"
 let mapleader="\<Backspace>"
 let maplocalleader="\<Backspace>"
+let g:vimtex_view_general_viewer = 'okular' 
 
 map <space> a
 map <m-K> 5<C-W>-
