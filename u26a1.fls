@@ -81,6 +81,8 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT u26a1.aux
 INPUT /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk
 INPUT /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk
