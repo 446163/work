@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  27 JAN 2017 10:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  31 JAN 2017 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -584,7 +584,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (477.94386pt too wide) in alignment at lines 701--701
+Overfull \hbox (476.98553pt too wide) in alignment at lines 701--701
 [] []
  []
 
@@ -623,7 +623,7 @@ I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (31.23633pt too wide) in paragraph at lines 701--701
+Overfull \hbox (30.278pt too wide) in paragraph at lines 701--701
 [] 
  []
 
@@ -674,21 +674,113 @@ l.701 \end{gather*}
                    
 Things are pretty mixed up, but I think the worst is over.
 
+./u26a1.tex:718: Missing $ inserted.
+<inserted text> 
+                $
+l.718 	\begin{center}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./u26a1.tex:718: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.718 	\begin{center}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./u26a1.tex:718: Display math should end with $$.
+<to be read again> 
+                   \par 
+l.718 	\begin{center}
+                     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+./u26a1.tex:720: LaTeX Error: \begin{equation*} on input line 712 ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.720 	\end{center}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./u26a1.tex:721: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.721 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./u26a1.tex:721: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.721 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./u26a1.tex:721: Missing $ inserted.
+<inserted text> 
+                $
+l.721 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./u26a1.tex:721: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.721 \]
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./u26a1.tex:721: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.721 \]
+        
+Things are pretty mixed up, but I think the worst is over.
+
 [10
 
 ]
-./u26a1.tex:713: Extra \right.
-l.713 	\right]
+./u26a1.tex:755: Extra \right.
+l.755 	\right]
               ^t
 I'm ignoring a \right that had no matching \left.
 
-./u26a1.tex:719: Extra \right.
-l.719 	\right]
+./u26a1.tex:761: Extra \right.
+l.761 	\right]
               ^T
 I'm ignoring a \right that had no matching \left.
 
-./u26a1.tex:727: Extra \right.
-l.727 	\right]
+./u26a1.tex:769: Extra \right.
+l.769 	\right]
               ^T
 I'm ignoring a \right that had no matching \left.
 
@@ -704,9 +796,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  27i,21n,26p,843b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
  </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbxti10.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx9.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on u26a1.pdf (11 pages, 113531 bytes).
+Output written on u26a1.pdf (11 pages, 115959 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
+ 427 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)

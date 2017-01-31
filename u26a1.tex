@@ -719,7 +719,7 @@ From here I now just need to multiply the newest matrix by the determinant + and
 		\small{ \textbf{Fig 3 \\ The + and - detenminent pattern}}
 	\end{center}
 \]
-Next I just need to apply the matrix by the determinant pattern to get just one step away from the answer. 
+	Next I just need to apply the matrix by the determinant pattern to get just one step away from the answer as we have just calculate the co-factor matrix. 
 \[
 	\begin{pmatrix}
 		ei-fh & -(di-fg) & dh-eg\\
@@ -727,8 +727,21 @@ Next I just need to apply the matrix by the determinant pattern to get just one 
 		bf-ce & -(af-cd) & ae-bd
 	\end{pmatrix}
 \]
-Finally all that I need to do is 
-\restoregeometry
+	Finally all that I need to do is multiply the new matrix by the determinant that I found earlier and the inverse will be found. This will follow the initial formula that I mentioned earlier that looks like the following:
+\[
+	A^{-1} = \frac{1}{|A|}(cofactor Matrix of A)
+\]
+And so now the equation with the numbers replaced with what they have been calculated to be will look like:
+\[ 
+	A^{-1} = \frac{1}{(aei + bfg + cdh) - (ceg + bdi + afh)}
+	\begin{pmatrix}
+		ei-fh & -(di-fg) & dh-eg\\
+		-(bi-ch) & ai-cg & -(ah-bg)\\
+		bf-ce & -(af-cd) & ae-bd
+	\end{pmatrix}
+\]
+
+	\restoregeometry
 \newpage
 \subsection{Transpose}
 Another technique that can be used for the modification of matrices is the process of transposing. This is quite simple as all it does is transpose a matrix to its swapped dimension counterpart. For example a 3x2 matrix would become a 2x3 matrix.
