@@ -663,7 +663,7 @@ On the next page I will go through the process in a general case so that you can
 					- & - & -\\
 					g & - & i
 				\end{pmatrix}
-				|A_{22}| = \textbf{ac-cg}
+				|A_{22}| = \textbf{ai-cg}
 			&
 				A_{23} = 
 				\begin{pmatrix}
@@ -699,8 +699,37 @@ On the next page I will go through the process in a general case so that you can
 	\end{matrix}
 \]
 \end{gather*}
-\newpage
+\\ 
+As you can see, the answer will now be the matrix that will consist of the answers of these answers that will look like this:
+\[
+	\begin{pmatrix}
+		ei-fh & di-fg & dh-eg\\
+		bi-ch & ai-cg & ah-bg\\
+		bf-ce & af-cd & ae-bd
+	\end{pmatrix}
+\]
+From here I now just need to multiply the newest matrix by the determinant + and - matrix so that I know what the signs are. This matrix always consists of + and - that alternate starting with a + in the top left corner, in this case this matrix would look like so:
+\[
+	\begin{pmatrix}
+		+ & - & +\\
+		- & + & -\\
+		+ & - & +
+	\end{pmatrix}
+	\begin{center}
+		\small{ \textbf{Fig 3 \\ The + and - detenminent pattern}}
+	\end{center}
+\]
+Next I just need to apply the matrix by the determinant pattern to get just one step away from the answer. 
+\[
+	\begin{pmatrix}
+		ei-fh & -(di-fg) & dh-eg\\
+		-(bi-ch) & ai-cg & -(ah-bg)\\
+		bf-ce & -(af-cd) & ae-bd
+	\end{pmatrix}
+\]
+Finally all that I need to do is 
 \restoregeometry
+\newpage
 \subsection{Transpose}
 Another technique that can be used for the modification of matrices is the process of transposing. This is quite simple as all it does is transpose a matrix to its swapped dimension counterpart. For example a 3x2 matrix would become a 2x3 matrix.
 
