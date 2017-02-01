@@ -18,7 +18,7 @@
 \contentsline {subsubsection}{\numberline {3.2.4}SR}{7}
 \contentsline {section}{\numberline {4}P4 - Inverse and transpose}{7}
 \contentsline {subsection}{\numberline {4.1}Inverse}{7}
-\contentsline {subsubsection}{\numberline {4.1.1}2x2 Matrix Inverse}{7}
+\contentsline {subsubsection}{\numberline {4.1.1}2x2 Matrix Inverse}{8}
 \contentsline {paragraph}{Determinant}{8}
 \contentsline {paragraph}{Inverse formula}{8}
 \contentsline {subsubsection}{\numberline {4.1.2}Inverse larger matrices}{9}
