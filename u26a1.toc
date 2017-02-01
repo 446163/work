@@ -14,23 +14,24 @@
 \contentsline {subsection}{\numberline {3.2}Questions}{6}
 \contentsline {subsubsection}{\numberline {3.2.1}MN}{6}
 \contentsline {subsubsection}{\numberline {3.2.2}PQ}{6}
-\contentsline {subsubsection}{\numberline {3.2.3}RS}{6}
-\contentsline {subsubsection}{\numberline {3.2.4}SR}{6}
-\contentsline {section}{\numberline {4}P4 - Inverse and transpose}{6}
-\contentsline {subsection}{\numberline {4.1}Inverse}{6}
+\contentsline {subsubsection}{\numberline {3.2.3}RS}{7}
+\contentsline {subsubsection}{\numberline {3.2.4}SR}{7}
+\contentsline {section}{\numberline {4}P4 - Inverse and transpose}{7}
+\contentsline {subsection}{\numberline {4.1}Inverse}{7}
 \contentsline {subsubsection}{\numberline {4.1.1}2x2 Matrix Inverse}{7}
 \contentsline {paragraph}{Determinant}{7}
-\contentsline {paragraph}{Inverse formula}{7}
-\contentsline {subsubsection}{\numberline {4.1.2}Inverse larger matrices}{8}
-\contentsline {paragraph}{Large matrix determinant}{8}
+\contentsline {paragraph}{Inverse formula}{8}
+\contentsline {subsubsection}{\numberline {4.1.2}Inverse larger matrices}{9}
+\contentsline {paragraph}{Large matrix determinant}{9}
 \contentsline {paragraph}{CoFactor Matrix}{9}
-\contentsline {subsection}{\numberline {4.2}Transpose}{11}
-\contentsline {subsection}{\numberline {4.3}Questions}{12}
-\contentsline {subsubsection}{\numberline {4.3.1}$M^{-1}$}{12}
-\contentsline {subsubsection}{\numberline {4.3.2}$N^{-1}$}{12}
-\contentsline {subsubsection}{\numberline {4.3.3}$P^{-1}$}{12}
-\contentsline {subsubsection}{\numberline {4.3.4}$Q^{-1}$}{12}
-\contentsline {subsubsection}{\numberline {4.3.5}$M^{T}$}{12}
-\contentsline {subsubsection}{\numberline {4.3.6}$P^{T}$}{12}
-\contentsline {subsubsection}{\numberline {4.3.7}$R^{T}$}{12}
-\contentsline {section}{\numberline {5}Simultaneous equations}{12}
+\contentsline {subsection}{\numberline {4.2}Transpose}{12}
+\contentsline {subsection}{\numberline {4.3}Questions}{13}
+\contentsline {subsubsection}{\numberline {4.3.1}$M^{-1}$}{13}
+\contentsline {subsubsection}{\numberline {4.3.2}$N^{-1}$}{13}
+\contentsline {subsubsection}{\numberline {4.3.3}$P^{-1}$}{13}
+\contentsline {subsubsection}{\numberline {4.3.4}$Q^{-1}$}{13}
+\contentsline {subsubsection}{\numberline {4.3.5}$M^{T}$}{13}
+\contentsline {subsubsection}{\numberline {4.3.6}$P^{T}$}{13}
+\contentsline {subsubsection}{\numberline {4.3.7}$R^{T}$}{13}
+\contentsline {section}{\numberline {5}Simultaneous equations}{13}
+\contentsline {subsection}{\numberline {5.1}Questions}{14}
