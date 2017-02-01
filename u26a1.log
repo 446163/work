@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  1 FEB 2017 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  1 FEB 2017 11:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -226,22 +226,22 @@ Overfull \hbox (1.46791pt too wide) detected at line 442
 
 
 
-./u26a1.tex:758: LaTeX Error: Bad math environment delimiter.
+./u26a1.tex:772: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./u26a1.tex:758: Missing \endgroup inserted.
+./u26a1.tex:772: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -249,10 +249,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Missing } inserted.
+./u26a1.tex:772: Missing } inserted.
 <inserted text> 
                 }
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -261,22 +261,22 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./u26a1.tex:758: LaTeX Error: \begin{gather*} on input line 682 ended by \end{equation*}.
+./u26a1.tex:772: LaTeX Error: \begin{gather*} on input line 696 ended by \end{equation*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./u26a1.tex:758: Missing $ inserted.
+./u26a1.tex:772: Missing $ inserted.
 <inserted text> 
                 $
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -284,10 +284,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Missing } inserted.
+./u26a1.tex:772: Missing } inserted.
 <inserted text> 
                 }
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -295,10 +295,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Missing } inserted.
+./u26a1.tex:772: Missing } inserted.
 <inserted text> 
                 }
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -306,35 +306,35 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Missing \cr inserted.
+./u26a1.tex:772: Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I'm guessing that you meant to end an alignment here.
 
-./u26a1.tex:758: Missing { inserted.
+./u26a1.tex:772: Missing { inserted.
 <inserted text> 
                 {
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-./u26a1.tex:758: Missing { inserted.
+./u26a1.tex:772: Missing { inserted.
 <inserted text> 
                 {
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-./u26a1.tex:758: Extra }, or forgotten $.
+./u26a1.tex:772: Extra }, or forgotten $.
 <recently read> }
                  
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -342,18 +342,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./u26a1.tex:758: Missing $ inserted.
+./u26a1.tex:772: Missing $ inserted.
 <inserted text> 
                 $
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./u26a1.tex:758: Missing } inserted.
+./u26a1.tex:772: Missing } inserted.
 <inserted text> 
                 }
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -361,10 +361,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Missing } inserted.
+./u26a1.tex:772: Missing } inserted.
 <inserted text> 
                 }
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -372,10 +372,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Misplaced alignment tab character &.
+./u26a1.tex:772: Misplaced alignment tab character &.
 \math@cr@@@ ->\ifst@rred \nonumber \fi &
                                         \relax \make@display@tag \ifst@rred ...
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -384,10 +384,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./u26a1.tex:758: Misplaced \cr.
+./u26a1.tex:772: Misplaced \cr.
 \math@cr@@@ ...fi \global \advance \row@ \@ne \cr 
                                                   
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -395,10 +395,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./u26a1.tex:758: Extra }, or forgotten $.
+./u26a1.tex:772: Extra }, or forgotten $.
 \gmeasure@ ...savetaglength@ \crcr #1\math@cr@@@ }
                                                   }\restorecounters@ \if@fle...
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -406,10 +406,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./u26a1.tex:758: Extra }, or forgotten $.
+./u26a1.tex:772: Extra }, or forgotten $.
 \gmeasure@ ...avetaglength@ \crcr #1\math@cr@@@ }}
                                                   \restorecounters@ \if@fleq...
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -417,10 +417,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./u26a1.tex:758: Missing $ inserted.
+./u26a1.tex:772: Missing $ inserted.
 <inserted text> 
                 $
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -428,31 +428,31 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Display math should end with $$.
+./u26a1.tex:772: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-./u26a1.tex:758: LaTeX Error: Bad math environment delimiter.
+./u26a1.tex:772: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./u26a1.tex:758: Missing \endgroup inserted.
+./u26a1.tex:772: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -460,10 +460,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Missing } inserted.
+./u26a1.tex:772: Missing } inserted.
 <inserted text> 
                 }
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -472,22 +472,22 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./u26a1.tex:758: LaTeX Error: \begin{document} ended by \end{equation*}.
+./u26a1.tex:772: LaTeX Error: \begin{document} ended by \end{equation*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./u26a1.tex:758: Missing $ inserted.
+./u26a1.tex:772: Missing $ inserted.
 <inserted text> 
                 $
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -495,10 +495,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Missing } inserted.
+./u26a1.tex:772: Missing } inserted.
 <inserted text> 
                 }
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -506,10 +506,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Missing } inserted.
+./u26a1.tex:772: Missing } inserted.
 <inserted text> 
                 }
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -517,35 +517,35 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Missing \cr inserted.
+./u26a1.tex:772: Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I'm guessing that you meant to end an alignment here.
 
-./u26a1.tex:758: Missing { inserted.
+./u26a1.tex:772: Missing { inserted.
 <inserted text> 
                 {
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-./u26a1.tex:758: Missing { inserted.
+./u26a1.tex:772: Missing { inserted.
 <inserted text> 
                 {
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-./u26a1.tex:758: Extra }, or forgotten $.
+./u26a1.tex:772: Extra }, or forgotten $.
 <recently read> }
                  
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -553,19 +553,19 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./u26a1.tex:758: Missing number, treated as zero.
+./u26a1.tex:772: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./u26a1.tex:758: Illegal unit of measure (pt inserted).
+./u26a1.tex:772: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -574,18 +574,18 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./u26a1.tex:758: Missing $ inserted.
+./u26a1.tex:772: Missing $ inserted.
 <inserted text> 
                 $
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./u26a1.tex:758: Missing } inserted.
+./u26a1.tex:772: Missing } inserted.
 <inserted text> 
                 }
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -594,21 +594,21 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (476.98553pt too wide) in alignment at lines 758--758
+Overfull \hbox (476.98553pt too wide) in alignment at lines 772--772
 [] []
  []
 
-./u26a1.tex:758: Extra \endgroup.
+./u26a1.tex:772: Extra \endgroup.
 <recently read> \endgroup 
                           
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 Things are pretty mixed up, but I think the worst is over.
 
-./u26a1.tex:758: Misplaced \cr.
+./u26a1.tex:772: Misplaced \cr.
 \math@cr@@@ ->\cr 
                   
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -616,52 +616,52 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./u26a1.tex:758: Misplaced \noalign.
+./u26a1.tex:772: Misplaced \noalign.
 \math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
                                                   {\vskip #1\relax }
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-./u26a1.tex:758: Misplaced \noalign.
+./u26a1.tex:772: Misplaced \noalign.
 \black@ #1->\noalign 
                      {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (30.278pt too wide) in paragraph at lines 758--758
+Overfull \hbox (30.278pt too wide) in paragraph at lines 772--772
 [] 
  []
 
-./u26a1.tex:758: Too many }'s.
+./u26a1.tex:772: Too many }'s.
 \endgather ->\math@cr \black@ \totwidth@ \egroup 
                                                  $$\ignorespacesafterend 
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 
-./u26a1.tex:758: LaTeX Error: \begin{document} ended by \end{gather*}.
+./u26a1.tex:772: LaTeX Error: \begin{document} ended by \end{gather*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./u26a1.tex:758: Missing $ inserted.
+./u26a1.tex:772: Missing $ inserted.
 <inserted text> 
                 $
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -669,33 +669,33 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:758: Display math should end with $$.
+./u26a1.tex:772: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-./u26a1.tex:758: Extra \endgroup.
+./u26a1.tex:772: Extra \endgroup.
 <recently read> \endgroup 
                           
-l.758 \end{gather*}
+l.772 \end{gather*}
                    
 Things are pretty mixed up, but I think the worst is over.
 
-./u26a1.tex:775: Missing $ inserted.
+./u26a1.tex:789: Missing $ inserted.
 <inserted text> 
                 $
-l.775 	\begin{center}
+l.789 	\begin{center}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./u26a1.tex:775: Missing \endgroup inserted.
+./u26a1.tex:789: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.775 	\begin{center}
+l.789 	\begin{center}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -703,57 +703,57 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:775: Display math should end with $$.
+./u26a1.tex:789: Display math should end with $$.
 <to be read again> 
                    \par 
-l.775 	\begin{center}
+l.789 	\begin{center}
                      
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-./u26a1.tex:777: LaTeX Error: \begin{equation*} on input line 769 ended by \end{center}.
+./u26a1.tex:791: LaTeX Error: \begin{equation*} on input line 783 ended by \end{center}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.777 	\end{center}
+l.791 	\end{center}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./u26a1.tex:778: LaTeX Error: Bad math environment delimiter.
+./u26a1.tex:792: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.778 \]
+l.792 \]
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./u26a1.tex:778: LaTeX Error: \begin{document} ended by \end{equation*}.
+./u26a1.tex:792: LaTeX Error: \begin{document} ended by \end{equation*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.778 \]
+l.792 \]
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./u26a1.tex:778: Missing $ inserted.
+./u26a1.tex:792: Missing $ inserted.
 <inserted text> 
                 $
-l.778 \]
+l.792 \]
         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -761,56 +761,56 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:778: Display math should end with $$.
+./u26a1.tex:792: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.778 \]
+l.792 \]
         
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-./u26a1.tex:778: Extra \endgroup.
+./u26a1.tex:792: Extra \endgroup.
 <recently read> \endgroup 
                           
-l.778 \]
+l.792 \]
         
 Things are pretty mixed up, but I think the worst is over.
 
 [11
 
 ]
-./u26a1.tex:812: Extra \right.
-l.812 	\right]
+./u26a1.tex:826: Extra \right.
+l.826 	\right]
               ^t
 I'm ignoring a \right that had no matching \left.
 
-./u26a1.tex:818: Extra \right.
-l.818 	\right]
+./u26a1.tex:832: Extra \right.
+l.832 	\right]
               ^T
 I'm ignoring a \right that had no matching \left.
 
-./u26a1.tex:826: Extra \right.
-l.826 	\right]
+./u26a1.tex:840: Extra \right.
+l.840 	\right]
               ^T
 I'm ignoring a \right that had no matching \left.
 
-./u26a1.tex:843: Extra \right.
-l.843 	\right]
+./u26a1.tex:857: Extra \right.
+l.857 	\right]
               ^T
 I'm ignoring a \right that had no matching \left.
 
-./u26a1.tex:870: Extra \right.
-l.870 	\right]
+./u26a1.tex:884: Extra \right.
+l.884 	\right]
               ^T
 I'm ignoring a \right that had no matching \left.
 
-./u26a1.tex:886: Extra \right.
-l.886 	\right]
+./u26a1.tex:900: Extra \right.
+l.900 	\right]
               ^T
 I'm ignoring a \right that had no matching \left.
 
 
-Overfull \hbox (33.04576pt too wide) detected at line 907
+Overfull \hbox (33.04576pt too wide) detected at line 921
 [][] \OMS/cmsy/m/n/10 ) [] [] ) [] ) []
  []
 
@@ -826,7 +826,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  27i,21n,26p,843b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
  </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbxti10.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx9.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on u26a1.pdf (14 pages, 126362 bytes).
+Output written on u26a1.pdf (14 pages, 126480 bytes).
 PDF statistics:
  451 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream
