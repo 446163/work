@@ -1228,7 +1228,7 @@ x = 2, y = 1$\end{center}
 		3x + 4y = 14 \\ 2x - 7y = 11
 	\end{split}
 	\qquad
-	\Rightarrow
+	\rightarrow
 	\qquad
 	\begin{split}
 		\begin{pmatrix}
@@ -1246,6 +1246,7 @@ x = 2, y = 1$\end{center}
 		\end{pmatrix}
 	\end{split}
 \]
+From this, I can then re-arrange it to be like so:
 \[
 \begin{pmatrix}
 		x\\
@@ -1270,7 +1271,7 @@ First I will work out the inverse of the 3,4,2,7 matrix and then I will multiply
 		2 & -7
 	\end{pmatrix}
 	\\
-	&= \frac{1}{|A|}
+	&= \frac{1}{|a|}
 	\begin{pmatrix}
 		3 & 4\\
 		2 & -7
@@ -1306,7 +1307,7 @@ First I will work out the inverse of the 3,4,2,7 matrix and then I will multiply
 		\frac{2}{29} & -\frac{3}{29}
 	\end{pmatrix}
 \end{align*}
-Now I just need to multiply the inverse of A by the 14,11 matrix and I will have both x and y in a matrix
+Now I just need to multiply the inverse of a by the 14,11 matrix and I will have both x and y in a matrix
 \[
 	\begin{pmatrix}
 		x\\
@@ -1336,7 +1337,7 @@ Now I just need to multiply the inverse of A by the 14,11 matrix and I will have
 		(\frac{7}{29}\times14)+(\frac{4}{29}\times11)\\
 		(\frac{2}{29}\times14)+(-\frac{3}{29}\times11)
 	\end{pmatrix}
-	\Rightarrow
+	\rightarrow
 	\begin{pmatrix}
 		\frac{98}{29} + \frac{44}{29}\\
 		\frac{28}{29} + -\frac{33}{29}
@@ -1357,7 +1358,145 @@ Now I just need to multiply the inverse of A by the 14,11 matrix and I will have
 		\frac{142}{29}\\
 		-\frac{5}{29}
 	\end{pmatrix}
-	\Rightarrow
+	\rightarrow
 x = \frac{142}{29}, y = -\frac{5}{29}$\end{center}
 \subsubsection{6x + 2y = 24 \\ 3x - 3y = 22}
+\[
+	\begin{split}
+		6x + 2y = 24 \\ 3x - 3y = 22
+	\end{split}
+	\qquad
+	\rightarrow
+	\qquad
+	\begin{split}
+		\begin{pmatrix}
+			6 & 2\\
+			3 & -3
+		\end{pmatrix}
+		\begin{pmatrix}
+			x\\
+			y
+		\end{pmatrix}
+		=
+		\begin{pmatrix}
+			24\\
+			22
+		\end{pmatrix}
+	\end{split}
+\]
+From this, I can then re-arrange it to be like so:
+\[
+\begin{pmatrix}
+		x\\
+		y
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		6 & 2\\
+		3 & -3
+	\end{pmatrix}
+	\right^{-1}
+	\begin{pmatrix}
+		24\\
+		22
+	\end{pmatrix}
+\]
+First I will work out the inverse of the 3,4,2,7 matrix and then I will multiply it by the 14,11 matrix.
+\begin{align*}
+	A  &=
+	\begin{pmatrix}
+		6 & 2\\
+		3 & -3
+	\end{pmatrix}
+	\\
+	&= \frac{1}{|a|}
+	\begin{pmatrix}
+		6 & 2\\
+		3 & -3
+	\end{pmatrix}
+	\\
+	&= \frac{1}{6(-3) - 2(3)}
+	\begin{pmatrix}
+		6 & 2\\
+		3 & -3
+	\end{pmatrix}
+	\\
+	&= \frac{1}{-24}
+	\begin{pmatrix}
+		-3 & 2\\
+		3 & 6
+	\end{pmatrix}
+	\\
+	&= \frac{1}{-24}
+	\begin{pmatrix}
+		-3 & -2\\
+		-3 & 6
+	\end{pmatrix}
+	\\
+	&=
+	\begin{pmatrix}
+		\frac{1}{-24}\times-3 & \frac{1}{-24}\times-2\\
+		\frac{1}{-24}\times-3 & \frac{1}{-24}\times6
+	\end{pmatrix}
+	\\
+	A^{-1}&=
+	\begin{pmatrix}
+		\frac{1}{8} & \frac{1}{12}\\
+		\frac{1}{8} & -\frac{1}{4}
+	\end{pmatrix}
+\end{align*}
+Now I just need to multiply the inverse of a by the 14,11 matrix and I will have both x and y in a matrix
+\[
+	\begin{pmatrix}
+		x\\
+		y
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		\frac{1}{8} & \frac{1}{12}\\
+		\frac{1}{8} & -\frac{1}{4}
+	\end{pmatrix}
+	\begin{pmatrix}
+		24\\
+		22
+	\end{pmatrix}
+\]
+\[
+	\begin{pmatrix}
+		\frac{1}{8} & \frac{1}{12}\\
+		\frac{1}{8} & -\frac{1}{4}
+	\end{pmatrix}
+	\begin{pmatrix}
+		24\\
+		22
+	\end{pmatrix}
+
+	=
+	\begin{pmatrix}
+		(\frac{1}{8}\times24)+(\frac{1}{12}\times22)\\
+		(\frac{1}{8}\times24)+(-\frac{1}{4}\times22)
+	\end{pmatrix}
+	\rightarrow
+	\begin{pmatrix}
+		3 + \frac{11}{6}\\
+		3 + -\frac{11}{2}
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		\frac{29}{6}\\
+		-\frac{5}{2}
+	\end{pmatrix}
+\]
+\begin{center}\vspace{0.5cm}$\therefore
+	\begin{pmatrix}
+		x\\
+		y
+	\end{pmatrix}
+	= 
+	\begin{pmatrix}
+		\frac{29}{6}\\
+		-\frac{5}{2}
+	\end{pmatrix}
+	\rightarrow
+x = \frac{29}{6}, y = -\frac{5}{2}$\end{center}
 \end{document}
