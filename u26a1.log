@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  1 FEB 2017 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  1 FEB 2017 21:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -947,59 +947,13 @@ Overfull \hbox (33.04576pt too wide) detected at line 999
 [][] \OMS/cmsy/m/n/10 ) [] [] ) [] ) []
  []
 
-./u26a1.tex:1011: Missing delimiter (. inserted).
-<to be read again> 
-                   ^
-l.1011 	\right^
-               T
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
-
-./u26a1.tex:1011: Extra \right.
-<to be read again> 
-                   ^
-l.1011 	\right^
-               T
-I'm ignoring a \right that had no matching \left.
-
-./u26a1.tex:1028: Missing $ inserted.
-<inserted text> 
-                $
-l.1028 \begin{center}
-                     \vspace{0.5cm}$\therefore
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./u26a1.tex:1028: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.1028 \begin{center}
-                     \vspace{0.5cm}$\therefore
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./u26a1.tex:1028: Display math should end with $$.
-<to be read again> 
-                   \par 
-l.1028 \begin{center}
-                     \vspace{0.5cm}$\therefore
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
 [12
 
 ]
-./u26a1.tex:1033: Missing delimiter (. inserted).
+./u26a1.tex:1054: Missing delimiter (. inserted).
 <to be read again> 
                    ^
-l.1033 	\right^
+l.1054 	\right^
                T
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -1008,109 +962,25 @@ braces don't get unbalanced. Otherwise just proceed.
 Acceptable delimiters are characters whose \delcode is
 nonnegative, or you can use `\delimiter <delimiter code>'.
 
-./u26a1.tex:1033: Extra \right.
+./u26a1.tex:1054: Extra \right.
 <to be read again> 
                    ^
-l.1033 	\right^
+l.1054 	\right^
                T
 I'm ignoring a \right that had no matching \left.
 
-
-./u26a1.tex:1039: LaTeX Error: \begin{equation*} on input line 1006 ended by \end{center}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1039 $\end{center}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./u26a1.tex:1040: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1040 \]
-         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./u26a1.tex:1040: LaTeX Error: \begin{document} ended by \end{equation*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1040 \]
-         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./u26a1.tex:1040: Missing $ inserted.
+./u26a1.tex:1071: Missing $ inserted.
 <inserted text> 
                 $
-l.1040 \]
-         
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./u26a1.tex:1040: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.1040 \]
-         
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./u26a1.tex:1040: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.1040 \]
-         
-Things are pretty mixed up, but I think the worst is over.
-
-./u26a1.tex:1048: Missing delimiter (. inserted).
-<to be read again> 
-                   ^
-l.1048 	\right^
-               T
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
-
-./u26a1.tex:1048: Extra \right.
-<to be read again> 
-                   ^
-l.1048 	\right^
-               T
-I'm ignoring a \right that had no matching \left.
-
-./u26a1.tex:1068: Missing $ inserted.
-<inserted text> 
-                $
-l.1068 \begin{center}
+l.1071 \begin{center}
                      \vspace{0.5cm}$\therefore
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./u26a1.tex:1068: Missing \endgroup inserted.
+./u26a1.tex:1071: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.1068 \begin{center}
+l.1071 \begin{center}
                      \vspace{0.5cm}$\therefore
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1118,18 +988,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:1068: Display math should end with $$.
+./u26a1.tex:1071: Display math should end with $$.
 <to be read again> 
                    \par 
-l.1068 \begin{center}
+l.1071 \begin{center}
                      \vspace{0.5cm}$\therefore
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-./u26a1.tex:1074: Missing delimiter (. inserted).
+./u26a1.tex:1076: Missing delimiter (. inserted).
 <to be read again> 
                    ^
-l.1074 	\right^
+l.1076 	\right^
                T
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -1138,56 +1008,56 @@ braces don't get unbalanced. Otherwise just proceed.
 Acceptable delimiters are characters whose \delcode is
 nonnegative, or you can use `\delimiter <delimiter code>'.
 
-./u26a1.tex:1074: Extra \right.
+./u26a1.tex:1076: Extra \right.
 <to be read again> 
                    ^
-l.1074 	\right^
+l.1076 	\right^
                T
 I'm ignoring a \right that had no matching \left.
 
 
-./u26a1.tex:1081: LaTeX Error: \begin{equation*} on input line 1042 ended by \end{center}.
+./u26a1.tex:1082: LaTeX Error: \begin{equation*} on input line 1049 ended by \end{center}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1081 $\end{center}
+l.1082 $\end{center}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./u26a1.tex:1082: LaTeX Error: Bad math environment delimiter.
+./u26a1.tex:1083: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1082 \]
+l.1083 \]
          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./u26a1.tex:1082: LaTeX Error: \begin{document} ended by \end{equation*}.
+./u26a1.tex:1083: LaTeX Error: \begin{document} ended by \end{equation*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1082 \]
+l.1083 \]
          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./u26a1.tex:1082: Missing $ inserted.
+./u26a1.tex:1083: Missing $ inserted.
 <inserted text> 
                 $
-l.1082 \]
+l.1083 \]
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1195,25 +1065,25 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:1082: Display math should end with $$.
+./u26a1.tex:1083: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.1082 \]
+l.1083 \]
          
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-./u26a1.tex:1082: Extra \endgroup.
+./u26a1.tex:1083: Extra \endgroup.
 <recently read> \endgroup 
                           
-l.1082 \]
+l.1083 \]
          
 Things are pretty mixed up, but I think the worst is over.
 
-./u26a1.tex:1089: Missing delimiter (. inserted).
+./u26a1.tex:1091: Missing delimiter (. inserted).
 <to be read again> 
                    ^
-l.1089 	\right^
+l.1091 	\right^
                T
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -1222,17 +1092,44 @@ braces don't get unbalanced. Otherwise just proceed.
 Acceptable delimiters are characters whose \delcode is
 nonnegative, or you can use `\delimiter <delimiter code>'.
 
-./u26a1.tex:1089: Extra \right.
+./u26a1.tex:1091: Extra \right.
 <to be read again> 
                    ^
-l.1089 	\right^
+l.1091 	\right^
                T
 I'm ignoring a \right that had no matching \left.
 
-./u26a1.tex:1114: Missing delimiter (. inserted).
+./u26a1.tex:1111: Missing $ inserted.
+<inserted text> 
+                $
+l.1111 \begin{center}
+                     \vspace{0.5cm}$\therefore
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./u26a1.tex:1111: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.1111 \begin{center}
+                     \vspace{0.5cm}$\therefore
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./u26a1.tex:1111: Display math should end with $$.
+<to be read again> 
+                   \par 
+l.1111 \begin{center}
+                     \vspace{0.5cm}$\therefore
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./u26a1.tex:1117: Missing delimiter (. inserted).
 <to be read again> 
                    ^
-l.1114 	\right^
+l.1117 	\right^
                T
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -1241,18 +1138,122 @@ braces don't get unbalanced. Otherwise just proceed.
 Acceptable delimiters are characters whose \delcode is
 nonnegative, or you can use `\delimiter <delimiter code>'.
 
-./u26a1.tex:1114: Extra \right.
+./u26a1.tex:1117: Extra \right.
 <to be read again> 
                    ^
-l.1114 	\right^
+l.1117 	\right^
                T
 I'm ignoring a \right that had no matching \left.
 
-[13] [14]
-./u26a1.tex:1260: Missing delimiter (. inserted).
+
+./u26a1.tex:1124: LaTeX Error: \begin{equation*} on input line 1085 ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1124 $\end{center}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./u26a1.tex:1125: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1125 \]
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./u26a1.tex:1125: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1125 \]
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./u26a1.tex:1125: Missing $ inserted.
+<inserted text> 
+                $
+l.1125 \]
+         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./u26a1.tex:1125: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.1125 \]
+         
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./u26a1.tex:1125: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.1125 \]
+         
+Things are pretty mixed up, but I think the worst is over.
+
+./u26a1.tex:1132: Missing delimiter (. inserted).
 <to be read again> 
                    ^
-l.1260 	\right^
+l.1132 	\right^
+               T
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+./u26a1.tex:1132: Extra \right.
+<to be read again> 
+                   ^
+l.1132 	\right^
+               T
+I'm ignoring a \right that had no matching \left.
+
+[13]
+./u26a1.tex:1157: Missing delimiter (. inserted).
+<to be read again> 
+                   ^
+l.1157 	\right^
+               T
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+./u26a1.tex:1157: Extra \right.
+<to be read again> 
+                   ^
+l.1157 	\right^
+               T
+I'm ignoring a \right that had no matching \left.
+
+[14]
+./u26a1.tex:1303: Missing delimiter (. inserted).
+<to be read again> 
+                   ^
+l.1303 	\right^
                {-1}
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -1261,61 +1262,61 @@ braces don't get unbalanced. Otherwise just proceed.
 Acceptable delimiters are characters whose \delcode is
 nonnegative, or you can use `\delimiter <delimiter code>'.
 
-./u26a1.tex:1260: Extra \right.
+./u26a1.tex:1303: Extra \right.
 <to be read again> 
                    ^
-l.1260 	\right^
-               {-1}
-I'm ignoring a \right that had no matching \left.
-
-./u26a1.tex:1398: Missing delimiter (. inserted).
-<to be read again> 
-                   ^
-l.1398 	\right^
-               {-1}
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
-
-./u26a1.tex:1398: Extra \right.
-<to be read again> 
-                   ^
-l.1398 	\right^
+l.1303 	\right^
                {-1}
 I'm ignoring a \right that had no matching \left.
 
 [15]
-./u26a1.tex:1473: Missing $ inserted.
+./u26a1.tex:1441: Missing delimiter (. inserted).
+<to be read again> 
+                   ^
+l.1441 	\right^
+               {-1}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+./u26a1.tex:1441: Extra \right.
+<to be read again> 
+                   ^
+l.1441 	\right^
+               {-1}
+I'm ignoring a \right that had no matching \left.
+
+./u26a1.tex:1516: Missing $ inserted.
 <inserted text> 
                 $
-l.1473 
+l.1516 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./u26a1.tex:1473: Display math should end with $$.
+./u26a1.tex:1516: Display math should end with $$.
 <to be read again> 
                    \par 
-l.1473 
+l.1516 
        
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-./u26a1.tex:1475: Missing $ inserted.
+./u26a1.tex:1518: Missing $ inserted.
 <inserted text> 
                 $
-l.1475 	\begin{pmatrix}
+l.1518 	\begin{pmatrix}
                        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./u26a1.tex:1478: Missing $ inserted.
+./u26a1.tex:1521: Missing $ inserted.
 <inserted text> 
                 $
-l.1478 	\end{pmatrix}
+l.1521 	\end{pmatrix}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1323,18 +1324,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./u26a1.tex:1479: Missing $ inserted.
+./u26a1.tex:1522: Missing $ inserted.
 <inserted text> 
                 $
-l.1479 	\rightarrow
+l.1522 	\rightarrow
                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./u26a1.tex:1489: Missing $ inserted.
+./u26a1.tex:1532: Missing $ inserted.
 <inserted text> 
                 $
-l.1489 \]
+l.1532 \]
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1346,15 +1347,15 @@ my insertion and my current dilemma will both disappear.
 Here is how much of TeX's memory you used:
  1720 strings out of 493013
  20703 string characters out of 6139317
- 96028 words of memory out of 5000000
+ 98028 words of memory out of 5000000
  5269 multiletter control sequences out of 15000+600000
  13434 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  27i,21n,26p,843b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
  </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbxti10.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx9.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on u26a1.pdf (16 pages, 134133 bytes).
+Output written on u26a1.pdf (16 pages, 135250 bytes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
+ 463 PDF objects out of 1000 (max. 8388607)
  101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
