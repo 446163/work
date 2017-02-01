@@ -19,11 +19,11 @@
 \contentsline {section}{\numberline {4}P4 - Inverse and transpose}{7}
 \contentsline {subsection}{\numberline {4.1}Inverse}{7}
 \contentsline {subsubsection}{\numberline {4.1.1}2x2 Matrix Inverse}{7}
-\contentsline {paragraph}{Determinant}{7}
+\contentsline {paragraph}{Determinant}{8}
 \contentsline {paragraph}{Inverse formula}{8}
 \contentsline {subsubsection}{\numberline {4.1.2}Inverse larger matrices}{9}
 \contentsline {paragraph}{Large matrix determinant}{9}
-\contentsline {paragraph}{CoFactor Matrix}{9}
+\contentsline {paragraph}{CoFactor Matrix}{10}
 \contentsline {subsection}{\numberline {4.2}Transpose}{12}
 \contentsline {subsection}{\numberline {4.3}Questions}{13}
 \contentsline {subsubsection}{\numberline {4.3.1}$M^{-1}$}{13}
