@@ -1301,26 +1301,23 @@ P =
 	\end{pmatrix}
 $\end{center}
 \subsubsection{$Q^{-1}$}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 \begin{align*}
-	P &= 
+	Q =
 	\begin{pmatrix}
-		1 & 3 & 5\\
-		-1 & 2 & 4\\
-		-3 & 4 & 3
+		2 & 3 & 3\\
+		4 & 4 & -2\\
+		3 & -4 & 8
 	\end{pmatrix}
 	\\
 	\Rightarrow
 	|P| &= 
-	((1\times2\times3)+(3\times4\times-3)+(5\times-1\times4)) - ((5\times2\times-3)+(3\times-1\times3)+(1\times4\times4))
+	((2\times4\times8)+(3\times-2\times3)+(3\times4\times-4)) - ((3\times4\times3)+(3\times4\times8)+(2\times-2\times-4))
 	\\
 	&=
-	(6+-36+-20)-(-30+-9+16)
+	(64+-18+-48)-(36+96+16)
 	\\
 	&=
-	-50--23
+	-2-148
 	\Rightarrow
 	\qquad
 	\qquad
@@ -1328,14 +1325,14 @@ $\end{center}
 	\qquad
 	\qquad
 	\qquad
-	\therefore |P| = -27
+	\therefore |Q| = -150
 \end{align*}
 \[
-P =
+Q =
 	\begin{pmatrix}
-		1 & 3 & 5\\
-		-1 & 2 & 4\\
-		-3 & 4 & 3
+		2 & 3 & 3\\
+		4 & 4 & -2\\
+		3 & -4 & 8
 	\end{pmatrix}
 \]
 \[
@@ -1343,113 +1340,112 @@ P =
 				A_{11} = 
 				\begin{pmatrix}
 					- & - & -\\
-					- & 2 & 4\\
-					- & 4 & 3
+					- & 4 & -2\\
+					- & -4 & 8
 				\end{pmatrix}
 			&
 				A_{12} = 
 				\begin{pmatrix}
 					- & - & -\\
-					-1 & - & 4\\
-					-3 & - & 3
+					4 & - & -2\\
+					3 & - & 8
 				\end{pmatrix}
 			&
 				A_{13} = 
 				\begin{pmatrix}
 					- & - & -\\
-					-1 & 2 & -\\
-					-3 & 4 & -
+					4 & 4 & -\\
+					3 & -4 & -
 				\end{pmatrix}
 		\\
 				A_{21} = 
 				\begin{pmatrix}
-					- & 3 & 5\\
+					- & 3 & 3\\
 					- & - & -\\
-					- & 4 & 3
+					- & -4 & 8
 				\end{pmatrix}
 			&
 				A_{22} = 
 				\begin{pmatrix}
-					1 & - & 5\\
+					2 & - & 3\\
 					- & - & -\\
-					-3 & - & 3
+					3 & - & 8
 				\end{pmatrix}
 			&
 				A_{23} = 
 				\begin{pmatrix}
-					1 & 3 & -\\
+					2 & 3 & -\\
 					- & - & -\\
-					-3 & 4 & -
+					3 & -4 & -
 				\end{pmatrix}
 		\\
 				A_{31} = 
 				\begin{pmatrix}
-					- & 3 & 5\\
-					- & 2 & 4\\
+					- & 3 & 3\\
+					- & 4 & -2\\
 					- & - & -
 				\end{pmatrix}
 			&
 				A_{32} = 
 				\begin{pmatrix}
-					1 & - & 5\\
-					-1 & - & 4\\
+					2 & - & 3\\
+					4 & - & -2\\
 					- & - & -
 				\end{pmatrix}
 			&
 				A_{33} = 
 				\begin{pmatrix}
-					1 & 3 & -\\
-					-1 & 2 & -\\
+					2 & 3 & -\\
+					4 & 4 & -\\
 					- & - & -
 				\end{pmatrix}
 	\end{matrix}
 \]
 \[
 	\begin{matrix}
-		|A_{11}| = (2\times3)-(4\times4) & |A_{12}| = (-1\times3)-(4\times-3) & |A_{13}| = (-1\times4)-(2\times-3)\\
-		|A_{21}| = (3\times3)-(5\times4) & |A_{22}| = (1\times3)-(5\times-3) & |A_{23}| = (1\times4)-(3\times-3)\\
-		|A_{31}| = (3\times4)-(5\times2) & |A_{32}| = (1\times4)-(5\times-1) & |A_{33}| = (1\times2)-(3\times-1)
+		|A_{11}| = (4\times8)-(-2\times-4) & |A_{12}| = (4\times8)-(-2\times3) & |A_{13}| = (4\times-4)-(4\times3)\\
+		|A_{21}| = (3\times8)-(3\times-4) & |A_{22}| = (2\times8)-(3\times3) & |A_{23}| = (2\times-4)-(3\times3)\\
+		|A_{31}| = (3\times-2)-(3\times4) & |A_{32}| = (2\times-2)-(3\times4) & |A_{33}| = (2\times4)-(3\times4)
 	\end{matrix}
 \]
 \[
 	\begin{pmatrix}
-		6-16 & -3--12 & -4--6\\
-		9-20 & 3--15 & 4--9\\
-		12-10 & 4--5 & 2--3
+		32-8 & 32--6 & -16-12\\
+		24--12 & 16-9 & -8-9\\
+		-6-12 & -4-12 & 8-12
 	\end{pmatrix}
 \]
 \[
 	\begin{pmatrix}
-		-10 & 9 & 2\\
-		-11 & 18 & 13\\
-		2 & 9 & 5
+		24 & 38 & -28\\
+		36 & 7 & -17\\
+		-18 & -16 & -4
 	\end{pmatrix}
 	\Rightarrow
 	\begin{pmatrix}
-		\ddots & 9 & 2\\
-		-11 & \ddots & 13\\
-		2 & 9 & \ddots
+		\ddots & 38 & -28\\
+		36 & \ddots & -17\\
+		-18 & -16 & \ddots
 	\end{pmatrix}
 	\mbox{flip along the line}
 	\Rightarrow
 	\begin{pmatrix}
-		\ddots & -11 & 2\\
-		9 & \ddots & 9\\
-		2 & 13 & \ddots
+		\ddots & 36 & -18\\
+		38 & \ddots & -16\\
+		-28 & -17 & \ddots
 	\end{pmatrix}
 	\Rightarrow
 	\begin{pmatrix}
-		-10 & -11 & 2\\
-		9 & 18 & 9\\
-		2 & 13 & 5
+		24 & 36 & -18\\
+		38 & 7 & -16\\
+		-28 & -17 & -4
 	\end{pmatrix}
-
 \]
 \[
 	\begin{pmatrix}
-		-10 & -11 & 2\\
-		9 & 18 & 9\\
-		2 & 13 & 5
+		24 & 36 & -18\\
+		38 & 7 & -16\\
+		-28 & -17 & -4
 	\end{pmatrix}
 	\rightarrow
 	\rightarrow
@@ -1461,43 +1457,40 @@ P =
 	\rightarrow
 	\rightarrow
 	\begin{pmatrix}
-		-10 & 11 & 2\\
-		-9 & 18 & -9\\
-		2 & -13 & 5
+		24 & -36 & -18\\
+		-38 & 7 & 16\\
+		-28 & 17 & -4
 	\end{pmatrix}
 \]
 \[
-	P^{-1} = 
-	\frac{1}{-27}
+	Q^{-1} = 
+	\frac{1}{-150}
 	\begin{pmatrix}
-		-10 & 11 & 2\\
-		-9 & 18 & -9\\
-		2 & -13 & 5
+		24 & -36 & -18\\
+		-38 & 7 & 16\\
+		-28 & 17 & -4
 	\end{pmatrix}
 	=
 	\begin{pmatrix}
-		\frac{1}{-27}\times-10 & \frac{1}{-27}\times11 & \frac{1}{-27}\times2\\
-		\frac{1}{-27}\times-9 & \frac{1}{-27}\times18 & \frac{1}{-27}\times-9\\
-		\frac{1}{-27}\times2 & \frac{1}{-27}\times-13 & \frac{1}{-27}\times5
+		\frac{1}{-150}\times24 & \frac{1}{-150}\times-36 & \frac{1}{-150}\times-18\\
+		\frac{1}{-150}\times-38 & \frac{1}{-150}\times7 & \frac{1}{-150}\times16\\
+		\frac{1}{-150}\times-28 & \frac{1}{-150}\times17 & \frac{1}{-150}\times-4
 	\end{pmatrix}
 	=
 	\begin{pmatrix}
-		\frac{10}{27} & -\frac{11}{27} & -\frac{2}{27}\\
-		\frac{1}{3} & -\frac{2}{3} & \frac{1}{3}\\
-		-\frac{2}{27} & \frac{13}{27} & -\frac{5}{27}
+		-\frac{4}{25} & \frac{6}{25} & \frac{3}{25}\\
+		\frac{19}{75} & -\frac{7}{150} & -\frac{8}{75}\\
+		\frac{14}{75} & -\frac{17}{150} & \frac{2}{75}
 	\end{pmatrix}
 \]
 \begin{center}\vspace{0.5cm}$\therefore
-	P^{-1}=
+	Q^{-1} = 
 	\begin{pmatrix}
-		\frac{10}{27} & -\frac{11}{27} & -\frac{2}{27}\\
-		\frac{1}{3} & -\frac{2}{3} & \frac{1}{3}\\
-		-\frac{2}{27} & \frac{13}{27} & -\frac{5}{27}
+		-\frac{4}{25} & \frac{6}{25} & \frac{3}{25}\\
+		\frac{19}{75} & -\frac{7}{150} & -\frac{8}{75}\\
+		\frac{14}{75} & -\frac{17}{150} & \frac{2}{75}
 	\end{pmatrix}
 $\end{center}
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{$M^{T}$}
 \[
 	\begin{pmatrix}
