@@ -30,10 +30,10 @@
 \contentsline {subsubsection}{\numberline {4.3.2}$N^{-1}$}{14}
 \contentsline {subsubsection}{\numberline {4.3.3}$P^{-1}$}{14}
 \contentsline {subsubsection}{\numberline {4.3.4}$Q^{-1}$}{15}
-\contentsline {subsubsection}{\numberline {4.3.5}$M^{T}$}{15}
-\contentsline {subsubsection}{\numberline {4.3.6}$P^{T}$}{15}
-\contentsline {subsubsection}{\numberline {4.3.7}$R^{T}$}{16}
-\contentsline {section}{\numberline {5}Simultaneous equations}{16}
-\contentsline {subsection}{\numberline {5.1}Questions}{17}
-\contentsline {subsubsection}{\numberline {5.1.1}3x + 4y = 14 \\ 2x - 7y = 11}{17}
-\contentsline {subsubsection}{\numberline {5.1.2}6x + 2y = 24 \\ 3x - 3y = 22}{18}
+\contentsline {subsubsection}{\numberline {4.3.5}$M^{T}$}{16}
+\contentsline {subsubsection}{\numberline {4.3.6}$P^{T}$}{16}
+\contentsline {subsubsection}{\numberline {4.3.7}$R^{T}$}{17}
+\contentsline {section}{\numberline {5}Simultaneous equations}{17}
+\contentsline {subsection}{\numberline {5.1}Questions}{18}
+\contentsline {subsubsection}{\numberline {5.1.1}3x + 4y = 14 \\ 2x - 7y = 11}{18}
+\contentsline {subsubsection}{\numberline {5.1.2}6x + 2y = 24 \\ 3x - 3y = 22}{19}
