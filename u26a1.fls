@@ -11,6 +11,14 @@ INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/share/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/share/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -25,8 +33,6 @@ INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 INPUT /usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 INPUT /usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
@@ -86,8 +92,8 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT u26a1.aux
 INPUT /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk
 INPUT /home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbxti10.600pk
-INPUT /home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx9.600pk
 INPUT /home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk
+INPUT /home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx9.600pk
 INPUT /home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk
 INPUT /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk
 INPUT /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk

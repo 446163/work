@@ -1,6 +1,7 @@
 \documentclass{article}
 
 \usepackage{amssymb}
+\usepackage{listings}
 \usepackage{amsmath}
 \usepackage{float} 
 \usepackage[a4paper]{geometry} 
@@ -61,6 +62,51 @@ In this initial section I have just recorded what matrices I will be using throu
 	\end{pmatrix}
 \end{split}
 \end{equation*}
+\section{P1 - Demonstrate how matrices can be used to represent data}
+In this initial section I will go through the two main properties that every matrix has matrix for both describing it and for identifying the sections within it. These are the order and the index
+\subsection{Order}
+The order of a matrix is a measure and state the size of a matrix by saying the size of each size. For example, here is a matrix:
+\[
+	\begin{pmatrix}
+		1 & 2 & 3\\
+		4 & 5 & 6
+	\end{pmatrix}
+\]
+As you can see, this matrix has dimensions of 2 vertically and 3 horizontally you could then write this as having dimensions of 2 by 3 (2x3) and there you have the order of the matrix. One thing to note is that the order is the wrong way around as you read vertical then horizontal. If you wrote the last matrix as having an order of 2 by 3 but that would produce the matrix of:
+\[
+	\begin{pmatrix}
+		1 & 2\\
+		3 & 4\\
+		5 & 6
+	\end{pmatrix}
+\]
+So you just need to be careful about how you do it and always do it vertically by horizontally the opposite from yo would read a graph.
+\subsection{Index}
+It addition to the order, another trait that is used for matrices is the index. The index is used to locate a specific cell or data pace within a matrix. The way that this works is that you will give the cell in the top right the denotion of 11 and the cell to the that gets the denotion 12 as you move to the right and so the second digit increases by one. If you were then to move down a cell then the index would be 22 because as you move down, the first number increases. One further thing to note is the notation that is used for this is you have the name of the matrix and then the index is placed after the name as a subscript.
+\[
+	M = 
+	\begin{bmatrix}
+		M_{11} & M_{12} & M_{13} & \cdots & M_{1n}\\
+		M_{21} & M_{22} & M_{23} & \cdots & M_{2n}\\
+		M_{31} & M_{32} & M_{33} & \cdots & M_{3n}\\
+		\cdots & \cdots & \cdots & \ddots & \ddots\\
+		M_{n1} & M_{n2} & M_{n3} & \ddots & M_{nn}
+	\end{bmatrix}
+	\begin{center}
+		\small{ \textbf{An example M matrix with the indexes labeled}}
+	\end{center}
+\]
+\subsection{Examples of uses in IT}
+matrices have many uses within IT and all computers will use them on a daily basis. A main example would be their use in openGL and how computers generate and render graphics. The very basic way that it works is that the matrices are used to apply certain transformations to the graphics, like rotating and moving the shapes around in space. For example the following matrix could be used to translate (move) an object through 3D space:
+\[
+	\begin{pmatrix}
+		0 & 0 & 0 & 2\\
+	    0 & 1 & 0 & 6\\
+	    0 & 0 & 1 & 3\\
+	    0 & 0 & 0 & 1
+	\end{pmatrix}
+\]
+This will then move the object in space through 2 in the x, 6 in the y and 3 in the z direction.
 \section{P2 - perform addition, subtraction and scalar multiplication}
 \subsection{Addition}
 To add 2 matrices together you simply add each element in the first matrix to the corresponding number in the second matrix. The general case is shown below:
@@ -1302,7 +1348,7 @@ P =
 $\end{center}
 \subsubsection{$Q^{-1}$}
 \begin{align*}
-	Q =
+	Q &=
 	\begin{pmatrix}
 		2 & 3 & 3\\
 		4 & 4 & -2\\
@@ -1988,4 +2034,117 @@ Now I just need to multiply the inverse of a by the 14,11 matrix and I will have
 	\end{pmatrix}
 	\rightarrow
 x = \frac{29}{6}, y = -\frac{5}{2}$\end{center}
+\section{M1 - Explain the relationship between matrices and computer program variable arrays}
+\subsection{Array}
+In this section I will write about and explain the similarities and the differences that matrices and arrays have. To start off with, an array is a data structure that is used to store and easily retrieve information. An array is basically a one dimensional list that you can then access the elements of by referring to the name of the array and then the place in the array that you want, for example if you had an array that looked like this: A = [a,b,c,d] then you could access the data at b with A[1]. 
+\\
+In addition to this, due to the fact that arrays are only one dimensional, there is no such thing as two or higher dimensional array so in order to get something that looks like a 2D array you need to fill each item in the array with another array and just print it so that they line up.  
+\\
+Due to the fact that arrays are used in programming so much and that they are so simple the way that the information is extracted from the array is really fast so they can be used to store and retrieve information very quickly and without any delay.
+\\
+Furthermore, due to the fact that the array is built within a programming language there is no way to store two different types of data in an array. This means that you cannot have an array with both numbers and string values as the array can only be one. 
+\\
+Finally, due to the fact that arrays are a reserved space in system memory it can be very hard to change the size of and perform mathematical operations on the arrays as you will have to do it element by element and store the result in a new array and that is all very complicated and taxing on the system. Also if you wanted to change the size of an array, you would have to move all the elements one by one to a new array with a bigger defined size. 
+\\
+Below you can see an example of a 2D array and how they are made in the general case, in this example I am creating an array and then I am adding arrays to the arrays so that I have a 2D array.
+\begin{lstlisting}
+	A = [1, 2, 3, 4]
+	B = [ [11, 12], [21, 22], [31, 32], [41, 42] ]
+\end{lstlisting}
+You can then compare this to he matrix equivalent at the end of the matrix section. 
+\subsection{Matrix}
+If you think about it then this is quite like an array as with an array you also store information in a grid like format and you can access the cells from the name of the array with the index as explained in the beginning.
+\\
+compared to an array, creating a multidimensional matrix is very easy as they are designed and set up to work like that. This is because matrices of all dimensions are used in all different ways so they are needed. 
+\\
+when compared to arrays, matrices are much slower to access the information and this could cause the program to be slower and perform worse. Due to this, you should try to use arrays where performance matters and use a matrix when you need the features that they need. 
+\\
+On the other hand, a matrix can be of any data type and contain any information in any cell in the matrix. So, if you need to store two data types then you should use an array. 
+\\
+Finally, performing changes to the size of a matrix is very easy as you can just add to the size of it as it is stored dynamically in system memory and so is easy to change. This also comes across very easily to mathematical operations as the dynamicness of them means that they can be operated on easily. Finally, matrix operations can be performed all at once rather than one cell at a time. 
+\\
+Here is the comparison from the arrays, shown in matrix format:
+\[
+	A = 
+	\begin{pmatrix}
+		1 & 2 & 3 & 4
+	\end{pmatrix}
+\]
+\[
+	B = 
+	\begin{pmatrix}
+		11 & 12\\
+		21 & 22\\
+		31 & 32\\
+		41 & 42
+	\end{pmatrix}
+\]
+\section{M2 - Apply matrix techniques to vector transformation and rotation, maps and graphs}
+
+In this final section I will be going through how matrices are used to handle transformations and rotations of object in computer graphics, in addition to this, I will also be showing how you can represent maps and graphs with matrices. 
+\\
+The way that you actually translate objects in a 2D space with a matrix is that you have a 3x3 matrix that is applied to the co-ordinates of the object and then the operations that you apply to the matrix will be used to translate the object before it is rendered. 
+\[
+	\begin{pmatrix}
+		cos(\theta) & sin(\theta) & X\\
+		-sin(\theta) & cos(\theta) & Y\\
+		0 & 0 & 1
+	\end{pmatrix}
+\]
+In this matrix the X and Y are used for translation while the trig functions are used for rotation. To then move a matrix, you will then multiply the co-ordinate matrix by this matrix to get the new co-ordinate matrix:
+\[
+	\begin{pmatrix}
+		cos(\theta) & sin(\theta) & X\\
+		-sin(\theta) & cos(\theta) & Y\\
+		0 & 0 & 1
+	\end{pmatrix}
+	\begin{pmatrix}
+		a\\
+		b\\
+		c
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		A\\
+		B\\
+		C
+	\end{pmatrix}
+\]
+It is also important to note that the base matrix with no translations applied to it is the identity matrix and so it looks like this:
+\[
+	\begin{pmatrix}
+		1 & 0 & 0\\
+		0 & 1 & 0\\
+		0 & 0 & 1
+	\end{pmatrix}
+\]
+\subsection{Translation}
+To translate an object using a matrix you replace the X and the Y values in the matrix to the amount that you want to move the object on the screen. For example, if you want to move an object 3 to the right and 1 down, then you would use the following matrix:
+\[
+	\begin{pmatrix}
+		1 & 0 & 3\\
+		0 & 1 & -1\\
+		0 & 0 & 1
+	\end{pmatrix}
+\]
+\subsection{Rotation}
+In a similar fashion, if you want to rotate and object around the origin, then you would just change the $\theta$ in the trig parts with the amount that you want to rotate it from straight up being 0. For example, if you want to rotate the object 20 degrees to the right then you would just apply the following matirx:
+\[
+	\begin{pmatrix}
+		cos(20) & sin(20) & 0\\
+		-sin(20) & cos(20) & 0\\
+		0 & 0 & 1
+	\end{pmatrix}
+\]
+
+\subsection{Maps and Graphs}
+In addition to representing translations, matrices can also represent graphs and maps, there are where there are nodes (points) and arcs (lines) that connect them. For example if you had nodes 1,2,3 and 4 and nodes 1 and 2 had two arcs connecting them and then there was one node connecting 2 to 3 and 4, then you could represent the information in a matrix like so:
+\[
+	\begin{pmatrix}
+		0 &	2 & 0 & 0\\
+		2 &	0 & 1 & 1\\
+		0 &	1 & 0 & 0\\
+		0 &	1 & 0 & 0
+	\end{pmatrix}
+\]
 \end{document}
