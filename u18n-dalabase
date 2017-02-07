@@ -16,3 +16,32 @@ interface
 	normalisation
 	reports
 	you need to use switch board????
+
+
+
+video rental
+	Customer------Video  one to many 
+	|
+	| one to many
+	rentals
+
+
+
+customer
+customer ID
+name
+
+video
+video id
+title
+
+process id
+customer 
+video
+date rental
+date due
+
+customer 
+field name | field width | data types
+
+p2 you need to draw them
