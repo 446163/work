@@ -15,10 +15,11 @@ Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'valloric/youcompleteme'
 
-Plug 'christoomey/vim-tmux-navigator' 
 Plug 'https://github.com/suan/vim-instant-markdown.git'
 Plug 'lervag/vimtex' 
 
+
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 let @s="[sz=!1``"
@@ -46,7 +47,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 tnoremap <Esc> <C-\><C-n>
 noremap <buffer> <silent> k gk
-noremap buffer> <silent> j gj
+noremap <buffer> <silent> j gj
 nnoremap <leader><leader> <Esc>
 tnoremap <C-h> <C-\><C-n><C-w>h
 tnoremap <C-j> <C-\><C-n><C-w>j
@@ -81,6 +82,9 @@ set noshowmode
 set updatetime=10
 set complete+=kspell
 set spell spelllang=en_gb
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+let g:user_emmet_leader_key='<C-w>'
 
 let g:gitgutter_eager = 1
 let g:gitgutter_realtime = 1
