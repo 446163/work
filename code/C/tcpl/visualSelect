@@ -1,0 +1,7 @@
+				float fahr, celsius;
+				int lower, upper, step;
+
+				lower = 0;
+				upper = 200;
+				step = 20;
+

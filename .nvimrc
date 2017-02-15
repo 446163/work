@@ -1,7 +1,4 @@
-" WORK VIMRC FILE
-
-
-
+" WORK VIMRC FILE 
 let g:python_host_skip_check=1
 let g:loaded_python3_provider=1
 
@@ -60,6 +57,7 @@ vmap <leader>p "+p
 vmap <leader>p "+p
 nmap <leader>p "+p
 nmap <leader>p "+p  
+imap @@ <Esc>@sa
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :wq<cr>
 nnoremap <leader>Q :q!<cr>
@@ -81,7 +79,6 @@ set splitright
 set noshowmode
 set updatetime=10
 set complete+=kspell
-set spell spelllang=en_gb
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 let g:user_emmet_leader_key='<C-w>'
@@ -110,3 +107,5 @@ endfunction
 
 " Vertical Split Buffer Mapping
 command -nargs=1 Vbuffer call VerticalSplitBuffer(<f-args>)
+
+set spell spelllang=en_gb

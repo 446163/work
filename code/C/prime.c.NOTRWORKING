@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<math.h>
+#include<unistd.h>
+int main () {
+	int num = 5, flag = 0, count=1, list[1000000]={3}, place = 0;
+//	double sqtr;
+	while (1) {
+		place = 0;
+		while (list[place] < num) {
+			if ((num % list[place]) == 0){
+				puts("AG");
+				printf("%d\n", list[place]);
+				flag = 1;
+				goto next;
+//				break;
+			}
+			else
+			{
+				flag = 0;
+			}
+			place+=1;
+		}
+	if (flag == 0){
+		count+=1;
+		list[count-1] = num;
+		printf("%d\n", num);
+		sleep(0.5);
+	}
+next:
+	printf("---------------------\n");
+	num+=2;
+	flag = 0;
+	}
+}

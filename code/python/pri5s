@@ -1,0 +1,13 @@
+t=5
+a=[3]
+while 1:
+    y,x=0,1
+    while x==1 and a[y]<=t**0.5:
+        if t%a[y]==0:
+            x=0
+        y=y+1
+    if x:
+        a.append(t)
+        print(t)
+    t=t+2
+
