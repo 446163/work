@@ -7,6 +7,10 @@ int main() {
 	int wordA[MAX_LENGTH];
 	int wordV[MAX_LENGTH];
 
+	for (i = 0; i < MAX_LENGTH; ++i) {
+		wordV[i] = 0;
+	}
+
 	wordA[1] = ' ';
 	wordA[2] = 'a';
 	wordA[3] = 'b';

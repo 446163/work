@@ -3,59 +3,62 @@
 #define MAX_LENGTH 36
 
 int main() {
-	int c, wl, i, x, y, ml, ml2, val;
+	int c, wl, i, x, y, ml,ml2, val;
 	int wordA[MAX_LENGTH];
 	int wordV[MAX_LENGTH];
-	int wordN[MAX_LENGTH];
 
-	for (i = 1; i < 36; ++i) {
-		wordN[i] = 0;
+	for (i = 0; i < MAX_LENGTH; ++i) {
+		wordV[i] = 0;
 	}
 
-	wordA[1] = 'a';
-	wordA[2] = 'b';
-	wordA[3] = 'c';
-	wordA[4] = 'd';
-	wordA[5] = 'e';
-	wordA[6] = 'f';
-	wordA[7] = 'g';
-	wordA[8] = 'h';
-	wordA[9] = 'i';
-	wordA[10] = 'j';
-	wordA[11] = 'k';
-	wordA[12] = 'l';
-	wordA[13] = 'm';
-	wordA[14] = 'n';
-	wordA[15] = 'o';
-	wordA[16] = 'p';
-	wordA[17] = 'q';
-	wordA[18] = 'r';
-	wordA[19] = 's';
-	wordA[20] = 't';
-	wordA[21] = 'u';
-	wordA[22] = 'v';
-	wordA[23] = 'w';
-	wordA[24] = 'x';
-	wordA[25] = 'y';
-	wordA[26] = 'z';
-	
+	wordA[1] = ' ';
+	wordA[2] = 'a';
+	wordA[3] = 'b';
+	wordA[4] = 'c';
+	wordA[5] = 'd';
+	wordA[6] = 'e';
+	wordA[7] = 'f';
+	wordA[8] = 'g';
+	wordA[9] = 'h';
+	wordA[10] = 'i';
+	wordA[11] = 'j';
+	wordA[12] = 'k';
+	wordA[13] = 'l';
+	wordA[14] = 'm';
+	wordA[15] = 'n';
+	wordA[16] = 'o';
+	wordA[17] = 'p';
+	wordA[18] = 'q';
+	wordA[19] = 'r';
+	wordA[20] = 's';
+	wordA[21] = 't';
+	wordA[22] = 'u';
+	wordA[23] = 'v';
+	wordA[24] = 'w';
+	wordA[25] = 'x';
+	wordA[26] = 'y';
+	wordA[27] = 'z';
+
+	wl = 0;
+
 	while ((c = getchar()) != EOF) {
-		for (i = 0; i < 36; ++i) {
-			if (c == wordA[i]) {
-				++wordN[i];
-				printf("%d\t%d\n", i, wordN[i]);
-			}
+		if (c == ' ' || c == '\n' || c == '\t') {
+				++wordA[wl];
+			wl = 0;
+		} else {
+			++wl;
 		}
 	}
+	wordA[0] = 0;
 
 	/* horizontal graph */
 	val = 0;
-	for (y = 1; y < MAX_LENGTH; ++y) {
-		if (wordN[y] != 0) {
+	for (y = 0; y < MAX_LENGTH; ++y) {
+		if (wordA[y] != 0) {
 			wordV[val] = y;
 			++val;
-			printf("%c\t |", wordA[y]);
-			for (x = 0; x < wordN[y]; x++) {
+			printf("%d\t |", y);
+			for (x = 0; x < wordA[y]; x++) {
 				printf("-");
 			}
 		printf("\n");
@@ -66,15 +69,15 @@ int main() {
 	printf("\n");
 	ml = 0;
 	for (y = 0; y < MAX_LENGTH; ++y) {
-		if (wordN[y] > ml) {
-			ml = wordN[y];
+		if (wordA[y] > ml) {
+			ml = wordA[y];
 		}
 	}
 	ml2 = ml;
 	for (i = 0; i < ml2; i++) {
 
 		for (y = 0; y < val; y++) {
-			if (wordN[wordV[y]] >= ml) {
+			if (wordA[wordV[y]] >= ml) {
 				printf(" | ");
 			} else {
 				printf("   ");
@@ -89,9 +92,9 @@ int main() {
 	printf("\n");
 	for (i = 0; i < val; ++i) {
 		if (wordV[i] > 9) {
-			printf(" %c", wordA[i]);
+			printf(" %d", wordV[i]);
 		} else {
-			printf(" %c ", wordA[i]);
+			printf(" %d ", wordV[i]);
 		}
 	}
 	printf("\n");
