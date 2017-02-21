@@ -12,7 +12,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'valloric/youcompleteme'
 
-Plug 'https://github.com/suan/vim-instant-markdown.git'
+" Plug 'https://github.com/suan/vim-instant-markdown.git'
 Plug 'lervag/vimtex' 
 
 
