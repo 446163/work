@@ -88,7 +88,7 @@ let g:gitgutter_realtime = 1
 let g:instant_markdown_autostart = 1
 let g:instant_markdown_open_to_the_world = 1
 
-autocmd VimEnter * colorscheme torte
+autocmd VimEnter * colorscheme orbital
 
 autocmd BufRead,BufNewFile *.md setlocal spell
 
@@ -99,13 +99,5 @@ let g:lightline = {
 \ 'separator': { 'left': '▶', 'right': '◀' },
 \ 'subseparator': { 'left': '»', 'right': '«' }
 \ }
-
-" Vertical Split Buffer Function
-function VerticalSplitBuffer(buffer)
-    execute "vert belowright sb" a:buffer 
-endfunction
-
-" Vertical Split Buffer Mapping
-command -nargs=1 Vbuffer call VerticalSplitBuffer(<f-args>)
 
 set spell spelllang=en_gb
