@@ -17,7 +17,8 @@
 \section{Introduction}
 test
 \section{Series and Sequences and Probability}
-\subsection{17th and nth term}
+\subsection{-3, 1, 5, 9, 13, \dots}
+\subsubsection{nth term}
 Find a formula for the nth term of this sequence and find the 17th term using your nth term formula. Also calculate the sum of the first 17 terms of this sequence.
 \[
 	-3, 1, 5, 9, 13, \dots
@@ -26,8 +27,45 @@ To start off with I will need to find the difference between the numbers in the 
 \[
 	\overbrace{-3, 1}^{+4}	\quad	\overbrace{1, 5}^{+4}	\quad	\overbrace{5, 9}^{+4}	\quad	\overbrace{9, 13}^{+4}
 \]
-Now that I know the distance from each number to the next, I can then formulate the initial equation to be $$ n=4x+?$$ so now I just need to work out what the "?" will be. Now, for the first term the x value will be zero and so we would have 0 as the value, but the first value 
-\subsection{Find the sum}
+Now that I know the distance from each number to the next, I can then formulate the initial equation to be $$ n=4x+?$$ so now I just need to work out what the "?" will be. Now, for the first term the x value will be one and so we would have 4 as the value, but the first value is actually -3, so we will need to adjust to this and have the equation subtract 7 from all the values so now the equation will look like this:
+\[
+	n=4x-7
+\]
+We can then test this to ensure that it works by testing the 4th value as we know the answer to that:
+\[
+	4(4)-7	\Rightarrow 16-7	\Rightarrow 9
+\]
+And this answer lines up with the answer that we are given in the question so I know that the equation is correct.  
+\[
+	\therefore n^{th} term = 4x-7
+\]
+\subsubsection{17th term}
+It is very simple to find the 17th term, or really any term of the sequence once you know the nth term formula, all that you have to do is replace the "x" with the term that you want and then you have to work the equation through. For this question it would go like this: 
+\[
+	4x-7 \Rightarrow 4(17)-7 \Rightarrow 68-7 \Rightarrow 61
+\]
+\[
+	\therefore 17^{th} term = 61
+\]
+\subsubsection{Sum of terms}
+To sum the sequence that we have been given we will have to use the sum of an arithmetic sequence progression equation and this looks like this: 
+\[
+	\frac{n(a_{1} + a_{n})}{2}
+\]
+this sequence sequence is an arithmetic sequence because it advances in the series by adding numbers rather than multiplying by them. In this equation, all of the symbols start for something and I will explain them below:
+\begin{align}
+
+	n &= \mbox{represents the number of terms that you want to add, in this case it is 17}
+
+	a_{1} &= \mbox{represents the initial number of the sequence, in this case it is -3}
+
+	a_{n} &= \mbox{represents the last number of the sequence, in this case this is 61 as we calculated that before}
+
+\end{align}
+Now I just need to place these numbers where their letter counterpart as in the equation and then work through the equation to get the answer:
+
+
+\subsection{3r - 2r^{2} + r^{3}}
 
 \[
 	\sum_{r = 1}^{6} (3r - 2r^{2} + r^{3}) 
@@ -36,7 +74,7 @@ Now that I know the distance from each number to the next, I can then formulate 
 
 \section{Number Systems calculations}
 
-\section{Number Systems calculations}
+\section{Data task}
 
 \section{Recursion}
 

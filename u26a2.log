@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  8 MAR 2017 09:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  8 MAR 2017 10:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -200,24 +200,243 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 13.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./u26a2.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./u26a2.toc
+./u26a2.toc:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...n}{\numberline {2.2}3r - 2r^{2} + r^{3}}{4}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./u26a2.toc:7: Extra }, or forgotten $.
+\@dottedtocline ...\nobreak \hskip -\leftskip {#4}
+                                                  \nobreak \leaders \hbox {$...
+l.7 ...n}{\numberline {2.2}3r - 2r^{2} + r^{3}}{4}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./u26a2.toc:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...n}{\numberline {2.2}3r - 2r^{2} + r^{3}}{4}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+)
 \tf@toc=\write3
 \openout3 = `u26a2.toc'.
 
- [2] [3] (./u26a2.aux) ) 
+
+./u26a2.tex:15: Missing } inserted.
+<inserted text> 
+                }
+l.15 \tableofcontents
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[2] [3]
+Runaway argument?
+ 
+./u26a2.tex:57: Paragraph ended before \align was complete.
+<to be read again> 
+                   \par 
+l.57 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./u26a2.tex:57: Missing $ inserted.
+<inserted text> 
+                $
+l.57 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./u26a2.tex:57: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.57 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./u26a2.tex:57: Display math should end with $$.
+<to be read again> 
+                   \par 
+l.57 
+     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./u26a2.tex:58: Misplaced alignment tab character &.
+l.58 	n &
+         = \mbox{represents the number of terms that you want to add, in thi...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./u26a2.tex:60: Missing $ inserted.
+<inserted text> 
+                $
+l.60 	a_
+        {1} &= \mbox{represents the initial number of the sequence, in this ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./u26a2.tex:60: Misplaced alignment tab character &.
+l.60 	a_{1} &
+             = \mbox{represents the initial number of the sequence, in this ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./u26a2.tex:61: Missing $ inserted.
+<inserted text> 
+                $
+l.61 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./u26a2.tex:62: Missing $ inserted.
+<inserted text> 
+                $
+l.62 	a_
+        {n} &= \mbox{represents the last number of the sequence, in this cas...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./u26a2.tex:62: Misplaced alignment tab character &.
+l.62 	a_{n} &
+             = \mbox{represents the last number of the sequence, in this cas...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./u26a2.tex:63: Missing $ inserted.
+<inserted text> 
+                $
+l.63 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (30.85677pt too wide) in paragraph at lines 62--63
+[]\OT1/cmr/m/n/10 a$[] = []$ 
+ []
+
+./u26a2.tex:64: Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.64 \end{align}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./u26a2.tex:64: Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.64 \end{align}
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./u26a2.tex:64: Misplaced \noalign.
+\black@ #1->\noalign 
+                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
+l.64 \end{align}
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./u26a2.tex:64: Extra }, or forgotten \endgroup.
+\endalign ->\math@cr \black@ \totwidth@ \egroup 
+                                                \ifingather@ \restorealignst...
+l.64 \end{align}
+                
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./u26a2.tex:64: Missing $ inserted.
+<inserted text> 
+                $
+l.64 \end{align}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./u26a2.tex:64: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.64 \end{align}
+                
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./u26a2.tex:68: Missing $ inserted.
+<inserted text> 
+                $
+l.68 \subsection{3r - 2r^{2} + r^{3}}
+                                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./u26a2.tex:68: Missing $ inserted.
+<inserted text> 
+                $
+l.68 \subsection{3r - 2r^{2} + r^{3}}
+                                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[4] (./u26a2.aux) ) 
 Here is how much of TeX's memory you used:
- 2889 strings out of 493013
- 37953 string characters out of 6139317
- 103448 words of memory out of 5000000
- 6432 multiletter control sequences out of 15000+600000
+ 2890 strings out of 493013
+ 37969 string characters out of 6139317
+ 105448 words of memory out of 5000000
+ 6433 multiletter control sequences out of 15000+600000
  11503 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,8n,32p,290b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
- </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on u26a2.pdf (3 pages, 64942 bytes).
+ 27i,8n,32p,432b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
+Output written on u26a2.pdf (4 pages, 71309 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 291 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
