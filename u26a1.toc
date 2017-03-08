@@ -20,36 +20,33 @@
 \contentsline {subsubsection}{\numberline {5.2.1}MN}{8}
 \contentsline {subsubsection}{\numberline {5.2.2}PQ}{8}
 \contentsline {subsubsection}{\numberline {5.2.3}RS}{9}
-\contentsline {section}{\numberline {6}DO THIS PART AGAIN BUT CORRECTLY WITH THE CORRECT VALUE OF S}{9}
-\contentsline {subsubsection}{\numberline {6.0.1}SR}{9}
-\contentsline {section}{\numberline {7}DO THIS PART AGAIN BUT CORRECTLY WITH THE CORRECT VALUE OF S}{9}
-\contentsline {section}{\numberline {8}P4 - Inverse and transpose}{10}
-\contentsline {subsection}{\numberline {8.1}Inverse}{10}
-\contentsline {subsubsection}{\numberline {8.1.1}2x2 Matrix Inverse}{10}
+\contentsline {subsubsection}{\numberline {5.2.4}SR}{9}
+\contentsline {section}{\numberline {6}P4 - Inverse and transpose}{10}
+\contentsline {subsection}{\numberline {6.1}Inverse}{10}
+\contentsline {subsubsection}{\numberline {6.1.1}2x2 Matrix Inverse}{10}
 \contentsline {paragraph}{Determinant}{10}
-\contentsline {paragraph}{Inverse formula}{11}
-\contentsline {subsubsection}{\numberline {8.1.2}Inverse larger matrices}{12}
+\contentsline {paragraph}{Inverse formula}{10}
+\contentsline {subsubsection}{\numberline {6.1.2}Inverse larger matrices}{11}
 \contentsline {paragraph}{Large matrix determinant}{12}
 \contentsline {paragraph}{CoFactor Matrix}{12}
-\contentsline {subsection}{\numberline {8.2}Transpose}{15}
-\contentsline {subsection}{\numberline {8.3}Questions}{16}
-\contentsline {subsubsection}{\numberline {8.3.1}$M^{-1}$}{16}
-\contentsline {subsubsection}{\numberline {8.3.2}$N^{-1}$}{17}
-\contentsline {subsubsection}{\numberline {8.3.3}$P^{-1}$}{17}
-\contentsline {subsubsection}{\numberline {8.3.4}$Q^{-1}$}{18}
-\contentsline {subsubsection}{\numberline {8.3.5}$M^{T}$}{19}
-\contentsline {subsubsection}{\numberline {8.3.6}$P^{T}$}{19}
-\contentsline {subsubsection}{\numberline {8.3.7}$R^{T}$}{19}
-\contentsline {section}{\numberline {9}Simultaneous equations}{20}
-\contentsline {subsection}{\numberline {9.1}Questions}{21}
-\contentsline {subsubsection}{\numberline {9.1.1}3x + 4y = 14 \\ 2x - 7y = 11}{21}
-\contentsline {subsubsection}{\numberline {9.1.2}6x + 2y = 24 \\ 3x + 3y = 22}{22}
-\contentsline {section}{\numberline {10}DO THIS PART AGAIN BUT WITH +3y NOT -3y}{22}
-\contentsline {section}{\numberline {11}M1 - Explain the relationship between matrices and computer program variable arrays}{23}
-\contentsline {subsection}{\numberline {11.1}Array}{23}
-\contentsline {subsection}{\numberline {11.2}Matrix}{23}
-\contentsline {section}{\numberline {12}M2 - Apply matrix techniques to vector transformation and rotation, maps and graphs}{24}
-\contentsline {subsection}{\numberline {12.1}Translation}{24}
-\contentsline {subsection}{\numberline {12.2}Rotation}{25}
-\contentsline {subsection}{\numberline {12.3}Maps and Graphs}{25}
-\contentsline {section}{\numberline {13}conclusion}{25}
+\contentsline {subsection}{\numberline {6.2}Transpose}{15}
+\contentsline {subsection}{\numberline {6.3}Questions}{16}
+\contentsline {subsubsection}{\numberline {6.3.1}$M^{-1}$}{16}
+\contentsline {subsubsection}{\numberline {6.3.2}$N^{-1}$}{17}
+\contentsline {subsubsection}{\numberline {6.3.3}$P^{-1}$}{17}
+\contentsline {subsubsection}{\numberline {6.3.4}$Q^{-1}$}{18}
+\contentsline {subsubsection}{\numberline {6.3.5}$M^{T}$}{19}
+\contentsline {subsubsection}{\numberline {6.3.6}$P^{T}$}{19}
+\contentsline {subsubsection}{\numberline {6.3.7}$R^{T}$}{19}
+\contentsline {section}{\numberline {7}Simultaneous equations}{20}
+\contentsline {subsection}{\numberline {7.1}Questions}{21}
+\contentsline {subsubsection}{\numberline {7.1.1}3x + 4y = 14 \\ 2x - 7y = 11}{21}
+\contentsline {subsubsection}{\numberline {7.1.2}6x + 2y = 24 \\ 3x + 3y = 22}{21}
+\contentsline {section}{\numberline {8}M1 - Explain the relationship between matrices and computer program variable arrays}{22}
+\contentsline {subsection}{\numberline {8.1}Array}{22}
+\contentsline {subsection}{\numberline {8.2}Matrix}{23}
+\contentsline {section}{\numberline {9}M2 - Apply matrix techniques to vector transformation and rotation, maps and graphs}{24}
+\contentsline {subsection}{\numberline {9.1}Translation}{24}
+\contentsline {subsection}{\numberline {9.2}Rotation}{24}
+\contentsline {subsection}{\numberline {9.3}Maps and Graphs}{24}
+\contentsline {section}{\numberline {10}conclusion}{25}

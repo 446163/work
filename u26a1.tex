@@ -511,7 +511,6 @@ If the multiplication can occur then you will have to add the values of each num
 	\end{pmatrix}
 $\end{center}
 \subsubsection{RS}
-\section{DO THIS PART AGAIN BUT CORRECTLY WITH THE CORRECT VALUE OF S}
 \[
 	\begin{pmatrix}
 		9 & 2 & 6\\
@@ -526,31 +525,30 @@ $\end{center}
 \]
 \[
 	\begin{pmatrix}
-		(9\times-6)+(2\times-3)+(6\times-6) & (9\times3)+(2\times-2)+(6\times-6)\\
-		(12\times-6)+(-4\times-3)+(7\times-6) & (12\times3)+(-4\times-2)+(7\times-6)\\
+		(9\times-6)+(2\times-3)+(6\times-6) & (9\times3)+(2\times-2)+(6\times6)\\
+		(12\times-6)+(-4\times-3)+(7\times-6) & (12\times3)+(-4\times-2)+(7\times6)\\
 	\end{pmatrix}
 \]
 \[
 	\Rightarrow
 	\begin{pmatrix}
-		-54+-6+-36 & 27+-4+-36\\
-		-72+12+-42 & 36+8+-42
+		-54+-6+-36 & 27+-4+36\\
+		-72+12+-42 & 36+8+42
 	\end{pmatrix}
 	=
 	\begin{pmatrix}
-		-96 & -13\\
-		-102 & 2
+		-96 & 59\\
+		-102 & 86
 	\end{pmatrix}
 \]
 \begin{center}\vspace{0.5cm}$\therefore
 	RS=
 	\begin{pmatrix}
-		-96 & -13\\
-		-102 & 2
+		-96 & 59\\
+		-102 & 86
 	\end{pmatrix}
 $\end{center}
 \subsubsection{SR}
-\section{DO THIS PART AGAIN BUT CORRECTLY WITH THE CORRECT VALUE OF S}
 \[
 	\begin{pmatrix}
 		-6 & 3\\
@@ -567,7 +565,7 @@ $\end{center}
 	\begin{pmatrix}
 		(-6\times9)+(3\times12) & (-6\times2)+(3\times-4) & (-6\times6)+(3\times7)\\
 		(-3\times9)+(-2\times12) & (-3\times2)+(-2\times-4) & (-3\times6)+(-2\times7)\\
-		(-6\times9)+(-6\times12) & (-6\times2)+(-6\times-4) & (-6\times6)+(-6\times7)
+		(-6\times9)+(6\times12) & (-6\times2)+(6\times-4) & (-6\times6)+(6\times7)
 	\end{pmatrix}
 
 \]
@@ -576,13 +574,13 @@ $\end{center}
 	\begin{pmatrix}
 		-54+48 & -12+-12 & -36+21\\
 		-27+-24 & -6+8 & -18+-14\\
-		-54+-72 & -12+24 & -36+-42
+		-54+72 & -12+-24 & -36+42
 	\end{pmatrix}
 	=
 	\begin{pmatrix}
 		-18 & -24 & -15\\
 		-51 & 2 & -32\\
-		-126 & 12 & -78
+		18 & -36 & 6
 	\end{pmatrix}
 \]
 \begin{center}\vspace{0.5cm}$\therefore
@@ -590,7 +588,7 @@ $\end{center}
 	\begin{pmatrix}
 		-18 & -24 & -15\\
 		-51 & 2 & -32\\
-		-126 & 12 & -78
+		18 & -36 & 6
 	\end{pmatrix}
 $\end{center}
 
@@ -1900,7 +1898,6 @@ Now I just need to multiply the inverse of a by the 14,11 matrix and I will have
 	\rightarrow
 x = \frac{142}{29}, y = -\frac{5}{29}$\end{center}
 \subsubsection{6x + 2y = 24 \\ 3x + 3y = 22}
-\section{DO THIS PART AGAIN BUT WITH +3y NOT -3y}
 \[
 	\begin{split}
 		6x + 2y = 24 \\ 3x + 3y = 22
@@ -1933,7 +1930,7 @@ From this, I can then re-arrange it to be like so:
 	=
 	\begin{pmatrix}
 		6 & 2\\
-		3 & -3
+		3 & 3
 	\end{pmatrix}
 	\right^{-1}
 	\begin{pmatrix}
@@ -1946,43 +1943,43 @@ First I will work out the inverse of the 3,4,2,7 matrix and then I will multiply
 	A  &=
 	\begin{pmatrix}
 		6 & 2\\
-		3 & -3
+		3 & 3
 	\end{pmatrix}
 	\\
 	&= \frac{1}{|a|}
 	\begin{pmatrix}
 		6 & 2\\
-		3 & -3
+		3 & 3
 	\end{pmatrix}
 	\\
-	&= \frac{1}{6(-3) - 2(3)}
+	&= \frac{1}{6(3) - 2(3)}
 	\begin{pmatrix}
 		6 & 2\\
-		3 & -3
+		3 & 3
 	\end{pmatrix}
 	\\
-	&= \frac{1}{-24}
+	&= \frac{1}{12}
 	\begin{pmatrix}
-		-3 & 2\\
+		3 & 2\\
 		3 & 6
 	\end{pmatrix}
 	\\
-	&= \frac{1}{-24}
+	&= \frac{1}{12}
 	\begin{pmatrix}
-		-3 & -2\\
+		3 & -2\\
 		-3 & 6
 	\end{pmatrix}
 	\\
 	&=
 	\begin{pmatrix}
-		\frac{1}{-24}\times-3 & \frac{1}{-24}\times-2\\
-		\frac{1}{-24}\times-3 & \frac{1}{-24}\times6
+		\frac{1}{12}\times3 & \frac{1}{12}\times-2\\
+		\frac{1}{12}\times-3 & \frac{1}{12}\times6
 	\end{pmatrix}
 	\\
 	A^{-1}&=
 	\begin{pmatrix}
-		\frac{1}{8} & \frac{1}{12}\\
-		\frac{1}{8} & -\frac{1}{4}
+		\frac{1}{4} & -\frac{1}{6}\\
+		-\frac{1}{4} & \frac{1}{2}
 	\end{pmatrix}
 \end{align*}
 Now I just need to multiply the inverse of a by the 14,11 matrix and I will have both x and y in a matrix
@@ -1993,8 +1990,8 @@ Now I just need to multiply the inverse of a by the 14,11 matrix and I will have
 	\end{pmatrix}
 	=
 	\begin{pmatrix}
-		\frac{1}{8} & \frac{1}{12}\\
-		\frac{1}{8} & -\frac{1}{4}
+		\frac{1}{4} & -\frac{1}{6}\\
+		-\frac{1}{4} & \frac{1}{2}
 	\end{pmatrix}
 	\begin{pmatrix}
 		24\\
@@ -2003,8 +2000,8 @@ Now I just need to multiply the inverse of a by the 14,11 matrix and I will have
 \]
 \[
 	\begin{pmatrix}
-		\frac{1}{8} & \frac{1}{12}\\
-		\frac{1}{8} & -\frac{1}{4}
+		\frac{1}{4} & -\frac{1}{6}\\
+		-\frac{1}{4} & \frac{1}{2}
 	\end{pmatrix}
 	\begin{pmatrix}
 		24\\
@@ -2013,18 +2010,18 @@ Now I just need to multiply the inverse of a by the 14,11 matrix and I will have
 
 	=
 	\begin{pmatrix}
-		(\frac{1}{8}\times24)+(\frac{1}{12}\times22)\\
-		(\frac{1}{8}\times24)+(-\frac{1}{4}\times22)
+		(\frac{1}{4}\times24)+(-\frac{1}{6}\times22)\\
+		(-\frac{1}{4}\times24)+(\frac{1}{2}\times22)
 	\end{pmatrix}
 	\rightarrow
 	\begin{pmatrix}
-		3 + \frac{11}{6}\\
-		3 + -\frac{11}{2}
+		6 + -\frac{11}{3}\\
+		-6 + 11
 	\end{pmatrix}
 	=
 	\begin{pmatrix}
-		\frac{29}{6}\\
-		-\frac{5}{2}
+		\frac{7}{3}\\
+		5
 	\end{pmatrix}
 \]
 \begin{center}\vspace{0.5cm}$\therefore
@@ -2034,11 +2031,11 @@ Now I just need to multiply the inverse of a by the 14,11 matrix and I will have
 	\end{pmatrix}
 	= 
 	\begin{pmatrix}
-		\frac{29}{6}\\
-		-\frac{5}{2}
+		\frac{7}{6}\\
+		5
 	\end{pmatrix}
 	\rightarrow
-x = \frac{29}{6}, y = -\frac{5}{2}$\end{center}
+x = -\frac{7}{6}, y = 5$\end{center}
 \section{M1 - Explain the relationship between matrices and computer program variable arrays}
 \subsection{Array}
 In this section I will write about and explain the similarities and the differences that matrices and arrays have. To start off with, an array is a data structure that is used to store and easily retrieve information. An array is basically a one dimensional list that you can then access the elements of by referring to the name of the array and then the place in the array that you want, for example if you had an array that looked like this: A = [a,b,c,d] then you could access the data at b with A[1]. 
