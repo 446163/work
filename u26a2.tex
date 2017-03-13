@@ -17,7 +17,7 @@
 \section{Introduction}
 test
 \section{Series and Sequences and Probability}
-\subsection{-3, 1, 5, 9, 13, \dots}
+\subsection{-3, 1, 5, 9, 13 \dots}
 \subsubsection{nth term}
 Find a formula for the nth term of this sequence and find the 17th term using your nth term formula. Also calculate the sum of the first 17 terms of this sequence.
 \[
@@ -63,13 +63,81 @@ this sequence sequence is an arithmetic sequence because it advances in the seri
 
 \end{align}
 Now I just need to place these numbers where their letter counterpart as in the equation and then work through the equation to get the answer:
-
-
-\subsection{3r - 2r^{2} + r^{3}}
+\[
+	\frac{17( -3 + 61 )}{2} \Rightarrow \frac{17( 58 )}{2} \Rightarrow \frac{986}{2} \Rightarrow 493 
+\]
+\[
+\therefore \mbox{the sum of the first 17 terms of the equation 4x-7 is 493}
+\]
+\subsection{81, -27, 9, -3 \dots}
+\subsubsection{nth term}
+As with before I will start off with working out the difference  between the values in the list that I have been given. 
 
 \[
-	\sum_{r = 1}^{6} (3r - 2r^{2} + r^{3}) 
+	\overbrace{81, -27}^{108}	\quad	\overbrace{-27, 9}^{36}	\quad	\overbrace{9, -3}^{12}
 \]
+As you can see here, the numbers do not match up and they are not the same, this then presents a problem because instead of adding to get to the next number we are now multiplying, this can also be shown as the difference between the difference of all the numbers is 3. What I mean by this is that the above values that are 108, 38 and 12, you will that to get to the next number you would need to divide by 3, this shows that this is a geometric progression and that I will have to use another equation.
+
+Looking at the numbers you can see that to get to the next number in the series you would divide by -3. 3 because that is the way the differences work and then the - because the sign of the series changes every other number. Now that we know the multiple of the series we need to work out the offset. 
+
+Again like last time the we write it out in a standard form and this would be:
+\[
+	a \times r^{n-1}
+\]
+Now that we know "r" (the common ratio) to be -1/3 we just need to put in "a" as the first number and we know that that is 81, to then it would look like this:
+\[
+	a \times r^{n-1} \Rightarrow 81 \times \frac{1}{3}^{(n-1)}
+\]
+\subsubsection{10th term}
+This section is again very easy as all that I have to do is put 10 into the nth term formula and then I well get the answer that I want. This would then work through like so:
+\[
+	81 \times -\frac{1}{3}^{10-1} \Rightarrow 81 \times -\frac{1}{3}^{9} \Rightarrow 81 \times -\frac{1}{19683} \Rightarrow -\frac{81}{19683} \Rightarrow -\frac{1}{243}
+\]
+\subsubsection{Sum to the 5th element}
+
+In order to sum a geometric series we need to know a new formula and this is the formula that we need:
+\[
+	S_{n} = \frac{a_{1} ( r^{n} - 1 )}{ r - 1 }
+\]
+As the other ones I will just insert the numbers into the formula and then go about and solve the equasion to get to the answer that we need to get to:
+\[
+	\frac{a_{1} ( r^{n} - 1 )}{ r - 1 } \Rightarrow \frac{81 ( -\frac{1}{3}^{5} - 1 )}{ -\frac{1}{3} - 1 } \Rightarrow \frac{81 ( -0.004115226... - 1 )}{ -1.\dot{3} } \Rightarrow \frac{81 \times -1.004115226...}{-1.\dot{3}} \Rightarrow \frac{-81.\dot{3}}{-1.\dot{3}} \Rightarrow 61
+\]
+\subsubsection{Sum to infinity}
+
+In order to sum a geometric series to infinity you need to ensure that the common ration is between -1 and 1 as otherwise the sum would be infinity and not calculated. The new equation that we need to sum to infinity is as follows: 
+\[
+	S = \frac{a}{(1 - r)}
+\]
+As in the previous examples, the "a" represents the first number in the series and the "r" represents the common ration. In this case that would be 81 and -1/3 so now the formula would look like this:
+\[
+	S = \frac{a}{(1 - r)} \Rightarrow \frac{81}{(1 - -\frac{1}{3})} \Rightarrow \frac{81}{(1 +\frac{1}{3})} \Rightarrow \frac{81}{(1.\dot{3})} \Rightarrow 60.75  
+\]
+\subsection{3r - 2r^{2} + r^{3}}
+In this section I have to calculate the answer to the following:
+\[
+	\sum_{r = 1}^{6} (3r - 2r^{2} + r^{3})
+\]
+The way that this works is that I have to calculate the part of the equation that is inside the brackets by replacing the "r" in this case each time from the value on the bottom to the vale on the top. Then you add all these answers and you are done. 
+\[
+	((3 \times 1) - ( 2 \times ( 1^{2} )) + ( 1^{3}) + ((3 \times 2) - ( 2 \times ( 2^{2} )) + ( 2^{3}) + ((3 \times 3) - ( 2 \times ( 3^{2} )) + ( 3^{3}) + ((3 \times 4) - ( 2 \times ( 4^{2} )) + ( 4^{3}) 
+\]
+\[
+	+ ((3 \times 5) - ( 2 \times ( 5^{2} )) + ( 5^{3}) + ((3 \times 6) - ( 2 \times ( 6^{2} )) + ( 6^{3})
+\]
+\[
+	3-2+1+6-8+16+9-18+27+12-32+64+15-50+125+18-72+216 \Rightarrow 322
+\]
+\[
+\therefore \sum_{r = 1}^{6} (3r - 2r^{2} + r^{3}) = 322
+\]
+\subsection{5 balls in a bag}
+There are 3 red and 2 yellow balls in a bag:
+\subsubsection{yellow ball}
+The probability that a yellow ball is selected is 2/5 due to the fact that there are 2 yellow balls in the bag out of a total of 5. This can be written as 0.4
+\subsubsection{2 yellow balls in a row}
+When there are 2 chances that need to be added up in a row then the individual chances are multiplied. 
+
 \section{Number Systems}
 
 \section{Number Systems calculations}

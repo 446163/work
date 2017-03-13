@@ -9,14 +9,14 @@ Plug 'scrooloose/syntastic'
 Plug 'bling/vim-bufferline'
 Plug 'wesQ3/vim-windowswap'
 Plug 'itchyny/lightline.vim'
-Plug 'airblade/vim-gitgutter'
-Plug 'valloric/youcompleteme'
+"Plug 'airblade/vim-gitgutter'
+"Plug 'valloric/youcompleteme'
 
 Plug 'https://github.com/suan/vim-instant-markdown.git'
 Plug 'lervag/vimtex' 
 
 
-Plug 'mattn/emmet-vim'
+"Plug 'mattn/emmet-vim'
 call plug#end()
 
 let @s="[sz=!1``"
@@ -50,12 +50,12 @@ tnoremap <C-j> <C-\><C-n><C-w>j
 tnoremap <C-k> <C-\><C-n><C-w>k
 tnoremap <C-l> <C-\><C-n><C-w>l
 
-vmap <leader>y "+y
-vmap <leader>d "+d
-vmap <leader>p "+p
-vmap <leader>p "+p
-nmap <leader>p "+p
-nmap <leader>p "+p  
+vmap <leader>y "+y<ESC> 
+vmap <leader>d "+d<ESC> 
+vmap <leader>p "+p<ESC> 
+vmap <leader>p "+p<ESC> 
+nmap <leader>p "+p<ESC> 
+nmap <leader>p "+p<ESC>   
 imap @@ <Esc>@sa
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :wq<cr>
@@ -78,12 +78,11 @@ set splitright
 set noshowmode
 set updatetime=10
 set complete+=kspell
-let g:user_emmet_install_global = 0
-autocmd FileType html,css EmmetInstall
-let g:user_emmet_leader_key='<C-w>'
+set spell spelllang=en_gb
+"let g:user_emmet_install_global = 0
+"autocmd FileType html,css EmmetInstall
+"let g:user_emmet_leader_key='<C-w>'
 
-let g:gitgutter_eager = 1
-let g:gitgutter_realtime = 1
 let g:instant_markdown_autostart = 1
 let g:instant_markdown_open_to_the_world = 1
 
@@ -98,5 +97,3 @@ let g:lightline = {
 \ 'separator': { 'left': '▶', 'right': '◀' },
 \ 'subseparator': { 'left': '»', 'right': '«' }
 \ }
-
-set spell spelllang=en_gb

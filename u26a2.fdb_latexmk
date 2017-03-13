@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1488967883 "u26a2.tex" "u26a2.pdf" "u26a2" 1488967883
+["pdflatex"] 1489396033 "u26a2.tex" "u26a2.pdf" "u26a2" 1489396033
   "/home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk" 1485257503 12356 c757b776719b94b7943c096d2dd785e1 ""
   "/home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk" 1485242849 14156 a1be32feabd5c68eeb194fa8c524edfb ""
   "/home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk" 1485208384 17912 88ebc88c7fd8ed34942ebb511cd4e1e4 ""
@@ -15,6 +15,7 @@
   "/usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk" 1479649807 7864 1899289752281eedeeeec73316a28b80 ""
   "/usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk" 1479649807 8868 6802580824d038b2553e8b2aaa199234 ""
   "/usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk" 1479649807 13732 b2079a83a8343543a9e18db5e6f47ade ""
+  "/usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk" 1479649807 10300 6e52664091755a02d2b1c28d9a7a4fb7 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1479649815 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1479649815 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1479649815 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -59,11 +60,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1479649825 31669 df537245012f3e5f05bdc55644b7a3df ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1485162764 21233 86a8356fda6de65361ca80c11aac99e1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1485162731 7252863 4988a0ff0b51a7c0053e5cf6615d40a5 ""
-  "u26a2.aux" 1488966875 1159 f7c0c69dc2b30fb50fbe6976e9b30562 ""
-  "u26a2.tex" 1488967881 3439 75eaca3e134cf6a14740b12f5f6718a8 ""
-  "u26a2.toc" 1488966875 898 16075a23cba48d77ad7267ca8edd2f35 ""
+  "u26a2.aux" 1489395735 1755 f721c28db26fe8b0bc9976d0fbe08de1 ""
+  "u26a2.tex" 1489396032 7876 b5a03cd6ee06a2dc73ae3814d1d3819c ""
+  "u26a2.toc" 1489395735 1367 d2540e445dbc61934221061af0089e63 ""
   (generated)
-  "u26a2.log"
-  "u26a2.aux"
   "u26a2.pdf"
   "u26a2.toc"
+  "u26a2.log"
+  "u26a2.aux"

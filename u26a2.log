@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  8 MAR 2017 10:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  13 MAR 2017 09:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -201,18 +201,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./u26a2.toc
-./u26a2.toc:7: Missing $ inserted.
+./u26a2.toc:12: Missing $ inserted.
 <inserted text> 
                 $
-l.7 ...n}{\numberline {2.2}3r - 2r^{2} + r^{3}}{4}
+l.12 ...}{\numberline {2.3}3r - 2r^{2} + r^{3}}{5}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./u26a2.toc:7: Extra }, or forgotten $.
+./u26a2.toc:12: Extra }, or forgotten $.
 \@dottedtocline ...\nobreak \hskip -\leftskip {#4}
                                                   \nobreak \leaders \hbox {$...
-l.7 ...n}{\numberline {2.2}3r - 2r^{2} + r^{3}}{4}
+l.12 ...}{\numberline {2.3}3r - 2r^{2} + r^{3}}{5}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -220,10 +220,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./u26a2.toc:7: Missing $ inserted.
+./u26a2.toc:12: Missing $ inserted.
 <inserted text> 
                 $
-l.7 ...n}{\numberline {2.2}3r - 2r^{2} + r^{3}}{4}
+l.12 ...}{\numberline {2.3}3r - 2r^{2} + r^{3}}{5}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -407,36 +407,46 @@ l.64 \end{align}
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-./u26a2.tex:68: Missing $ inserted.
+[4]
+Overfull \hbox (0.73419pt too wide) detected at line 105
+[] \OMS/cmsy/m/n/10 ) [] ) [] ) [] ) [] ) \OT1/cmr/m/n/10 61
+ []
+
+./u26a2.tex:116: Missing $ inserted.
 <inserted text> 
                 $
-l.68 \subsection{3r - 2r^{2} + r^{3}}
-                                     
+l.116 \subsection{3r - 2r^{2} + r^{3}}
+                                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./u26a2.tex:68: Missing $ inserted.
+./u26a2.tex:116: Missing $ inserted.
 <inserted text> 
                 $
-l.68 \subsection{3r - 2r^{2} + r^{3}}
-                                     
+l.116 \subsection{3r - 2r^{2} + r^{3}}
+                                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[4] (./u26a2.aux) ) 
+
+Overfull \hbox (5.41432pt too wide) detected at line 124
+\OT1/cmr/m/n/10 ((3 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 1) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (2 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 (1[])) + (1[]) + ((3 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 2) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (2 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 (2[])) + (2[]) + ((3 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 3) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (2 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 (3[])) + (3[]) + ((3 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 4) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (2 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 (4[])) + (4[])
+ []
+
+[5] [6] (./u26a2.aux) ) 
 Here is how much of TeX's memory you used:
  2890 strings out of 493013
  37969 string characters out of 6139317
- 105448 words of memory out of 5000000
+ 106448 words of memory out of 5000000
  6433 multiletter control sequences out of 15000+600000
  11503 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,8n,32p,432b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on u26a2.pdf (4 pages, 71309 bytes).
+ 27i,8n,32p,516b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
+Output written on u26a2.pdf (6 pages, 83452 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 325 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

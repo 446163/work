@@ -86,6 +86,7 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT u26a2.aux
 INPUT /home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk
 INPUT /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk
+INPUT /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk
 INPUT /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk
 INPUT /home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk
 INPUT /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk
