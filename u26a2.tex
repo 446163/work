@@ -196,13 +196,135 @@ This section will be on the insert provided with the document...
 \end{tabular}
 \end{center}
 \section{Number Systems calculations}
-\subsection{A + F}
+\subsection{a + f in hexadecimal}
 \[
-	A_{16} = 10_{10}, F_{16} = 15_{10} \therefor A+F = 25_{10} = 19_{16}
+	22 + 42 = 64 \rightarrow 64_{10} = 40_{16}
+\]
+\[
+	\therefore A+F = 40
+\]
+\subsection{g * f in hexadecimal}
+\[
+	271 * 42 = 11382 \rightarrow 11382_{10} = 2C76_{16}
+\]
+\[
+	\therefore g * f = 2C76
+\]
+\subsection{f - b in hexadecimal}
+\[
+	42 - 11 = 31 \rightarrow  31_{10} = 1F_{16}
+\]
+\[
+	\therefore f - b = 1F
+\]
+\subsection{a + e in Octal}
+\[
+	22 + 30 = 52 \rigtharrow 52_{10} = 64_{8}
+\]
+\[
+	\therefore a + e = 64
+\]
+\subsection{e - b in Octal}
+\[
+	30 - 11 = 19 \rigtharrow 19_{10} = 23_{8}
+\]
+\[
+	\therefore e - b = 23
+\]
+\subsection{a + d in binary}
+\[
+	22 + 20 = 42 \rightarrow 42_{10} = 101010_{2}
+\]
+\[
+	\therefore a + d = 101010
+\]
+\subsection{a * d in binary}
+\[
+	22 * 20 = 440 \rightarrow 440_{10} = 110111000_{2}
+\]
+\[
+	\therefore a * d = 110111000
+\]
+\subsection{h + i in binary}
+\[
+	44 + 62 = 106 \rightarrow 106_{10} = 1101010_{2}
+\]
+\[
+	\therefore h + i = 1101010
+\]
+\subsection{h * i in hexadecimal}
+\[
+	44 * 62 = 2728 \rigtharrow 2728_{10} = AA8_{16}
+\]
+\[
+	\therefore h * i = AA8
 \]
 \section{Data task}
 
 \section{Recursion}
+For this section I will go through and explaining how the binary search algorithm works and it fits in with the idea of recursion. Below you will see a basic format for the algorithm written in pseudo code:
+
+\begin{verbatim}
+for every item in the data set, read it into an array. 
+if the array is not sorted then sort it
+start:
+go to the middle of the array 
+is the current item what you are looking for?
+....no: is the current item less then the item you are looking for?
+........yes: remove all items in the array that are lower and return to start.
+........no: remove all items in the array that are greater and return to start.
+....yes: you are done as you  have found the item you are looking for, end the program. 
+\end{verbatim}
+As you can see here there are not many stages that are needed for the search algorithm and it is very simple to do. Due to this, the whole part of the program after start: goto will be run over and over again and this will lead to the item that you wand being found. I will now go through the algorithm step by step so that you know why each part is done like it is. 
+
+\begin{verbatim}
+for every item in the data set, read it into an array. 
+\end{verbatim}
+This line will read all of the information that you need into the program so that you can actually modify it and run the search. 
+
+\begin{verbatim}
+if the array is not sorted then sort it
+\end{verbatim}
+This line will sort the data in the array so that it is in an order that can be compared easily, like a cost or number. This will mean that later when you test if the data is greater or lower, you will know that you are removing only data that will not be correct. 
+
+\begin{verbatim}
+start:
+\end{verbatim}
+This line just marks this section in the code with a name so that I cat return to it later in the program. 
+
+\begin{verbatim}
+go to the middle of the array 
+\end{verbatim}
+This line will set the location of the program to look at the middle of the array of numbers, if the length of the array is odd then the program should just go to either one of the middle values as it does not really matter. 
+
+\begin{verbatim}
+is the current item what you are looking for?
+\end{verbatim}
+This will check if the item in the array that you are currently looking at in the program is actually the one that you want. This well then lead off to two conditions depending on if you have found the value that you are looking for or not. If you have found the item that you are looking for then you are done, but otherwise the program carries on. 
+
+\begin{verbatim}
+....no: is the current item less then the item you are looking for?
+\end{verbatim}
+This line will run if the item that the program is on is not the value that you want, that is what the no: part means. Now this is where the clever part of the algorithm starts. If the value of the item that you want is lower then where you are at the moment then you can remove all of the items that are greater than the current item as it is less then this one so it is not higher. This is why the array was sorted to start off with as now you can just remove the half of the array that is higher, and just like that you have halved the values to search. 
+
+\begin{verbatim}
+........yes: remove all items in the array that are lower and return to start.
+\end{verbatim}
+If the item that you are are on is lower than what you want then you can remove all of the items that are lower and this is what this section does. After you have removed the values then you can return to the start: marker of the program and recur it again. 
+
+\begin{verbatim}
+........no: remove all items in the array that are greater and return to start.
+\end{verbatim}
+If the item that you are are on is greater than what you want then you can remove all of the items that are greater and this is what this section does. After you have removed the values then you can return to the start: marker of the program and recur it again. 
+
+\begin{verbatim}
+....yes: you are done as you  have found the item you are looking for, end the program. 
+\end{verbatim}
+If the value that you have at the middle of the selection is the number that you are looking for then you have found it and can see what information it has that you need. Now you just get that information and save it and end the program and you are done. This is the terminal condition. 
+
+
+
+
 
 \section{Use of Number Systems}
 

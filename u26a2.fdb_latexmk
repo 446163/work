@@ -1,9 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1489414160 "u26a2.tex" "u26a2.pdf" "u26a2" 1489414160
+["pdflatex"] 1489490371 "u26a2.tex" "u26a2.pdf" "u26a2" 1489490371
   "/home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk" 1485257503 12356 c757b776719b94b7943c096d2dd785e1 ""
   "/home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk" 1485242849 14156 a1be32feabd5c68eeb194fa8c524edfb ""
   "/home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk" 1485208384 17912 88ebc88c7fd8ed34942ebb511cd4e1e4 ""
   "/home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk" 1488960366 17936 86572ad0c788d6501d1d925538088290 ""
+  "/home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmtt10.600pk" 1489485280 8816 113cb539cb73779b88705b1dede29d0a ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1479649810 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk" 1479649807 11496 ba2f638a41e1f9ffcd2b35d81b165537 ""
   "/usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk" 1479649807 14120 271848fde0b4235f90091a1ae962e6c6 ""
@@ -37,6 +38,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1479649815 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1479649815 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1479649815 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1479649815 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1479649818 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty" 1479649818 1226 01a89dfef361f60ae7df13cd2946bc16 ""
   "/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty" 1479649818 6797 90b7f83b0ad46826bc16058b1e3d48df ""
@@ -60,11 +62,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1479649825 31669 df537245012f3e5f05bdc55644b7a3df ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1485162764 21233 86a8356fda6de65361ca80c11aac99e1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1485162731 7252863 4988a0ff0b51a7c0053e5cf6615d40a5 ""
-  "u26a2.aux" 1489413813 2463 365ceddabe57fa679b4db40c9003da53 ""
-  "u26a2.tex" 1489414159 10033 81603370c9627fd5bc9768e4338d0361 ""
-  "u26a2.toc" 1489413813 1931 fa3fef23f013b55702ee8085a304563c ""
+  "u26a2.aux" 1489490217 3219 054d35b35be4a508861f81859b7d4d25 ""
+  "u26a2.tex" 1489490369 15293 f198aaefb6b5d501cbb3be2f49d63397 ""
+  "u26a2.toc" 1489490217 2525 dfc08ec604d7602a9b1b4fad57f4fdda ""
   (generated)
+  "u26a2.log"
   "u26a2.toc"
   "u26a2.aux"
   "u26a2.pdf"
-  "u26a2.log"
