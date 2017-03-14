@@ -345,7 +345,7 @@ And now the permissions are changed using just octal numbers. This process is ca
 \section{Network Planning}
 In this section I will go through and design 3 subnets for 3 different networks each of a different size.
 \subsection{1000 hosts}
-When designing a subnet you will need to find the power of 2 that is as low as possible while being higher than the target number of hosts. In this case the number is 1000, and the power of 2 that satisfies that requirement is $2^{10}$ as that is 1024. Now that I have this number I will need to then take a string of 32 ones and make, in this case the 10 rightmost ones 0's. This will mean that I now have the following:
+When designing a subnet you will need to find the power of 2 that is as low as possible while being higher than the target number of hosts. In this case the number is 1000, and the power of 2 that satisfies that requirement is $2^{10}$ as that is 1024. Now that I have this number I will need to then take a string of 32 ones and make, in this case the 10 rightmost ones 0's this is also known as /22 as the first 22 digits are 1's. This will mean that I now have the following:
 \[
 	11111111111111111111111111111111 \rightarrow 11111111111111111111110000000000
 \]
@@ -354,10 +354,11 @@ Now I need to separate that number into four groups of 8 bits like so and then c
 	\frac{\downarrow11111111\quad11111111\quad11111100\quad00000000\downarrow}{255 \qquad \qquad 255 \qquad \qquad 252 \qquad \qquad 000} \Rightarrow 255.255.252.0
 \]
 Now I have the subnet mask 255.255.252.0. And in this case this would be the most efficient and justified method for this network due to the fact that it allows for all of the devices that need to connect to the network to connect while taking up as few of the bits for the subnetting as possible so that more of these networks will be able to be up at a time. 
+Another thing to note is that the network id would be 192.168.0.0. In addition to this, the broadcast would be 192.168.3.255 as that is the highest ip that is available on this network. This would mean that the any host on the network would get an ip address between these two and so there would be 1022 possible addresses for the hosts. 
 \subsection{200 hosts}
 with this I will do the same process but with the number 200 this time. 
 	
-The lowest number that satisfies what I need is $2^{8}$ as this number is 256. Now I will have the binary number as follows:
+The lowest number that satisfies what I need is $2^{8}$ as this number is 256, this is known as /24 as the first 24 bits are on. Now I will have the binary number as follows:
 \[
 	11111111111111111111111111111111 \rightarrow 11111111111111111111111100000000
 \]
@@ -366,14 +367,17 @@ This then goes to:
 	\frac{\downarrow11111111\quad11111111\quad11111111\quad00000000\downarrow}{255 \qquad \qquad 255 \qquad \qquad 255 \qquad \qquad 000} \Rightarrow 255.255.255.0
 \]
 And so the address is 255.255.255.0. And as before this is efficient for the same reason. 
+The network ID would be 192.168.0.0, the broadcast would be 192.168.0.255, this would leave 254 ip addresses between these numbers for the hosts. 
 \subsection{30 hosts}
-with 30 hosts the best number would be $2^{5}$ and that is 32 as that fits in all the hosts. This would lead to the binary of this:
+with 30 hosts the best number would be $2^{5}$ and that is 32 as that fits in all the hosts and this is /27. This would lead to the binary of this:
 \[
 	11111111111111111111111111111111 \rightarrow 11111111111111111111111111100000
 \]
 \[
 	\frac{\downarrow 11111111 \quad 11111111 \quad 11111111 \quad 11100000 \downarrow}{255 \qquad \qquad 255 \qquad \qquad 255 \qquad \qquad 224} \Rightarrow 255.255.255.224
 \]
-
+And to the address is 255.255.255.224, the ID is 192.168.0.0, the broadcast is 192.168.0.32, this would leave the perfect 30 places for the hosts on the network between these values. If this network was to ever expand then they would need to use one more bit as a 0 in the mask. 
+\subsection{ipv4 vs ipv6}
+ipv4 and ipv6 are both ways to identify computers on a network and how they should be accessed and sent information. ipv6 is the upgraded version of the common and thoroughly used ipv4. Before I can explain the differences you need to know how they work and what they do. So, an ipv4 address will look like this: "192.168.0.1" as you can see, this is a collection of four numbers that can each go up to a total of 255 and they are all separated by a dot. This would mean that there would be a maximum of 255*255*255*255 different numbers that could happen and that is a value of 4,228,250,625. Now an ipv6 address looks like this: "2001:db8:85a3:8d3:1319:8a2e:370:7348" as you can see, this is a collection of 8 sections of 4 hexadecimal numbers each separated by a colon. Due to the fact that each block is four hexadecimal numbers the different number of possibilities are 65536, this would then go to $65526^{8}$ different possibilities and that is a huge 340282366920938463463374607431768211456. And here is the main reason that ipv6 exists, just the amount of addresses that it provides is so high. And even though the ipv4 number was big we have used all of those and so we needed to expand. 
 
 \end{document}
