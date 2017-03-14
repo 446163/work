@@ -343,7 +343,19 @@ As you can see, there are the 3 groups there and the (r)ead, (w)rite and e(x)ecu
 \]
 And now the permissions are changed using just octal numbers. This process is called masking. 
 \section{Network Planning}
+In this section I will go through and design 3 subnets for 3 different networks each of a different size.
+\subsection{1000 hosts}
+When designing a subnet you will need to find the power of 2 that is as low as possible while being higher than the target number of hosts. In this case the number is 1000, and the power of 2 that satisfies that requirement is $2^{10}$ as that is 1024. Now that I have this number I will need to then take a string of 32 ones and make, in this case the 10 rightmost ones 0's. This will mean that I now have the following:
+\[
+	11111111111111111111111111111111 \rightarrow 11111111111111111111110000000000
+\]
+Now I need to separate that number into four groups of 8 bits like so and then convert those 8 bet numbers into decimal to get the subnet mask and address:
+\[
+	\frac{\downarrow11111111\quad11111111\quad11111100\quad00000000\downarrow}{255 \qquad \qquad 255 \qquad \qquad 252 \qquad \qquad 0} \Rightarrow 255.255.252.0
+\]
+Now I have the subnet mask 255.255.252.0
+	
 
-\section{Number Systems calculations}
+
 
 \end{document}
