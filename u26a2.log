@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  14 MAR 2017 18:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  14 MAR 2017 19:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -204,7 +204,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ./u26a2.toc:12: Missing $ inserted.
 <inserted text> 
                 $
-l.12 ...}{\numberline {2.3}3r - 2r^{2} + r^{3}}{5}
+l.12 ...}{\numberline {2.3}3r - 2r^{2} + r^{3}}{6}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -212,7 +212,7 @@ you left one out. Proceed, with fingers crossed.
 ./u26a2.toc:12: Extra }, or forgotten $.
 \@dottedtocline ...\nobreak \hskip -\leftskip {#4}
                                                   \nobreak \leaders \hbox {$...
-l.12 ...}{\numberline {2.3}3r - 2r^{2} + r^{3}}{5}
+l.12 ...}{\numberline {2.3}3r - 2r^{2} + r^{3}}{6}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -223,12 +223,12 @@ deleted material, e.g., by typing `I$}'.
 ./u26a2.toc:12: Missing $ inserted.
 <inserted text> 
                 $
-l.12 ...}{\numberline {2.3}3r - 2r^{2} + r^{3}}{5}
+l.12 ...}{\numberline {2.3}3r - 2r^{2} + r^{3}}{6}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-)
+[2])
 \tf@toc=\write3
 \openout3 = `u26a2.toc'.
 
@@ -244,7 +244,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[2] [3]
+[3] [4]
 Runaway argument?
  
 ./u26a2.tex:58: Paragraph ended before \align was complete.
@@ -407,7 +407,7 @@ l.65 \end{align}
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-[4]
+[5]
 Overfull \hbox (0.73419pt too wide) detected at line 106
 [] \OMS/cmsy/m/n/10 ) [] ) [] ) [] ) [] ) \OT1/cmr/m/n/10 61
  []
@@ -433,7 +433,7 @@ Overfull \hbox (5.41432pt too wide) detected at line 125
 \OT1/cmr/m/n/10 ((3 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 1) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (2 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 (1[])) + (1[]) + ((3 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 2) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (2 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 (2[])) + (2[]) + ((3 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 3) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (2 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 (3[])) + (3[]) + ((3 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 4) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (2 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 (4[])) + (4[])
  []
 
-[5] [6]
+[6] [7]
 ./u26a2.tex:223: Undefined control sequence.
 l.223 	22 + 30 = 52 \rigtharrow
                                 52_{10} = 64_{8}
@@ -452,7 +452,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[7]
+[8]
 ./u26a2.tex:258: Undefined control sequence.
 l.258 	44 * 62 = 2728 \rigtharrow
                                   2728_{10} = AA8_{16}
@@ -467,12 +467,12 @@ Overfull \hbox (38.49234pt too wide) in paragraph at lines 278--278
 []\OT1/cmtt/m/n/10 ....yes: you are done as you  have found the item you are looking for, end the program.[] 
  []
 
-[8]
+[9]
 Overfull \hbox (38.49234pt too wide) in paragraph at lines 323--323
 []\OT1/cmtt/m/n/10 ....yes: you are done as you  have found the item you are looking for, end the program.[] 
  []
 
-[9] [10] [11] (./u26a2.aux) ) 
+[10] [11] [12] (./u26a2.aux) ) 
 Here is how much of TeX's memory you used:
  2892 strings out of 493013
  37990 string characters out of 6139317
@@ -482,10 +482,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  27i,8n,32p,961b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmtt10.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on u26a2.pdf (11 pages, 121907 bytes).
+Output written on u26a2.pdf (12 pages, 123250 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 441 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

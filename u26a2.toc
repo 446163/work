@@ -1,41 +1,43 @@
-\contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {section}{\numberline {2}Series and Sequences and Probability}{3}
-\contentsline {subsection}{\numberline {2.1}-3, 1, 5, 9, 13 \dots }{3}
-\contentsline {subsubsection}{\numberline {2.1.1}nth term}{3}
-\contentsline {subsubsection}{\numberline {2.1.2}17th term}{3}
-\contentsline {subsubsection}{\numberline {2.1.3}Sum of terms}{4}
-\contentsline {subsection}{\numberline {2.2}81, -27, 9, -3 \dots }{4}
-\contentsline {subsubsection}{\numberline {2.2.1}nth term}{4}
-\contentsline {subsubsection}{\numberline {2.2.2}10th term}{5}
-\contentsline {subsubsection}{\numberline {2.2.3}Sum to the 5th element}{5}
-\contentsline {subsubsection}{\numberline {2.2.4}Sum to infinity}{5}
-\contentsline {subsection}{\numberline {2.3}3r - 2r^{2} + r^{3}}{5}
-\contentsline {subsection}{\numberline {2.4}5 balls in a bag}{6}
-\contentsline {subsubsection}{\numberline {2.4.1}yellow ball}{6}
-\contentsline {subsubsection}{\numberline {2.4.2}2 yellow balls in a row}{6}
-\contentsline {subsubsection}{\numberline {2.4.3}Tree}{6}
-\contentsline {subsection}{\numberline {2.5}In a year group}{6}
-\contentsline {subsubsection}{\numberline {2.5.1}Venn diagram}{6}
-\contentsline {subsubsection}{\numberline {2.5.2}Only Computer science}{6}
-\contentsline {subsubsection}{\numberline {2.5.3}Engineering}{6}
-\contentsline {subsection}{\numberline {2.6}Betting game}{6}
-\contentsline {section}{\numberline {3}Number Systems}{7}
-\contentsline {subsection}{\numberline {3.1}Binary, Octal, Decimal and Hexadecimal conversion}{7}
-\contentsline {section}{\numberline {4}Number Systems calculations}{7}
-\contentsline {subsection}{\numberline {4.1}a + f in hexadecimal}{7}
-\contentsline {subsection}{\numberline {4.2}g * f in hexadecimal}{7}
-\contentsline {subsection}{\numberline {4.3}f - b in hexadecimal}{7}
-\contentsline {subsection}{\numberline {4.4}a + e in Octal}{7}
-\contentsline {subsection}{\numberline {4.5}e - b in Octal}{7}
-\contentsline {subsection}{\numberline {4.6}a + d in binary}{7}
-\contentsline {subsection}{\numberline {4.7}a * d in binary}{8}
-\contentsline {subsection}{\numberline {4.8}h + i in binary}{8}
-\contentsline {subsection}{\numberline {4.9}h * i in hexadecimal}{8}
-\contentsline {section}{\numberline {5}Data task}{8}
-\contentsline {section}{\numberline {6}Recursion}{8}
-\contentsline {section}{\numberline {7}Use of Number Systems}{9}
-\contentsline {subsection}{\numberline {7.1}binary - ASCII}{10}
-\contentsline {subsection}{\numberline {7.2}Hexadecimal - MIME}{10}
-\contentsline {subsection}{\numberline {7.3}Octal - Unix file permissions}{10}
-\contentsline {section}{\numberline {8}Network Planning}{11}
-\contentsline {subsection}{\numberline {8.1}1000 hosts}{11}
+\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {2}Series and Sequences and Probability}{4}
+\contentsline {subsection}{\numberline {2.1}-3, 1, 5, 9, 13 \dots }{4}
+\contentsline {subsubsection}{\numberline {2.1.1}nth term}{4}
+\contentsline {subsubsection}{\numberline {2.1.2}17th term}{4}
+\contentsline {subsubsection}{\numberline {2.1.3}Sum of terms}{5}
+\contentsline {subsection}{\numberline {2.2}81, -27, 9, -3 \dots }{5}
+\contentsline {subsubsection}{\numberline {2.2.1}nth term}{5}
+\contentsline {subsubsection}{\numberline {2.2.2}10th term}{6}
+\contentsline {subsubsection}{\numberline {2.2.3}Sum to the 5th element}{6}
+\contentsline {subsubsection}{\numberline {2.2.4}Sum to infinity}{6}
+\contentsline {subsection}{\numberline {2.3}3r - 2r^{2} + r^{3}}{6}
+\contentsline {subsection}{\numberline {2.4}5 balls in a bag}{7}
+\contentsline {subsubsection}{\numberline {2.4.1}yellow ball}{7}
+\contentsline {subsubsection}{\numberline {2.4.2}2 yellow balls in a row}{7}
+\contentsline {subsubsection}{\numberline {2.4.3}Tree}{7}
+\contentsline {subsection}{\numberline {2.5}In a year group}{7}
+\contentsline {subsubsection}{\numberline {2.5.1}Venn diagram}{7}
+\contentsline {subsubsection}{\numberline {2.5.2}Only Computer science}{7}
+\contentsline {subsubsection}{\numberline {2.5.3}Engineering}{7}
+\contentsline {subsection}{\numberline {2.6}Betting game}{7}
+\contentsline {section}{\numberline {3}Number Systems}{8}
+\contentsline {subsection}{\numberline {3.1}Binary, Octal, Decimal and Hexadecimal conversion}{8}
+\contentsline {section}{\numberline {4}Number Systems calculations}{8}
+\contentsline {subsection}{\numberline {4.1}a + f in hexadecimal}{8}
+\contentsline {subsection}{\numberline {4.2}g * f in hexadecimal}{8}
+\contentsline {subsection}{\numberline {4.3}f - b in hexadecimal}{8}
+\contentsline {subsection}{\numberline {4.4}a + e in Octal}{8}
+\contentsline {subsection}{\numberline {4.5}e - b in Octal}{8}
+\contentsline {subsection}{\numberline {4.6}a + d in binary}{8}
+\contentsline {subsection}{\numberline {4.7}a * d in binary}{9}
+\contentsline {subsection}{\numberline {4.8}h + i in binary}{9}
+\contentsline {subsection}{\numberline {4.9}h * i in hexadecimal}{9}
+\contentsline {section}{\numberline {5}Data task}{9}
+\contentsline {section}{\numberline {6}Recursion}{9}
+\contentsline {section}{\numberline {7}Use of Number Systems}{10}
+\contentsline {subsection}{\numberline {7.1}binary - ASCII}{11}
+\contentsline {subsection}{\numberline {7.2}Hexadecimal - MIME}{11}
+\contentsline {subsection}{\numberline {7.3}Octal - Unix file permissions}{11}
+\contentsline {section}{\numberline {8}Network Planning}{12}
+\contentsline {subsection}{\numberline {8.1}1000 hosts}{12}
+\contentsline {subsection}{\numberline {8.2}200 hosts}{12}
+\contentsline {subsection}{\numberline {8.3}30 hosts}{12}

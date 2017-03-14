@@ -351,11 +351,29 @@ When designing a subnet you will need to find the power of 2 that is as low as p
 \]
 Now I need to separate that number into four groups of 8 bits like so and then convert those 8 bet numbers into decimal to get the subnet mask and address:
 \[
-	\frac{\downarrow11111111\quad11111111\quad11111100\quad00000000\downarrow}{255 \qquad \qquad 255 \qquad \qquad 252 \qquad \qquad 0} \Rightarrow 255.255.252.0
+	\frac{\downarrow11111111\quad11111111\quad11111100\quad00000000\downarrow}{255 \qquad \qquad 255 \qquad \qquad 252 \qquad \qquad 000} \Rightarrow 255.255.252.0
 \]
-Now I have the subnet mask 255.255.252.0
+Now I have the subnet mask 255.255.252.0. And in this case this would be the most efficient and justified method for this network due to the fact that it allows for all of the devices that need to connect to the network to connect while taking up as few of the bits for the subnetting as possible so that more of these networks will be able to be up at a time. 
+\subsection{200 hosts}
+with this I will do the same process but with the number 200 this time. 
 	
-
+The lowest number that satisfies what I need is $2^{8}$ as this number is 256. Now I will have the binary number as follows:
+\[
+	11111111111111111111111111111111 \rightarrow 11111111111111111111111100000000
+\]
+This then goes to:
+\[
+	\frac{\downarrow11111111\quad11111111\quad11111111\quad00000000\downarrow}{255 \qquad \qquad 255 \qquad \qquad 255 \qquad \qquad 000} \Rightarrow 255.255.255.0
+\]
+And so the address is 255.255.255.0. And as before this is efficient for the same reason. 
+\subsection{30 hosts}
+with 30 hosts the best number would be $2^{5}$ and that is 32 as that fits in all the hosts. This would lead to the binary of this:
+\[
+	11111111111111111111111111111111 \rightarrow 11111111111111111111111111100000
+\]
+\[
+	\frac{\downarrow 11111111 \quad 11111111 \quad 11111111 \quad 11100000 \downarrow}{255 \qquad \qquad 255 \qquad \qquad 255 \qquad \qquad 224} \Rightarrow 255.255.255.224
+\]
 
 
 \end{document}
