@@ -1,6 +1,7 @@
 \documentclass{article}
 
 \usepackage{amssymb}
+\usepackage{amsmath}
 \usepackage{listings}
 \usepackage{amsmath}
 \usepackage{float} 
@@ -325,9 +326,22 @@ If the value that you have at the middle of the selection is the number that you
 \section{Use of Number Systems}
 In this section I will go through how binary, octal and hexadecimal are used and are applied in areas of computing with how they are used and how they work. For this I will be showing how binary is used with ASCII, how hexadecimal is used with MIME and how Octal is used with Unix file permissions. 
 \subsection{binary - ASCII}
-One way that binary is used in computer science is in the use of ASCII. ASCII stands for the American Standard Code for Information Interchange and this is the standard that is used for how the standard set of English characters and numbers are encoded in binary on the computer and how it deals with them. With ASCII the letter "a" for example 
-
-
+One way that binary is used in computer science is in the use of ASCII. ASCII stands for the American Standard Code for Information Interchange and this is the standard that is used for how the standard set of English characters and numbers are encoded in binary on the computer and how it deals with them. With ASCII the letter "a" for example will have a value inside the computer of 1100001. So whenever the computer does anything with the letter a it will use this value of 1100001 internally. Now a cl;aver part of this is that "b" is 1100010, one more than "a" but the right most digits correlate to the numbers as 1 is 1 and 10 is 2. So for example if you had "s" the 19th letter in the alphabet then its ASCII value would be 1110011, and 19 in binary is 10011. This ASCII also extends to capital letters in a similar fashion as well, just with a different prefix and there is also all of the things that you can type on a English keyboard.  
+\subsection{Hexadecimal - MIME}
+To start off with, mime is a mechanism that enables the transmission of information in email format between computers that may not have the same language. Due to the fact that the whole point is that the computers have different languages, the 8 bits that where used in the previous example will not be enough and as such we need to use 2 Hexadecimal bits, in addition to this it also uses formatting to ensure that all messages fit a certain line length so that it is compatible and so on. This as you can see will use hexadecimal characters to represent the information and this is how they are used in computing. So, for example, a value of 12 will be "=0C". 
+\subsection{Octal - Unix file permissions}
+A way that octal is used in computing is in the UNIX and UNIX-like operating systems for setting file permissions for the users of the system. The way that the file permissions are handled in UNIX is that the file has meta data set aside for it that will store this information and there are 9 main bits for the file access permissions and a few more for the file type. The 9 main bits are separated into 3 sections that represent the access that the owner, group and anyone else has for the file. These 3 bits then represent the ability that they have to read, write and execute the file. So the bits are arranged like so
+\begin{verbatim}
+rwxrwxrwx
+\end{verbatim}
+As you can see, there are the 3 groups there and the (r)ead, (w)rite and e(x)ecute that the 3 groups have. Now the octal comes in when you want to change the value of these bits and the way that you do this is through the use of the chmod command. You give the chmod command the file that you want to edit and then you give it 3 octal numbers. The 3 octal numbers are then converted to binary and this then lines up with bits in the file and where there is a one that will be active. Lets say that you have a file called .xinitrc that you wanted to change the permissions of and you ran the command chmod .xinitrc 752, lets see what would happen:
+\[
+	7_{10} = 111_{2} \quad \& \quad 5_{10} = 101_{2} \quad \& \quad 2_{10} = 010_{2}
+\]
+\[
+	\frac{\downarrow111101010\downarrow}{\mbox{rwxrwxrwx}} \Rightarrow \mbox{rwxr-x-w-}
+\]
+And now the permissions are changed using just octal numbers. This process is called masking. 
 \section{Network Planning}
 
 \section{Number Systems calculations}
