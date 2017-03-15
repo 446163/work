@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  15 MAR 2017 12:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  15 MAR 2017 13:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -504,11 +504,16 @@ Overfull \hbox (5.41432pt too wide) detected at line 126
 [6] <u26a2tree.png, id=36, 769.87625pt x 268.00125pt>
 File: u26a2tree.png Graphic file (type png)
  <use u26a2tree.png>
-Package pdftex.def Info: u26a2tree.png used on input line 151.
+Package pdftex.def Info: u26a2tree.png used on input line 150.
 (pdftex.def)             Requested size: 418.25368pt x 145.6018pt.
- [7 <./u26a2tree.png>]
-./u26a2.tex:230: Undefined control sequence.
-l.230 	22 + 30 = 52 \rigtharrow
+ <u26a2venn.png, id=38, 448.67625pt x 481.8pt>
+File: u26a2venn.png Graphic file (type png)
+ <use u26a2venn.png>
+Package pdftex.def Info: u26a2venn.png used on input line 159.
+(pdftex.def)             Requested size: 418.25368pt x 449.15005pt.
+ [7 <./u26a2tree.png>] [8 <./u26a2venn.png>] [9]
+./u26a2.tex:256: Undefined control sequence.
+l.256 	22 + 30 = 52 \rigtharrow
                                 52_{10} = 64_{8}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -516,9 +521,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[8]
-./u26a2.tex:237: Undefined control sequence.
-l.237 	30 - 11 = 19 \rigtharrow
+./u26a2.tex:263: Undefined control sequence.
+l.263 	30 - 11 = 19 \rigtharrow
                                 19_{10} = 23_{8}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -526,8 +530,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./u26a2.tex:265: Undefined control sequence.
-l.265 	44 * 62 = 2728 \rigtharrow
+[10]
+./u26a2.tex:291: Undefined control sequence.
+l.291 	44 * 62 = 2728 \rigtharrow
                                   2728_{10} = AA8_{16}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -535,29 +540,29 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9]
-Overfull \hbox (38.49234pt too wide) in paragraph at lines 285--285
+
+Overfull \hbox (38.49234pt too wide) in paragraph at lines 311--311
 []\OT1/cmtt/m/n/10 ....yes: you are done as you  have found the item you are looking for, end the program.[] 
  []
 
-[10]
-Overfull \hbox (38.49234pt too wide) in paragraph at lines 330--330
+[11]
+Overfull \hbox (38.49234pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 ....yes: you are done as you  have found the item you are looking for, end the program.[] 
  []
 
-[11] [12]
-./u26a2.tex:391: Missing $ inserted.
+[12] [13] [14]
+./u26a2.tex:417: Missing $ inserted.
 <inserted text> 
                 $
-l.391 \begin{matrix}
+l.417 \begin{matrix}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./u26a2.tex:396: Missing $ inserted.
+./u26a2.tex:422: Missing $ inserted.
 <inserted text> 
                 $
-l.396 \end{matrix}
+l.422 \end{matrix}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -565,20 +570,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[13] [14] (./u26a2.aux) ) 
+[15] (./u26a2.aux) ) 
 Here is how much of TeX's memory you used:
- 4118 strings out of 493013
- 55943 string characters out of 6139317
- 132334 words of memory out of 5000000
- 7602 multiletter control sequences out of 15000+600000
+ 4121 strings out of 493013
+ 56006 string characters out of 6139317
+ 133334 words of memory out of 5000000
+ 7604 multiletter control sequences out of 15000+600000
  11671 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,8n,32p,1210b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,8n,32p,1210b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmtt10.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on u26a2.pdf (14 pages, 150568 bytes).
+Output written on u26a2.pdf (15 pages, 194439 bytes).
 PDF statistics:
- 465 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 469 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

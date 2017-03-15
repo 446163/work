@@ -147,15 +147,19 @@ When there are 2 chances that need to be added up in a row then the individual c
 \]
 \subsubsection{Tree}
 
-\begin{figure}[h]
-  \includegraphics[width=\linewidth]{u26a2tree.png}
-  \caption{a tree diagram}
-\end{figure}
+\includegraphics[width=\linewidth]{u26a2tree.png}
 
-
+Here you can see a tree diagram showing the probabilities of selecting a yellow ball from the bag. The reason that it is not fully expanded for the bottom is that once you have selected a red ball you then you would restart the tree again. To work out the probability you would just need to multiply across the path that you want to follow. This would then lead to this:
+\[
+	\frac{2}{5} * \frac{2}{5} * \frac{2}{5} * \frac{2}{5} = \frac{2*2*2*2}{5*5*5*5} \Rightarrow \frac{16}{625}
+\]
 \subsection{In a year group}
 \subsubsection{Venn diagram}
-This section will be on the insert provided with the document...
+
+\includegraphics[width=\linewidth]{u26a2venn.png}
+
+Here you can see a venn diagram representing the data that was was given to me. As you can see there are 70 people who do only  computer science, 83 who do only Engineering, 12 who do Engineering and maths and 15 who do maths and computer science with 10 who do none of them. 
+
 \subsubsection{Only Computer science}
 To start to answer this question I first need to add up how many different students there are in total and then I can work out the probability. 
 \[
@@ -174,7 +178,29 @@ looking at the information that I have there are 83+12 students that study Engin
 	95 / 190 \Rightarrow 1/2 \mbox{ That is 50\% or a probability of 0.5 }
 \]
 \subsection{Betting game}
-This section will be on the insert provided with the document...
+Below you will see the probability space diagram for the betting game, in this diagram the rows represent the roll of the D6 (6 sided die) and the columns represent the roll of the D4. 
+\begin{center}
+\begin{tabular}{ |c||c|c|c|c| } 
+ \hline
+ + & 1 & 2 & 3 & 4 \\
+ \hline
+ \hline
+ 1 & 2 & 3 & 4 & 5 \\ 
+ \hline
+ 2 & 3 & 4 & 5 & 6 \\ 
+ \hline
+ 3 & 4 & 5 & 6 & 7 \\ 
+ \hline
+ 4 & 5 & 6 & 7 & 8 \\ 
+ \hline
+ 5 & 6 & 7 & 8 & 9 \\ 
+ \hline
+ 6 & 7 & 8 & 9 & 10 \\
+ \hline
+\end{tabular}
+\end{center}
+As you can see, this this example I have added the values of the dice rolls. From here you can see that the values of 4, 5, 6 and 7 are the most common occurrence as they each happen $\frac{4}{24}$ times This would then simplify to $\frac{1}{6}$ which is a probability of $0.1\dot{6}$. On the other hand, the values of 2 and 10 are the least frequent due to the fact that they happen $\frac{1}{24}$ times which is a probability of $0.041\dot{6}$
+
 \section{Number Systems}
 \subsection{Binary, Octal, Decimal and Hexadecimal conversion}
 \begin{center}

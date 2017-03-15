@@ -120,6 +120,9 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT u26a2tree.png
 INPUT ./u26a2tree.png
 INPUT ./u26a2tree.png
+INPUT u26a2venn.png
+INPUT ./u26a2venn.png
+INPUT ./u26a2venn.png
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT u26a2.aux
 INPUT /home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmtt10.600pk
