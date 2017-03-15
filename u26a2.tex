@@ -379,5 +379,17 @@ with 30 hosts the best number would be $2^{5}$ and that is 32 as that fits in al
 And to the address is 255.255.255.224, the ID is 192.168.0.0, the broadcast is 192.168.0.32, this would leave the perfect 30 places for the hosts on the network between these values. If this network was to ever expand then they would need to use one more bit as a 0 in the mask. 
 \subsection{ipv4 vs ipv6}
 ipv4 and ipv6 are both ways to identify computers on a network and how they should be accessed and sent information. ipv6 is the upgraded version of the common and thoroughly used ipv4. Before I can explain the differences you need to know how they work and what they do. So, an ipv4 address will look like this: "192.168.0.1" as you can see, this is a collection of four numbers that can each go up to a total of 255 and they are all separated by a dot. This would mean that there would be a maximum of 255*255*255*255 different numbers that could happen and that is a value of 4,228,250,625. Now an ipv6 address looks like this: "2001:db8:85a3:8d3:1319:8a2e:370:7348" as you can see, this is a collection of 8 sections of 4 hexadecimal numbers each separated by a colon. Due to the fact that each block is four hexadecimal numbers the different number of possibilities are 65536, this would then go to $65526^{8}$ different possibilities and that is a huge 340282366920938463463374607431768211456. And here is the main reason that ipv6 exists, just the amount of addresses that it provides is so high. And even though the ipv4 number was big we have used all of those and so we needed to expand. 
+\subsection{Network classes}
+When you are talking about networks, there are a few different classes for networks that are intended for different types of networks. The types of networks are called class A, B and C. These are distinguished by the subnet mark that they use.  \\
+\begin{matrix}
+	Class  & First ID  &  Last ID \\
+	Class A &	1.0.0.0	    & 126.0.0.0 \\
+	Class B &	128.0.0.0 &	191.255.0.0 \\
+	Class C	 & 192.0.0.0 &	223.255.255.0
+\end{matrix}
+\\
+From this you can see that the Last ID will be the same as the subnet mask for the network and then the first ID will be the first ip address that will be available. As you can see, the class A networks will have the ability to have many, many devices connected at the same time, but not many of then can be connected. Due to this there networks are used by ISP's because that is what they need. On the other end of the scale you have the Class C networks and these cannot have too many devices connected to them but there can be a lot of them. Due to this this would be suited to the home owners that the ISP will serve, and that is what happens. All the classes in-between are used by companies of different sizes and so on.  
+\subsection{Classless Inter Domain Routing (CIDR) }
+The final part on this networking section is the CIDR, this stand for Classless Inter Domain Routing and is a way of allow there to be more ip addresser allocated to devices while still keeping the existing infrastructure in place. If you look at how subnetting allows there to be more networks connected together which in turn adds in more ip addresses to be able to be used in there own networks. This is how supernetting or CIDR works but instead you perform the action on the subnets which in turn performs the process on the ip addresses. Using this as you can see, you can get many more subnets and in turn many more ip addresses and hosts connected to the network. 
 
 \end{document}

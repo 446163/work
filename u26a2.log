@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  14 MAR 2017 20:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.23)  15 MAR 2017 11:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -472,7 +472,27 @@ Overfull \hbox (38.49234pt too wide) in paragraph at lines 323--323
 []\OT1/cmtt/m/n/10 ....yes: you are done as you  have found the item you are looking for, end the program.[] 
  []
 
-[10] [11] [12] [13] (./u26a2.aux) ) 
+[10] [11] [12]
+./u26a2.tex:384: Missing $ inserted.
+<inserted text> 
+                $
+l.384 \begin{matrix}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./u26a2.tex:389: Missing $ inserted.
+<inserted text> 
+                $
+l.389 \end{matrix}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[13] (./u26a2.aux) ) 
 Here is how much of TeX's memory you used:
  2892 strings out of 493013
  37990 string characters out of 6139317
@@ -482,9 +502,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  27i,8n,32p,1210b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmtt10.600pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msam10.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/fourfour/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on u26a2.pdf (13 pages, 125422 bytes).
+Output written on u26a2.pdf (13 pages, 131332 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
+ 459 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
