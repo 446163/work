@@ -10,7 +10,7 @@ All BTEC work will follow the naming scheme as follows:
 
 ### Assignments 
 
-> u***x***a***y***.md
+> u***x***a***y***.md/pdf
 
 With this meaning...
 
@@ -18,6 +18,7 @@ With this meaning...
 * The ***y*** represents the assignment for that particular unit (Assignment 1, 2...etc)
 * The ***u*** and ***a*** are for ***u***nit and ***a***ssignment. 
 * The .md indicates that you are accessing the correct file and that it is written in markdown (so it formats nicely)
+* The .pdf will in most cases be the pdf version of the assignment that will most likley be written in LATEX, the code for that will be in the .tex file with the same name. 
 
 ### Briefs
 
