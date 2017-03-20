@@ -32,15 +32,31 @@
 \contentsline {subsection}{\numberline {4.8}h + i in binary}{11}
 \contentsline {subsection}{\numberline {4.9}h * i in hexadecimal}{11}
 \contentsline {section}{\numberline {5}Data task}{11}
-\contentsline {section}{\numberline {6}Recursion}{11}
-\contentsline {section}{\numberline {7}Use of Number Systems}{12}
-\contentsline {subsection}{\numberline {7.1}binary - ASCII}{13}
-\contentsline {subsection}{\numberline {7.2}Hexadecimal - MIME}{13}
-\contentsline {subsection}{\numberline {7.3}Octal - Unix file permissions}{13}
-\contentsline {section}{\numberline {8}Network Planning}{14}
-\contentsline {subsection}{\numberline {8.1}1000 hosts}{14}
-\contentsline {subsection}{\numberline {8.2}200 hosts}{14}
-\contentsline {subsection}{\numberline {8.3}30 hosts}{14}
-\contentsline {subsection}{\numberline {8.4}ipv4 vs ipv6}{15}
-\contentsline {subsection}{\numberline {8.5}Network classes}{15}
-\contentsline {subsection}{\numberline {8.6}Classless Inter Domain Routing (CIDR) }{15}
+\contentsline {subsection}{\numberline {5.1}Hypothesis}{11}
+\contentsline {subsection}{\numberline {5.2}The data}{11}
+\contentsline {subsubsection}{\numberline {5.2.1}What data I need}{11}
+\contentsline {subsection}{\numberline {5.3}Analysing}{12}
+\contentsline {subsection}{\numberline {5.4}Averages}{12}
+\contentsline {subsubsection}{\numberline {5.4.1}mean}{12}
+\contentsline {subsubsection}{\numberline {5.4.2}median}{13}
+\contentsline {subsubsection}{\numberline {5.4.3}mode}{13}
+\contentsline {subsection}{\numberline {5.5}Statistics}{13}
+\contentsline {subsubsection}{\numberline {5.5.1}interquartile ranges}{13}
+\contentsline {subsubsection}{\numberline {5.5.2}variation}{13}
+\contentsline {subsubsection}{\numberline {5.5.3}Standard deviation}{13}
+\contentsline {subsection}{\numberline {5.6}Conclusion}{14}
+\contentsline {subsection}{\numberline {5.7}validity}{14}
+\contentsline {subsection}{\numberline {5.8}reflect}{14}
+\contentsline {section}{\numberline {6}Recursion}{14}
+\contentsline {section}{\numberline {7}Use of Number Systems}{15}
+\contentsline {subsection}{\numberline {7.1}binary - ASCII}{16}
+\contentsline {subsection}{\numberline {7.2}Hexadecimal - MIME}{16}
+\contentsline {subsection}{\numberline {7.3}Octal - Unix file permissions}{16}
+\contentsline {section}{\numberline {8}Network Planning}{17}
+\contentsline {subsection}{\numberline {8.1}1000 hosts}{17}
+\contentsline {subsection}{\numberline {8.2}200 hosts}{17}
+\contentsline {subsection}{\numberline {8.3}30 hosts}{17}
+\contentsline {subsection}{\numberline {8.4}ipv4 vs ipv6}{18}
+\contentsline {subsection}{\numberline {8.5}Network classes}{18}
+\contentsline {subsection}{\numberline {8.6}Classless Inter Domain Routing (CIDR) }{18}
+\contentsline {section}{\numberline {9}conclusion}{19}
