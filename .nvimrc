@@ -70,6 +70,7 @@ nnoremap <leader>gp :Gpush<CR>
 set nu
 set exrc
 set mouse=n
+set showcmd
 set wrap lbr
 set t_Co=256
 set showmatch
@@ -97,3 +98,5 @@ let g:lightline = {
 \ 'separator': { 'left': '▶', 'right': '◀' },
 \ 'subseparator': { 'left': '»', 'right': '«' }
 \ }
+
+let g:lightline.colorscheme = 'orbital'
