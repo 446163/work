@@ -11,6 +11,8 @@ Plug 'wesQ3/vim-windowswap'
 Plug 'itchyny/lightline.vim'
 "Plug 'airblade/vim-gitgutter'
 "Plug 'valloric/youcompleteme'
+Plug 'haya14busa/incsearch.vim'
+Plug 'prendradjaja/vim-vertigo'
 
 Plug 'https://github.com/suan/vim-instant-markdown.git'
 Plug 'lervag/vimtex' 
@@ -23,6 +25,35 @@ let @s="[sz=!1``"
 let mapleader="\<Backspace>"
 let maplocalleader="\<Backspace>"
 let g:vimtex_view_general_viewer = 'okular' 
+
+
+nnoremap <silent> <leader>n :<C-U>VertigoDown n<CR>
+vnoremap <silent> <leader>n :<C-U>VertigoDown v<CR>
+onoremap <silent> <leader>n :<C-U>VertigoDown o<CR>
+nnoremap <silent> <leader>e :<C-U>VertigoUp n<CR>
+vnoremap <silent> <leader>e :<C-U>VertigoUp v<CR>
+onoremap <silent> <leader>e :<C-U>VertigoUp o<CR>
+
+let g:Vertigo_homerow = 'arstdhneio'
+let g:Vertigo_homerow_onedigit = 'qwfpgjluy;'
+
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
+
+set hlsearch
+let g:incsearch#auto_nohlsearch = 1
+map n  <Plug>(incsearch-nohl-n)
+map N  <Plug>(incsearch-nohl-N)
+map *  <Plug>(incsearch-nohl-*)
+map #  <Plug>(incsearch-nohl-#)
+map g* <Plug>(incsearch-nohl-g*)
+map g# <Plug>(incsearch-nohl-g#)
+
+set foldmethod=manual
+autocmd BufWinLeave * mkview!
+autocmd BufWinEnter * loadview 
+au TermOpen * setlocal scrollback=-1
 
 map <space> a
 map <m-K> 5<C-W>-
@@ -50,12 +81,12 @@ tnoremap <C-j> <C-\><C-n><C-w>j
 tnoremap <C-k> <C-\><C-n><C-w>k
 tnoremap <C-l> <C-\><C-n><C-w>l
 
-vmap <leader>y "+y<ESC> 
-vmap <leader>d "+d<ESC> 
-vmap <leader>p "+p<ESC> 
-vmap <leader>p "+p<ESC> 
-nmap <leader>p "+p<ESC> 
-nmap <leader>p "+p<ESC>   
+vmap <leader>y "+y
+vmap <leader>d "+d
+vmap <leader>p "+p
+vmap <leader>p "+p
+nmap <leader>p "+p
+nmap <leader>p "+p  
 imap @@ <Esc>@sa
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :wq<cr>
@@ -87,7 +118,7 @@ set spell spelllang=en_gb
 let g:instant_markdown_autostart = 1
 let g:instant_markdown_open_to_the_world = 1
 
-autocmd VimEnter * colorscheme orbital
+"autocmd VimEnter * colorscheme orbital
 
 autocmd BufRead,BufNewFile *.md setlocal spell
 
@@ -99,4 +130,4 @@ let g:lightline = {
 \ 'subseparator': { 'left': '»', 'right': '«' }
 \ }
 
-let g:lightline.colorscheme = 'orbital'
+"let g:lightline.colorscheme = 'orbital'
