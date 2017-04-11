@@ -1,6 +1,6 @@
 " WORK VIMRC FILE 
-"let g:python_host_skip_check=1
-"let g:loaded_python3_provider=1
+let g:python_host_skip_check=1
+let g:loaded_python3_provider=1
 
 call plug#begin()
 
@@ -49,11 +49,6 @@ map *  <Plug>(incsearch-nohl-*)
 map #  <Plug>(incsearch-nohl-#)
 map g* <Plug>(incsearch-nohl-g*)
 map g# <Plug>(incsearch-nohl-g#)
-
-set foldmethod=manual
-autocmd BufWinLeave * mkview!
-autocmd BufWinEnter * loadview 
-au TermOpen * setlocal scrollback=-1
 
 map <space> a
 map <m-K> 5<C-W>-
@@ -118,7 +113,7 @@ set spell spelllang=en_gb
 let g:instant_markdown_autostart = 1
 let g:instant_markdown_open_to_the_world = 1
 
-"autocmd VimEnter * colorscheme orbital
+autocmd VimEnter * colorscheme orbital
 
 autocmd BufRead,BufNewFile *.md setlocal spell
 
