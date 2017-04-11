@@ -18,7 +18,7 @@ char subBoard[9] = {
 	'.','.','.',  // creating the sub board (the one that actually wins the game)
 	'.','.','.'};
 
-int printBoard (int bold) {
+void printBoard (int bold) {
 	printf("\n");
 	int i, j, k, l, m, n;
 	char printBorder [13] = {'|','|','-','-','-','|','|','-','-','-','|','|','/'}; // the border to get printed 
@@ -249,6 +249,7 @@ int main()
 			game();
 		}
 	}
+	return(0);
 }
 
 
