@@ -21,8 +21,8 @@ char subBoard[9] = {
 int printBoard (int bold) {
 	printf("\n");
 	int i, j, k, l, m, n;
-	char printBorder [13] = {'|','|','-','-','-','|','|','-','-','-','|','|'}; // the border to get printed 
-	char boldBorder [13] = {'I','I','=','=','=','I','I','=','=','=','I','I'}; // the bold options for all the borders
+	char printBorder [13] = {'|','|','-','-','-','|','|','-','-','-','|','|','/'}; // the border to get printed 
+	char boldBorder [13] = {'I','I','=','=','=','I','I','=','=','=','I','I','/'}; // the bold options for all the borders
 	int borderData [10][4] = {  // knows what borders are in effect for what square has been selected
 		{0,2,13,13},
 		{0,1,3,13},
