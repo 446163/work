@@ -19,12 +19,11 @@ char subBoard[9] = {
 	'.','.','.'};
 
 void printBoard (int bold) {
-	int i, j, k, l, m, n;
 	printf("\n");
-	for ( i = 0; i < 100; i++ ) {
-		printf("%c[1A", 27);
+	int i, j, k, l, m, n;
+	for ( i = 0; i < 1; i++ ) {
+		printf("\r");
 	}
-	printf("%c[2J", 27);
 	char printBorder [13] = {'|','|','-','-','-','|','|','-','-','-','|','|','/'}; // the border to get printed 
 	char boldBorder [13] = {'I','I','=','=','=','I','I','=','=','=','I','I','/'}; // the bold options for all the borders
 	int borderData [10][4] = {  // knows what borders are in effect for what square has been selected
@@ -133,7 +132,6 @@ int validInput( int type, char player ) // checks all input to see if it is a va
 				}
 			}
 		}
-		printf("%c[2A", 27);
 		printf("That is not a number");
 	}
 }
@@ -169,7 +167,6 @@ int checkWin ( int force, int player ) // goes throuth the board and will check 
 
 void game ()
 {
-	printf("%c[2J", 27);
 	int i;
 	int j;
 	int full;
@@ -214,8 +211,7 @@ void game ()
 			}
 			input = validInput(1, player); 
 			if ( board[force][input -1] != '.' ) {
-				printf("%c[2A", 27);
-				printf("That place it taken");  // checks to see if you select a playable space
+				printf("That place it taken \n");  // checks to see if you select a playable space
 			} else {
 				validLoop = 1;
 			}
