@@ -1,3 +1,5 @@
+// programmed by fourfour
+// to compile use gcc as clang does not work - "gcc uttt.c -o uttt"
 #include <stdio.h>
 #include <stdlib.h>
 
