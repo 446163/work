@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define CUp printf("%c[1A", 27);
-
 char board[9][9] = { 
 	{'.','.','.','.','.','.','.','.','.',},
 	{'.','.','.','.','.','.','.','.','.',},
@@ -138,6 +136,7 @@ int validInput( int type, char player ) // checks all input to see if it is a va
 		printf("That is not a number");
 		printf("%c[1B", 27);
 		printf("%c[2K", 27);
+		printf("%c[0J", 27);
 		printf("%c[1A", 27);
 	}
 }
@@ -145,7 +144,6 @@ int validInput( int type, char player ) // checks all input to see if it is a va
 int checkWin ( int force, int player ) // goes throuth the board and will check if any one has won a square or the game
 {
 	int i;
-	int won = 1;
 	int win [8][3] = {
 		{0,1,2},
 		{3,4,5},
@@ -158,17 +156,16 @@ int checkWin ( int force, int player ) // goes throuth the board and will check 
 	};
 	for ( i = 0; i < 8; i++ ) {
 		if ( board[force][win[i][0]] == board[force][win[i][1]] && board[force][win[i][1]] == board[force][win[i][2]] && board[force][win[i][1]] != '.' && subBoard[force] == '.' ) {  // checks the small squares
-			printf("Player %c has won square %d! \n", player, force + 1);
 			subBoard[force] = player;
 		}
 	}
 
 	for ( i = 0; i < 8; i++ ) {
 		if ( subBoard[win[i][0]] == subBoard[win[i][1]] && subBoard[win[i][1]] == subBoard[win[i][2]] && subBoard[win[i][1]] != '.') {  // checks the main squares
-			printf("Player %c has won the game!!! \n", player);
 			return(1);
 		}
 	}
+	return(0);
 }
 
 void game ()
@@ -218,8 +215,13 @@ void game ()
 			}
 			input = validInput(1, player); 
 			if ( board[force][input -1] != '.' ) {
-				printf("%c[2A", 27);
+				printf("%c[H", 27);
+				printf("%c[11B", 27);
 				printf("That place it taken");  // checks to see if you select a playable space
+				printf("%c[1B", 27);
+				printf("%c[2K", 27);
+				printf("%c[0J", 27);
+				printf("%c[1A", 27);
 			} else {
 				validLoop = 1;
 			}
@@ -250,7 +252,9 @@ int main()
 	int loop = 1;
 	char input[100];
 	while ( loop == 1 ) {
-		printf("Welcome to Ultimate Tic Tac Toe \npress 's' to start a new game or 'q' to quit \n : ");  // the menu
+		printf("%c[2J", 27);
+		printBoard(9);
+		printf("'s' to start a new game \t'q' to quit\n : ");  // the menu
 		reset();
 		scanf("%s", input);
 		if ( input[0] == 'q' ) {  // quits the game
