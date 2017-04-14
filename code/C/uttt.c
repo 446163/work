@@ -21,7 +21,7 @@ char subBoard[9] = {
 void printBoard (int bold) {
 	int i, j, k, l, m, n;
 	printf("%c[H", 27);
-	printf("%c[2J", 27);
+	printf("%c[2J", 27);  //  clears the screen completely so that the UI will be the same, see note 2
 	char printBorder [13] = {'|','|','-','-','-','|','|','-','-','-','|','|','/'}; // the border to get printed 
 	char boldBorder [13] = {'I','I','=','=','=','I','I','=','=','=','I','I','/'}; // the bold options for all the borders
 	int borderData [10][4] = {  // knows what borders are in effect for what square has been selected
@@ -133,10 +133,10 @@ int validInput( int type, char player ) // checks all input to see if it is a va
 		}
 		printf("%c[H", 27);
 		printf("%c[11B", 27);
-		printf("That is not a number");
+		printf("That is not a number");  // when the input is not valid this appears
 		printf("%c[1B", 27);
 		printf("%c[2K", 27);
-		printf("%c[0J", 27);
+		printf("%c[0J", 27);  // improves the UI and ensures that all incorrect inputs are cleared, see note 2
 		printf("%c[1A", 27);
 	}
 }
@@ -220,7 +220,7 @@ void game ()
 				printf("That place it taken");  // checks to see if you select a playable space
 				printf("%c[1B", 27);
 				printf("%c[2K", 27);
-				printf("%c[0J", 27);
+				printf("%c[0J", 27);  // improves the UI and ensures that all incorrect inputs are cleared, see note 2
 				printf("%c[1A", 27);
 			} else {
 				validLoop = 1;
@@ -276,7 +276,7 @@ int main()
 
 /*
  * common variables
-board = the 9x9 array that holds the board and the peices
+board = the 9x9 array that holds the board and the pieces
 subBoard = the 3x3 board that is actually used for the win of the game
 i, j, k, l, m = loop variables used to draw the board correctly
 
@@ -290,7 +290,6 @@ validInput = checks the user input to clean it up and see if it is suitable
 
  * NOTE 1 - the layout of the board and the rows / columns that the 4 board loop variables control
  
-
                   k                    k                    k
            l      l      l
 	j	 [0][0] [0][1] [0][2] [1][0] [1][1] [1][2] [2][0] [2][1] [2][2]
@@ -312,5 +311,24 @@ i		 [3][3] [3][4] [3][5] [4][3] [4][4] [4][5] [5][3] [5][4] [5][5]
 i		 [6][3] [6][4] [6][5] [7][3] [7][4] [7][5] [8][3] [8][4] [8][5]
 		
 		 [6][6] [6][7] [6][8] [7][6] [7][7] [7][8] [8][6] [8][7] [8][8]
+
     
+ * NOTE 2 - The layout on the screen will always follow the same layout no matter where you are (Game, Menu....so on)
+ 
+ . . . | . . . | . . .                   \
+ . . . | . . . | . . .                    |
+ . . . | . . . | . . .                    |
+-------+-------+-------		 . | . | .    |
+ . . . | . . . | . . .	 	---+---+---   \
+ . . . | . . . | . . .	 	 . | . | .     - 11 lines of board shown
+ . . . | . . . | . . .	 	---+---+---   /
+-------+-------+-------		 . | . | .    |
+ . . . | . . . | . . .                    |
+ . . . | . . . | . . .                    |
+ . . . | . . . | . . .                   /
+
+'s' to start a new game 	'q' to quit  - 1 Message line
+
+ :                                       - 1 input line
+ 
 */
