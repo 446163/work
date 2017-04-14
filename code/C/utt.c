@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define CUp printf("%c[1A", 27);
+
 char board[9][9] = { 
 	{'.','.','.','.','.','.','.','.','.',},
 	{'.','.','.','.','.','.','.','.','.',},
@@ -122,7 +124,8 @@ int validInput( int type, char player ) // checks all input to see if it is a va
 			printf("\n Select the square to force to : ");
 		}
 		if ( type == 1 ) {
-			printf("\n %c : ", player);
+			printf("%c[k", 27);
+			printf("\n\n %c : ", player);
 		}
 		// input = getchar();
 		scanf("%s", input);
@@ -135,6 +138,9 @@ int validInput( int type, char player ) // checks all input to see if it is a va
 		}
 		printf("%c[2A", 27);
 		printf("That is not a number");
+		printf("%c[1B", 27);
+		printf("%c[2K", 27);
+		printf("%c[1A", 27);
 	}
 }
 
