@@ -22,10 +22,7 @@ char subBoard[9] = {
 
 void printBoard (int bold) {
 	int i, j, k, l, m, n;
-	printf("\n");
-	for ( i = 0; i < 100; i++ ) {
-		printf("%c[1A", 27);
-	}
+	printf("%c[H", 27);
 	printf("%c[2J", 27);
 	char printBorder [13] = {'|','|','-','-','-','|','|','-','-','-','|','|','/'}; // the border to get printed 
 	char boldBorder [13] = {'I','I','=','=','=','I','I','=','=','=','I','I','/'}; // the bold options for all the borders
@@ -136,7 +133,8 @@ int validInput( int type, char player ) // checks all input to see if it is a va
 				}
 			}
 		}
-		printf("%c[2A", 27);
+		printf("%c[H", 27);
+		printf("%c[11B", 27);
 		printf("That is not a number");
 		printf("%c[1B", 27);
 		printf("%c[2K", 27);
