@@ -1,24 +1,20 @@
-// programmed by fourfour
-// to compile use gcc as clang does not work - "gcc uttt.c -o uttt"
 #include <stdio.h>
 #include <stdlib.h>
 
-char board[9][9] = { 
-	{'.','.','.','.','.','.','.','.','.',},
-	{'.','.','.','.','.','.','.','.','.',},
-	{'.','.','.','.','.','.','.','.','.',},
-	{'.','.','.','.','.','.','.','.','.',},
-	{'.','.','.','.','.','.','.','.','.',},  /* creating the board the correct size */
-	{'.','.','.','.','.','.','.','.','.',},
-	{'.','.','.','.','.','.','.','.','.',},
-	{'.','.','.','.','.','.','.','.','.',},
-	{'.','.','.','.','.','.','.','.','.',}
-};
+#define subBoard board[9]
 
-char subBoard[9] = {
-	'.','.','.',
-	'.','.','.',  // creating the sub board (the one that actually wins the game)
-	'.','.','.'};
+char board[10][9] = { 
+	{'.','.','.','.','.','.','.','.','.',},
+	{'.','.','.','.','.','.','.','.','.',},
+	{'.','.','.','.','.','.','.','.','.',},
+	{'.','.','.','.','.','.','.','.','.',},
+	{'.','.','.','.','.','.','.','.','.',},  // creating the board the correct size, the first 9 rows are the main board
+	{'.','.','.','.','.','.','.','.','.',},
+	{'.','.','.','.','.','.','.','.','.',},
+	{'.','.','.','.','.','.','.','.','.',},
+	{'.','.','.','.','.','.','.','.','.',},
+	{'.','.','.','.','.','.','.','.','.',}  // this is the subBoard that is used for the end win of the game
+};
 
 void printBoard (int bold) {
 	int i, j, k, l, m, n;
@@ -31,12 +27,12 @@ void printBoard (int bold) {
 		{0,1,3,13},
 		{1,4,13,13},
 		{2,5,7,13},
-		{3,5,6,8}, // 13 here is used to send a nop
+		{3,5,6,8}, 
 		{4,6,9,13},
 		{7,10,13,13},
 		{8,10,11,13},
 		{9,11,13,13},
-		{13,13,13,13},
+		{13,13,13,13},  // 13 here is used to send a nop
 	};
 	for ( i = 0; i < 4; i++ ) {  // used to replace all the borders with their bold counterparts
 		printBorder[borderData[bold][i]] = boldBorder[borderData[bold][i]];
@@ -111,14 +107,25 @@ void printBoard (int bold) {
 	}
 }
 
+void printMessage ( const char message[] )
+{
+	printf("%c[H", 27);
+	printf("%c[11B", 27);
+	printf("%s", message);
+	printf("%c[1B", 27);
+	printf("%c[2K", 27);
+	printf("%c[0J", 27);  // improves the UI and ensures that all incorrect inputs are cleared, see note 2
+	printf("%c[1A", 27);
+}
+
 int validInput( int type, char player ) // checks all input to see if it is a valid number
 {
 	char valid [10] = {'1','2','3','4','5','6','7','8','9'};
-	char input[100];
+	char input[2];
 	int i, j;
 	while ( 1 ) {  // different types for all the ways to select something
 		if ( type == 0 ) {
-			printf("\n Select the square to force to : ");
+			printMessage("Select the square to force to \n : ");
 		}
 		if ( type == 1 ) {
 			printf("%c[k", 27);
@@ -126,20 +133,14 @@ int validInput( int type, char player ) // checks all input to see if it is a va
 		}
 		// input = getchar();
 		scanf("%s", input);
-		for ( j = 0; j < 100; j++ ) {
+		for ( j = 0; j < 2; j++ ) {
 			for ( i = 0; i < 9; i++ ) {
-				if ( input[j] == valid[i] ) {
-					return(input[j] - '0');  // the actual test part
+				if ( input[0] == valid[i] ) {
+					return(input[0] - '0');  // the actual test part
 				}
 			}
 		}
-		printf("%c[H", 27);
-		printf("%c[11B", 27);
-		printf("That is not a number");  // when the input is not valid this appears
-		printf("%c[1B", 27);
-		printf("%c[2K", 27);
-		printf("%c[0J", 27);  // improves the UI and ensures that all incorrect inputs are cleared, see note 2
-		printf("%c[1A", 27);
+		printMessage("That is not a number");
 	}
 }
 
@@ -217,19 +218,15 @@ void game ()
 			}
 			input = validInput(1, player); 
 			if ( board[force][input -1] != '.' ) {
-				printf("%c[H", 27);
-				printf("%c[11B", 27);
-				printf("That place it taken");  // checks to see if you select a playable space
-				printf("%c[1B", 27);
-				printf("%c[2K", 27);
-				printf("%c[0J", 27);  // improves the UI and ensures that all incorrect inputs are cleared, see note 2
-				printf("%c[1A", 27);
+				printMessage("That place is taken");
 			} else {
 				validLoop = 1;
 			}
 		}
 		board[force][input - 1] = player;
 		if ( checkWin(force, player) == 1 ) {  // runs the win check
+			printMessage("The game is over, you win!");
+			input = getchar();
 			mainLoop = 0;
 		}
 		force = input - 1;
