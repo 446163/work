@@ -194,7 +194,8 @@ void game ()
 			}
 		}
 		if ( tie == 1 ) {
-			printf("\n The game is a draw, you somehow managed to do that... \n");  // tie condition for the game
+			printMessage("The game is a draw, you somehow managed to do that...");  // tie condition for the game
+			input = getchar();
 		}
 		int validLoop = 0;
 		if ( player == 'x' ) {  // swaps the players, could easily add more and the code would cope easily
