@@ -1,7 +1,10 @@
+// programmed by fourfour
+// to compile this use gcc as clang does not work "gcc uttt.c -o uttt"
+
 #include <stdio.h>
 #include <stdlib.h>
 
-#define subBoard board[9]
+#define SUB_BOARD board[9]
 
 char board[10][9] = { 
 	{'.','.','.','.','.','.','.','.','.',},
@@ -13,7 +16,7 @@ char board[10][9] = {
 	{'.','.','.','.','.','.','.','.','.',},
 	{'.','.','.','.','.','.','.','.','.',},
 	{'.','.','.','.','.','.','.','.','.',},
-	{'.','.','.','.','.','.','.','.','.',}  // this is the subBoard that is used for the end win of the game
+	{'.','.','.','.','.','.','.','.','.',}  // this is the SUB_BOARD that is used for the end win of the game
 };
 
 void printBoard (int bold) {
@@ -67,7 +70,7 @@ void printBoard (int bold) {
 				printf("\t \t---+---+---");
 			}
 			if ( i == 1 && j == 1 ) {
-				printf("\t \t %c | %c | %c", subBoard[3], subBoard[4], subBoard[5]); // this section prints the sub board that is used to win the game
+				printf("\t \t %c | %c | %c", SUB_BOARD[3], SUB_BOARD[4], SUB_BOARD[5]); // this section prints the sub board that is used to win the game
 			}
 			if ( i == 1 && j == 2 ) {
 				printf("\t \t---+---+---");
@@ -96,10 +99,10 @@ void printBoard (int bold) {
 		}
 		if ( i < 2 ) {  /* used so that it does not print out a third time on the bottom */
 			if ( i == 0 ) {
-				printf("\t\t %c | %c | %c", subBoard[0], subBoard[1], subBoard[2]); // this section prints out the correct score on the sub board
+				printf("\t\t %c | %c | %c", SUB_BOARD[0], SUB_BOARD[1], SUB_BOARD[2]); // this section prints out the correct score on the sub board
 			}
 			if ( i == 1 ) {
-				printf("\t\t %c | %c | %c", subBoard[6], subBoard[7], subBoard[8]);
+				printf("\t\t %c | %c | %c", SUB_BOARD[6], SUB_BOARD[7], SUB_BOARD[8]);
 			}
 
 			printf("\n");
@@ -158,13 +161,13 @@ int checkWin ( int force, int player ) // goes throuth the board and will check 
 		{2,4,6},
 	};
 	for ( i = 0; i < 8; i++ ) {
-		if ( board[force][win[i][0]] == board[force][win[i][1]] && board[force][win[i][1]] == board[force][win[i][2]] && board[force][win[i][1]] != '.' && subBoard[force] == '.' ) {  // checks the small squares
-			subBoard[force] = player;
+		if ( board[force][win[i][0]] == board[force][win[i][1]] && board[force][win[i][1]] == board[force][win[i][2]] && board[force][win[i][1]] != '.' && SUB_BOARD[force] == '.' ) {  // checks the small squares
+			SUB_BOARD[force] = player;
 		}
 	}
 
 	for ( i = 0; i < 8; i++ ) {
-		if ( subBoard[win[i][0]] == subBoard[win[i][1]] && subBoard[win[i][1]] == subBoard[win[i][2]] && subBoard[win[i][1]] != '.') {  // checks the main squares
+		if ( SUB_BOARD[win[i][0]] == SUB_BOARD[win[i][1]] && SUB_BOARD[win[i][1]] == SUB_BOARD[win[i][2]] && SUB_BOARD[win[i][1]] != '.') {  // checks the main squares
 			return(1);
 		}
 	}
@@ -232,29 +235,28 @@ void game ()
 		}
 		force = input - 1;
 	}
-	printf("thank you for playing. \n");
 	printBoard(9);
 }
 
 void reset ()
 {
 	int i, j;
-	for ( i = 0; i < 9; i++ ) {
-		for ( j = 0; j < 9; j++ ) {  // resets all boards to blank ( '.' )
+	for ( i = 0; i < 10; i++ ) {
+		for ( j = 0; j < 10; j++ ) {  // resets all boards to blank ( '.' )
 			board[i][j] = '.';
 		}
-		subBoard[i] = '.';
 	}
 }
 
-int main()
+int main ()
 {
 	int loop = 1;
 	char input[100];
 	while ( loop == 1 ) {
 		printf("%c[2J", 27);
 		printBoard(9);
-		printf("'s' to start a new game \t'q' to quit\n : ");  // the menu
+//		printf("'s' to start a new game \t'q' to quit\n : ");  // the menu
+		printMessage("'s' to start a new game \t'q' to quit\n : ");  // the menu
 		reset();
 		scanf("%s", input);
 		if ( input[0] == 'q' ) {  // quits the game
@@ -277,16 +279,66 @@ int main()
 /*
  * common variables
 board = the 9x9 array that holds the board and the pieces
-subBoard = the 3x3 board that is actually used for the win of the game
+SUB_BOARD = the 3x3 board that is actually used for the win of the game
 i, j, k, l, m = loop variables used to draw the board correctly
 
  * functions
-main = the main menu that is used
-printBoard = used to print the board on the screen with the correct highlighting
-reset = cleans both the boards
-game = runs the game loop
-checkWin = checks the boards to see if a player has won a square ( big and small ) or the game
-validInput = checks the user input to clean it up and see if it is suitable
+	main = the main menu that is used
+		input:
+			none
+		return:
+			'0' when the game is quit
+		effects:
+			actually makes the program run in the first place, runs game
+
+	printBoard = used to print the board on the screen with the correct highlighting
+		input:
+			number - used to show what square to highlight, 0-8 are squares and 9 is for none
+		return:
+			none
+		effects:
+			prints the board and the borders for the board
+
+	reset = cleans both the boards
+		input:
+			none
+		return:
+			none
+		effects:
+			resets the board so that everything is blank '.'
+
+	game = runs the game loop
+		input:
+			none
+		return:
+			none
+		effects:
+			runs the logic for the game 
+		
+	checkWin = checks the boards to see if a player has won a square ( big and small ) or the game
+		input:
+			the current force square and the current player
+		return:
+			'1' if the game is over due to a win, '0' any other time
+		effects:
+			sets the SUB_BOARD to show a player when they win a square and returns '1' when the game is won
+
+	validInput = checks the user input to clean it up and see if it is suitable
+		input:
+			type of input - normal move or force move
+			player - so that it can print the player by the input
+		return:
+			the single char for the number that will be used ( first number in the input )
+		effects:
+			prints the input line and then reads it 
+
+	printMessage
+		input:
+			a string that you want to print to the message line
+		return:
+			nothing
+		effects:
+			prints the provided string to the message line
 
  * NOTE 1 - the layout of the board and the rows / columns that the 4 board loop variables control
  
