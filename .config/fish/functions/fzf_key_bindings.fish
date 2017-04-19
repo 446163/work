@@ -1,1 +1,0 @@
-/home/fourfour/.fzf/shell/key-bindings.fish
