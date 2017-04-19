@@ -1,0 +1,42 @@
+VirtualBox XPCOM Server 5.1.14 r112924 linux.amd64 (Feb 27 2017 07:43:42) release log
+00:00:00.004031 main     Log opened 2017-03-08T15:30:30.790004000Z
+00:00:00.004045 main     Build Type: release
+00:00:00.004053 main     OS Product: Linux
+00:00:00.004055 main     OS Release: 4.9.11-1-ARCH
+00:00:00.004058 main     OS Version: #1 SMP PREEMPT Sun Feb 19 13:45:52 UTC 2017
+00:00:00.004113 main     DMI Product Name: Latitude D820                   
+00:00:00.004129 main     DMI Product Version: 
+00:00:00.004194 main     Host RAM: 3263MB (3.1GB) total, 2415MB (2.3GB) available
+00:00:00.004202 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.004205 main     Process ID: 1553
+00:00:00.004207 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.008966 main     IPC socket path: /tmp/.vbox-fourfour-ipc/ipcd
+00:00:00.165813 nspr-2   VirtualBox: object creation starts
+00:00:00.168552 nspr-2   Home directory: '/home/fourfour/.config/VirtualBox'
+00:00:00.169198 nspr-2   Loading settings file "/home/fourfour/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.205495 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp12s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.208620 nspr-2   NAT: resolv.conf: nameserver 10.12.4.11
+00:00:00.208646 nspr-2   NAT: resolv.conf: nameserver 10.12.4.12
+00:00:00.208673 nspr-2   HostDnsMonitor: old information
+00:00:00.208682 nspr-2     no server entries
+00:00:00.208689 nspr-2     no domain set
+00:00:00.208695 nspr-2     no search string entries
+00:00:00.208702 nspr-2   HostDnsMonitor: new information
+00:00:00.208708 nspr-2     server 1: 10.12.4.11
+00:00:00.208715 nspr-2     server 2: 10.12.4.12
+00:00:00.208723 nspr-2     domain: occ.local
+00:00:00.208729 nspr-2     search string 1: occ.local
+00:00:00.208741 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.240192 nspr-2   VD: VDInit finished
+00:00:00.292456 nspr-2   Loading settings file "/home/fourfour/VirtualBox VMs/Tgm3/Tgm3.vbox" with version "1.15-linux"
+00:00:00.299852 nspr-2   VirtualBox: object created
+00:00:00.804209 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+00:00:01.492087 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.040075 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.042060 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.043797 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:08.865028 main     VirtualBox: object deletion starts
+00:00:08.865127 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/fourfour/VirtualBox VMs/Tgm3/Tgm3.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.304482 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:13.866734 main     {00007f13a40110b0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:13.867382 main     VirtualBox: object deleted

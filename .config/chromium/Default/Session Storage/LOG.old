@@ -1,0 +1,10 @@
+2017/04/05-09:10:35.123 10200 Reusing MANIFEST /home/fourfour/.config/chromium/Default/Session Storage/MANIFEST-000001
+2017/04/05-09:10:35.123 10200 Recovering log #104
+2017/04/05-09:10:35.125 10200 Level-0 table #106: started
+2017/04/05-09:10:35.151 10200 Level-0 table #106: 93773 bytes OK
+2017/04/05-09:10:35.151 10200 Recovering log #105
+2017/04/05-09:10:35.151 10200 Reusing old log /home/fourfour/.config/chromium/Default/Session Storage/000105.log 
+2017/04/05-09:10:35.155 10200 Delete type=0 #104
+2017/04/05-09:42:07.724 10523 Level-0 table #108: started
+2017/04/05-09:42:07.744 10523 Level-0 table #108: 85573 bytes OK
+2017/04/05-09:42:07.780 10523 Delete type=0 #105

@@ -1,0 +1,17 @@
+VirtualBox GUI VM Selector Window 5.1.18 r114002 linux.amd64 (Mar 16 2017 20:54:07) release log
+00:00:01.016482 Log opened 2017-04-07T08:55:12.133181000Z
+00:00:01.016487 Build Type: release
+00:00:01.016494 OS Product: Linux
+00:00:01.016498 OS Release: 4.10.6-1-ARCH
+00:00:01.016502 OS Version: #1 SMP PREEMPT Mon Mar 27 08:28:22 CEST 2017
+00:00:01.016551 DMI Product Name: Latitude D820                   
+00:00:01.016584 DMI Product Version: 
+00:00:01.016647 Host RAM: 3263MB (3.1GB) total, 2967MB (2.8GB) available
+00:00:01.016653 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:01.016655 Process ID: 3419
+00:00:01.016657 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:01.016691 Qt version: 5.8.0
+00:00:01.086899 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.408727 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:01.409661 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.480403 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 840x1050

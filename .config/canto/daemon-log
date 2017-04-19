@@ -1,0 +1,36 @@
+13:42:37 : CANTO-DAEMON -> canto-daemon 0.9.6 g644a527
+13:42:37 : CANTO-DAEMON -> conf_dir = /home/fourfour/.config/canto
+13:42:37 : PLUGINS -> Creating plugins directory.
+13:42:37 : PLUGINS -> Creating plugin __init__.py
+13:42:37 : CONFIG -> No config found, writing default.
+13:42:37 : CONFIG -> Read /home/fourfour/.config/canto/conf
+13:42:37 : CONFIG -> Validated: {'defaults': {'global_transform': 'filter_read', 'keep_time': 86400, 'keep_unread': False, 'rate': 10}, 'feeds': [{'name': 'Canto', 'url': 'http://codezen.org/canto-ng/feed/'}, {'name': 'Slashdot', 'url': 'http://rss.slashdot.org/slashdot/Slashdot'}, {'name': 'Reddit', 'url': 'http://reddit.com/.rss'}]}
+13:42:37 : CANTO-DAEMON -> Listening on unix socket: /home/fourfour/.config/canto/.canto_socket
+13:42:37 : SERVER -> conn (<socket.socket fd=5, family=AddressFamily.AF_UNIX, type=2049, proto=0, laddr=/home/fourfour/.config/canto/.canto_socket>, b'') from sock <socket.socket fd=4, family=AddressFamily.AF_UNIX, type=2049, proto=0, laddr=/home/fourfour/.config/canto/.canto_socket>
+13:42:37 : SERVER -> conn (<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=2049, proto=0, laddr=/home/fourfour/.config/canto/.canto_socket>, b'') from sock <socket.socket fd=4, family=AddressFamily.AF_UNIX, type=2049, proto=0, laddr=/home/fourfour/.config/canto/.canto_socket>
+13:42:37 : SERVER -> conn (<socket.socket fd=7, family=AddressFamily.AF_UNIX, type=2049, proto=0, laddr=/home/fourfour/.config/canto/.canto_socket>, b'') from sock <socket.socket fd=4, family=AddressFamily.AF_UNIX, type=2049, proto=0, laddr=/home/fourfour/.config/canto/.canto_socket>
+13:42:37 : SERVER -> conn (<socket.socket fd=8, family=AddressFamily.AF_UNIX, type=2049, proto=0, laddr=/home/fourfour/.config/canto/.canto_socket>, b'') from sock <socket.socket fd=4, family=AddressFamily.AF_UNIX, type=2049, proto=0, laddr=/home/fourfour/.config/canto/.canto_socket>
+13:42:39 : CANTO-FETCH -> No content in http://reddit.com/.rss: <unknown>:5:-1: Opening and ending tag mismatch: meta line 5 and head
+
+13:43:03 : SERVER -> Connection ended.
+13:43:03 : SERVER -> Connection ended.
+13:43:03 : SERVER -> Connection ended.
+13:43:03 : SERVER -> Connection ended.
+13:52:40 : CANTO-FETCH -> No content in http://reddit.com/.rss: <unknown>:5:-1: Opening and ending tag mismatch: meta line 5 and head
+
+14:02:41 : CANTO-FETCH -> No content in http://reddit.com/.rss: <unknown>:5:-1: Opening and ending tag mismatch: meta line 5 and head
+
+14:12:41 : CANTO-FETCH -> No content in http://reddit.com/.rss: <unknown>:5:-1: Opening and ending tag mismatch: meta line 5 and head
+
+14:22:42 : CANTO-FETCH -> No content in http://reddit.com/.rss: <unknown>:5:-1: Opening and ending tag mismatch: meta line 5 and head
+
+14:32:43 : CANTO-FETCH -> No content in http://reddit.com/.rss: <unknown>:5:-1: Opening and ending tag mismatch: meta line 5 and head
+
+14:42:44 : CANTO-FETCH -> No content in http://reddit.com/.rss: <unknown>:5:-1: Opening and ending tag mismatch: meta line 5 and head
+
+14:52:44 : CANTO-FETCH -> No content in http://reddit.com/.rss: <unknown>:5:-1: Opening and ending tag mismatch: meta line 5 and head
+
+15:02:45 : CANTO-FETCH -> No content in http://reddit.com/.rss: <unknown>:5:-1: Opening and ending tag mismatch: meta line 5 and head
+
+10:22:49 : CANTO-DAEMON -> Received INT
+10:22:49 : CANTO-DAEMON -> Interrupted. Exiting.

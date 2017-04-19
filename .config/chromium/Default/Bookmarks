@@ -1,0 +1,57 @@
+{
+   "checksum": "8f4e581fecc9a510f6869bb1817c3aa6",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13132364082786138",
+            "id": "6",
+            "meta_info": {
+               "last_visited_desktop": "13132364082787775"
+            },
+            "name": "i3: i3 User’s Guide",
+            "type": "url",
+            "url": "https://i3wm.org/docs/userguide.html#_changing_the_container_layout"
+         }, {
+            "date_added": "13134050194801684",
+            "id": "9",
+            "meta_info": {
+               "last_visited_desktop": "13134050194847006"
+            },
+            "name": "networking - How to work out how many IP's you've got available on a /29 network mask - Server Fault",
+            "type": "url",
+            "url": "http://serverfault.com/questions/68087/how-to-work-out-how-many-ips-youve-got-available-on-a-29-network-mask"
+         }, {
+            "date_added": "13134492177958803",
+            "id": "12",
+            "meta_info": {
+               "last_visited_desktop": "13134492177961046"
+            },
+            "name": "C2_MEI.pdf",
+            "type": "url",
+            "url": "http://www.sicm.org.uk/tuition/mathsalevel/C2_MEI.pdf"
+         } ],
+         "date_added": "13132363850920287",
+         "date_modified": "13134492177958803",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13132363850920297",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13132363850920299",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

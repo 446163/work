@@ -1,0 +1,12 @@
+[Dlg Performance]
+EnableCompositing=false
+
+[Main View]
+ShowBottomBar=false
+ShowLeftPanel=false
+
+[Nav Panel]
+SidebarIconSize=22
+
+[PageView]
+ShowScrollBars=false
