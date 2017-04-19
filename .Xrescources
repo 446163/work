@@ -1,0 +1,24 @@
+*background: #222222
+*foreground: #ffffff
+
+URxvt*geometry:         112x22  
+URxvt*font:    -gohu-gohufont-medium-*
+URxvt*urlLauncher:      vimb
+URxvt*scrollBar:        false
+URxvt*saveLines:        5000
+
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0000/0000
+
+*color10: #008fff
+*color2: #00ff00
+
+URxvt.perl-ext-common:  ...,font-size
+
+URxvt.font-size.step: 2
+
+URxvt.keysym.C-Up:     perl:font-size:increase
+URxvt.keysym.C-Down:   perl:font-size:decrease
+URxvt.keysym.C-S-Up:   perl:font-size:incglobal
+URxvt.keysym.C-S-Down: perl:font-size:decglobal
+
