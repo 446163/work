@@ -1,0 +1,26 @@
+Mobile computing and remote access - mainly remote access
+
+- You can use your desktop when away from it. More power than your mobile devices
+	main idea
+
+- You built your own desktop and therefore you like to use it, even when away from it i.e. In Scotland or at your dad's.
+	Stemmed from having a bad laptop and a fast desktop, wanted to use its power and the files and programs on it. Use it as a server
+
+- Really useful to business - can access desktop and functions when away from office rather than carry all data with you I.e. Sales people running demonstrations via a tablet / financial advisers / accessing data and software / architects looking at or changing plans on site.
+	you
+		access my files and code on my desktop from where ever
+		saving work internally
+	businesses
+		accessing data on a server that is too sensitive to have on local machine
+		change plans globally so that every one knows
+	society
+		simpler to access files and emails as they are all in the same place and can be accessed by all devices
+		safe as a backup on a more reliable and secure place
+
+- Security - massive security implications to prevent unauthorised access to data / systems.
+	Symmetrical v asymetrical encryption - blowfish v RSA 
+	Explain RSA and how to set it up on linux maybe...
+	ssh
+		some other ways it can help
+			scp
+			sshf
