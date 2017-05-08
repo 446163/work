@@ -4,28 +4,24 @@ let g:loaded_python3_provider=1
 
 call plug#begin()
 
+Plug 'lervag/vimtex' 
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/syntastic'
 Plug 'bling/vim-bufferline'
 Plug 'wesQ3/vim-windowswap'
+Plug 'ajh17/VimCompletesMe'
 Plug 'itchyny/lightline.vim'
-"Plug 'airblade/vim-gitgutter'
-"Plug 'valloric/youcompleteme'
+Plug 'simnalamburt/vim-mundo'
 Plug 'haya14busa/incsearch.vim'
 Plug 'prendradjaja/vim-vertigo'
+Plug 'suan/vim-instant-markdown.git'
 
-Plug 'https://github.com/suan/vim-instant-markdown.git'
-Plug 'lervag/vimtex' 
-
-
-"Plug 'mattn/emmet-vim'
 call plug#end()
 
 let @s="[sz=!1``"
 let mapleader="\<Backspace>"
 let maplocalleader="\<Backspace>"
 let g:vimtex_view_general_viewer = 'okular' 
-
 
 nnoremap <silent> <leader>n :<C-U>VertigoDown n<CR>
 vnoremap <silent> <leader>n :<C-U>VertigoDown v<CR>
@@ -76,6 +72,8 @@ tnoremap <C-j> <C-\><C-n><C-w>j
 tnoremap <C-k> <C-\><C-n><C-w>k
 tnoremap <C-l> <C-\><C-n><C-w>l
 
+map <leader>u :MundoToggle<CR>
+
 vmap <leader>y "+y
 vmap <leader>d "+d
 vmap <leader>p "+p
@@ -98,6 +96,7 @@ set exrc
 set mouse=n
 set showcmd
 set wrap lbr
+set undofile
 set t_Co=256
 set showmatch
 set splitbelow
@@ -105,10 +104,8 @@ set splitright
 set noshowmode
 set updatetime=10
 set complete+=kspell
+set undodir=/home/fourfour/.config/nvim/undo
 set spell spelllang=en_gb
-"let g:user_emmet_install_global = 0
-"autocmd FileType html,css EmmetInstall
-"let g:user_emmet_leader_key='<C-w>'
 
 let g:instant_markdown_autostart = 1
 let g:instant_markdown_open_to_the_world = 1
@@ -118,11 +115,9 @@ autocmd VimEnter * colorscheme orbital
 autocmd BufRead,BufNewFile *.md setlocal spell
 
 let g:lightline = {
-\ 'colorscheme': 'orbital',
+\ 'colorscheme': 'solarized',
 \ 'component': {
 \ 'readonly': '%{&readonly?"Ξ":""}',},
 \ 'separator': { 'left': '▶', 'right': '◀' },
 \ 'subseparator': { 'left': '»', 'right': '«' }
 \ }
-
-"let g:lightline.colorscheme = 'orbital'
