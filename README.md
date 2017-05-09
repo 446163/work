@@ -10,7 +10,7 @@ All BTEC work will follow the naming scheme as follows:
 
 ### Assignments 
 
-> u***x***a***y***.md/pdf
+> u***x***a***y***.md/tex/pdf
 
 With this meaning...
 
