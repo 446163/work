@@ -20,6 +20,9 @@ With this meaning...
 * The .md indicates that you are accessing the correct file and that it is written in markdown (so it formats nicely)
 * The .pdf will in most cases be the pdf version of the assignment that will most likley be written in LATEX, the code for that will be in the .tex file with the same name. 
 
+The following is regular expression to show the above explaination in a more concise format.
+> `\u[0-9]+\a[0-9]+\.((md|tex)|pdf)`
+
 ### Briefs
 
 In addition to this I also have the assignment briefs for some of the assignments here as well and these will be laid out like so:
@@ -32,6 +35,9 @@ With the additional b on the end meaning...
 * The brief may also contain notes about what the teacher has said about that particular criteria as well as the actual content that is to be covered. 
 * The notes will be separated by the actual content by a line break but they will be deferrable by context. 
 * These may or may not have the .md file type as it depends how I create it.
+
+The following is regular expression to show the above explaination in a more concise format.
+> `\u[0-9]+\a[0-9]+\b`
 
 ### Notes
 
@@ -46,6 +52,9 @@ As before this layout indicates that:
 * The **n** stands for the notes file (rather than **b** for the brief) so yo know you have the correct file.
 * The name will be the name for the actual assignment title for that unit (Not for the assignment!!!).
 * These may or may not have the .md file type as it depends how I create it.
+
+The following is regular expression to show the above explaination in a more concise format.
+> `\u[0-9]?\a[0-9]?\-[a-z]+`
 
 *Important notice about the notes*
 
@@ -65,6 +74,9 @@ This is a folder that the images are contained in as this works very similarly a
 * It is a folder containing the images, not a file.
 * The folder may be split more into specific categories for each assignment or for the original and used images etc..
 * The subfolders will be named according to their actual use as you will see. 
+
+The following is regular expression to show the above explaination in a more concise format.
+> `\u[0-9]?\a[0-9]?\-(img)`
 
 ## Usage
 
