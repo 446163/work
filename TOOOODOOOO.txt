@@ -1,5 +1,5 @@
 TODO:
 
-animation 2 - big one 
+animation 2 - just do drawing
 database 2 - finish off questionarre and writeup
 tech support - 2 small one med
