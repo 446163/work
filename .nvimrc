@@ -14,7 +14,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'simnalamburt/vim-mundo'
 Plug 'haya14busa/incsearch.vim'
 Plug 'prendradjaja/vim-vertigo'
-Plug 'suan/vim-instant-markdown.git'
+Plug 'suan/vim-instant-markdown'
 
 call plug#end()
 
