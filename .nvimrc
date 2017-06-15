@@ -110,12 +110,12 @@ set spell spelllang=en_gb
 let g:instant_markdown_autostart = 1
 let g:instant_markdown_open_to_the_world = 1
 
-autocmd VimEnter * colorscheme orbital
+autocmd VimEnter * colorscheme darkblue
 
 autocmd BufRead,BufNewFile *.md setlocal spell
 
 let g:lightline = {
-\ 'colorscheme': 'solarized',
+\ 'colorscheme': 'Dracula',
 \ 'component': {
 \ 'readonly': '%{&readonly?"Ξ":""}',},
 \ 'separator': { 'left': '▶', 'right': '◀' },
